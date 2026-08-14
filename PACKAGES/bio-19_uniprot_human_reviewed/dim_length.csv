@@ -1,0 +1,5 @@
+length_bin,bin_label
+<200,Short (<200 aa)
+200-499,Medium (200–499 aa)
+500-999,Long (500–999 aa)
+1000+,Very long (≥1000 aa)

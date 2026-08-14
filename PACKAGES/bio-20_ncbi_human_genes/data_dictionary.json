@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "source": "NCBI Gene gene_info for Homo sapiens",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gene",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "download_urls": [
+      "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz"
+    ],
+    "transforms": [
+      "Read Homo_sapiens.gene_info.gz (n=193884).",
+      "Parsed HGNC:HGNC:nnnn from the dbxrefs column; left hgnc_id null when absent.",
+      "No rows dropped except those missing a GeneID. This table is the join spine for the omics kits."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_gene.csv": {
+      "description": "Slim gene table joining to biotype, chromosome, and nomenclature status.",
+      "fields": [
+        {
+          "name": "gene_id",
+          "type": "string",
+          "description": "NCBI GeneID (FK -> dim_gene.gene_id)",
+          "example": "1"
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "description": "Current symbol",
+          "example": "A1BG"
+        },
+        {
+          "name": "biotype",
+          "type": "string",
+          "description": "type_of_gene (FK -> dim_biotype.biotype)",
+          "example": "protein-coding"
+        },
+        {
+          "name": "chromosome",
+          "type": "string",
+          "description": "Chromosome (FK -> dim_chromosome.chromosome)",
+          "example": "19"
+        },
+        {
+          "name": "nomenclature_status",
+          "type": "string",
+          "description": "Nomenclature status (FK -> dim_nomenclature.nomenclature_status); null if missing",
+          "example": "O"
+        }
+      ]
+    },
+    "dim_gene.csv": {
+      "description": "Full identity fields including description and HGNC id parsed from dbxrefs.",
+      "fields": [
+        {
+          "name": "gene_id",
+          "type": "string",
+          "description": "NCBI GeneID (PK)",
+          "example": "1"
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "description": "Symbol",
+          "example": "A1BG"
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "Gene description",
+          "example": "alpha-1-B glycoprotein"
+        },
+        {
+          "name": "chromosome",
+          "type": "string",
+          "description": "Chromosome token",
+          "example": "19"
+        },
+        {
+          "name": "map_location",
+          "type": "string",
+          "description": "Cytogenetic location; null if missing",
+          "example": "19q13.43"
+        },
+        {
+          "name": "type_of_gene",
+          "type": "string",
+          "description": "NCBI biotype",
+          "example": "protein-coding"
+        },
+        {
+          "name": "nomenclature_status",
+          "type": "string",
+          "description": "Nomenclature status; null if missing",
+          "example": "O"
+        },
+        {
+          "name": "hgnc_id",
+          "type": "string",
+          "description": "Parsed HGNC numeric id; null if no HGNC xref",
+          "example": "5"
+        }
+      ]
+    },
+    "dim_biotype.csv": {
+      "description": "NCBI type_of_gene values (protein-coding, ncRNA, pseudo, ...).",
+      "fields": [
+        {
+          "name": "biotype",
+          "type": "string",
+          "description": "NCBI type_of_gene (PK)",
+          "example": "protein-coding"
+        }
+      ]
+    },
+    "dim_chromosome.csv": {
+      "description": "Chromosome tokens as published (1–22, X, Y, MT, unplaced).",
+      "fields": [
+        {
+          "name": "chromosome",
+          "type": "string",
+          "description": "Chromosome token (PK)",
+          "example": "19"
+        }
+      ]
+    },
+    "dim_nomenclature.csv": {
+      "description": "HGNC nomenclature status codes.",
+      "fields": [
+        {
+          "name": "nomenclature_status",
+          "type": "string",
+          "description": "Status code (PK)",
+          "example": "O"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "ncbi_gene_info_human"
+        },
+        {
+          "name": "tax_id",
+          "type": "string",
+          "description": "NCBI taxonomy id",
+          "example": "9606"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "NCBI Gene: Homo sapiens gene_info"
+        }
+      ]
+    }
+  }
+}

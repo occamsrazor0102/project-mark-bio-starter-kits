@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "source": "The Human Protein Atlas — proteinatlas.tsv subset",
+    "source_url": "https://www.proteinatlas.org/about/download",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 International (CC BY-SA 3.0) as stated by HPA for the downloadable atlas files",
+    "license_url": "https://www.proteinatlas.org/about/licence",
+    "download_urls": [
+      "https://www.proteinatlas.org/download/proteinatlas.tsv.zip"
+    ],
+    "transforms": [
+      "Read proteinatlas.tsv (n_genes=20162).",
+      "Kept identity, protein class, evidence, and RNA tissue-specificity columns for dim_gene.",
+      "Parsed 'RNA tissue specific nTPM' into long fact rows (n=17870); if >60,000 kept the highest-nTPM rows (n=17870).",
+      "Did not invent tissue values that were not present in the specific-nTPM field."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_tissue_rna.csv": {
+      "description": "Parsed nTPM values from the HPA 'RNA tissue specific nTPM' field.",
+      "fields": [
+        {
+          "name": "gene_symbol",
+          "type": "string",
+          "description": "HGNC symbol (FK -> dim_gene.gene_symbol)",
+          "example": "TNMD"
+        },
+        {
+          "name": "tissue",
+          "type": "string",
+          "description": "Tissue or cell type (FK -> dim_tissue.tissue)",
+          "example": "adipose tissue"
+        },
+        {
+          "name": "ntpm",
+          "type": "float",
+          "description": "Normalized transcripts per million as published in the specific-nTPM field",
+          "example": 22.3
+        }
+      ]
+    },
+    "dim_gene.csv": {
+      "description": "Gene identity, protein class, evidence, and HPA specificity labels.",
+      "fields": [
+        {
+          "name": "gene_symbol",
+          "type": "string",
+          "description": "HGNC symbol (PK)",
+          "example": "TSPAN6"
+        },
+        {
+          "name": "ensembl_id",
+          "type": "string",
+          "description": "Ensembl gene id; null if missing",
+          "example": "ENSG00000000003"
+        },
+        {
+          "name": "uniprot_id",
+          "type": "string",
+          "description": "UniProt accession; null if missing",
+          "example": "O43657"
+        },
+        {
+          "name": "gene_description",
+          "type": "string",
+          "description": "HPA gene description",
+          "example": "Tetraspanin 6"
+        },
+        {
+          "name": "chromosome",
+          "type": "string",
+          "description": "Chromosome",
+          "example": "X"
+        },
+        {
+          "name": "protein_class",
+          "type": "string",
+          "description": "HPA protein class string",
+          "example": "Predicted membrane proteins"
+        },
+        {
+          "name": "evidence",
+          "type": "string",
+          "description": "Highest HPA evidence level",
+          "example": "Evidence at protein level"
+        },
+        {
+          "name": "rna_tissue_specificity",
+          "type": "string",
+          "description": "HPA RNA tissue-specificity class (FK -> dim_specificity.specificity_class)",
+          "example": "Low tissue specificity"
+        },
+        {
+          "name": "rna_tissue_distribution",
+          "type": "string",
+          "description": "HPA RNA tissue-distribution class",
+          "example": "Detected in many"
+        }
+      ]
+    },
+    "dim_tissue.csv": {
+      "description": "Tissue / cell-type names appearing in the nTPM blob.",
+      "fields": [
+        {
+          "name": "tissue",
+          "type": "string",
+          "description": "Tissue / cell-type label (PK)",
+          "example": "adipose tissue"
+        }
+      ]
+    },
+    "dim_specificity.csv": {
+      "description": "HPA RNA tissue-specificity classification values.",
+      "fields": [
+        {
+          "name": "specificity_class",
+          "type": "string",
+          "description": "HPA specificity class (PK)",
+          "example": "Low tissue specificity"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Atlas extract metadata.",
+      "fields": [
+        {
+          "name": "atlas_version",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "proteinatlas.tsv download"
+        },
+        {
+          "name": "organism",
+          "type": "string",
+          "description": "Organism",
+          "example": "Homo sapiens"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "Human Protein Atlas consensus RNA tissue specificity"
+        }
+      ]
+    }
+  }
+}

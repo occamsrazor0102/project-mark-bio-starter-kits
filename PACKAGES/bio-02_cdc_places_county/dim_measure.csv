@@ -1,0 +1,41 @@
+measure_id,measure,category,category_id,short_label,unit,datasource
+CASTHMA,Current asthma among adults,Health Outcomes,HLTHOUT,Current Asthma,%,BRFSS
+ARTHRITIS,Arthritis among adults,Health Outcomes,HLTHOUT,Arthritis,%,BRFSS
+STROKE,Stroke among adults,Health Outcomes,HLTHOUT,Stroke,%,BRFSS
+DISABILITY,Any disability among adults,Disability,DISABLT,Any Disability,%,BRFSS
+OBESITY,Obesity among adults,Health Outcomes,HLTHOUT,Obesity,%,BRFSS
+DIABETES,Diagnosed diabetes among adults,Health Outcomes,HLTHOUT,Diabetes,%,BRFSS
+DEPRESSION,Depression among adults,Health Outcomes,HLTHOUT,Depression,%,BRFSS
+COGNITION,Cognitive disability among adults,Disability,DISABLT,Cognitive Disability,%,BRFSS
+MHLTH,Frequent mental distress among adults,Health Status,HLTHSTAT,Frequent Mental Distress,%,BRFSS
+TEETHLOST,All teeth lost among adults aged >=65 years,Health Outcomes,HLTHOUT,All Teeth Lost,%,BRFSS
+BINGE,Binge drinking among adults,Health Risk Behaviors,RISKBEH,Binge Drinking,%,BRFSS
+HEARING,Hearing disability among adults,Disability,DISABLT,Hearing Disability,%,BRFSS
+COPD,Chronic obstructive pulmonary disease among adults,Health Outcomes,HLTHOUT,COPD,%,BRFSS
+BPHIGH,High blood pressure among adults,Health Outcomes,HLTHOUT,High Blood Pressure,%,BRFSS
+VISION,Vision disability among adults,Disability,DISABLT,Vision Disability,%,BRFSS
+MOBILITY,Mobility disability among adults,Disability,DISABLT,Mobility Disability,%,BRFSS
+MAMMOUSE,Mammography use among women aged 50-74 years,Prevention,PREVENT,Mammography,%,BRFSS
+SELFCARE,Self-care disability among adults,Disability,DISABLT,Self-care Disability,%,BRFSS
+CHOLSCREEN,Cholesterol screening among adults,Prevention,PREVENT,Cholesterol Screening,%,BRFSS
+CHD,Coronary heart disease among adults,Health Outcomes,HLTHOUT,Coronary Heart Disease,%,BRFSS
+FOODINSECU,Food insecurity in the past 12 months among adults,Health-Related Social Needs,SOCLNEED,Food Insecurity,%,BRFSS
+INDEPLIVE,Independent living disability among adults,Disability,DISABLT,Independent Living Disability,%,BRFSS
+CSMOKING,Current cigarette smoking among adults,Health Risk Behaviors,RISKBEH,Current Cigarette Smoking,%,BRFSS
+ACCESS2,Current lack of health insurance among adults aged 18-64 years,Prevention,PREVENT,Health Insurance,%,BRFSS
+PHLTH,Frequent physical distress among adults,Health Status,HLTHSTAT,Frequent Physical Distress,%,BRFSS
+LPA,No leisure-time physical activity among adults,Health Risk Behaviors,RISKBEH,Physical Inactivity,%,BRFSS
+GHLTH,Fair or poor self-rated health status among adults,Health Status,HLTHSTAT,General Health,%,BRFSS
+COLON_SCREEN,Colorectal cancer screening among adults aged 45–75 years,Prevention,PREVENT,Colorectal Cancer Screening,%,BRFSS
+SHUTUTILITY,Utility services shut-off threat in the past 12 months among adults,Health-Related Social Needs,SOCLNEED,Utility Services Threat,%,BRFSS
+DENTAL,Visited dentist or dental clinic in the past year among adults,Prevention,PREVENT,Dental Visit,%,BRFSS
+ISOLATION,Feeling socially isolated among adults,Health-Related Social Needs,SOCLNEED,Social Isolation,%,BRFSS
+HOUSINSECU,Housing insecurity in the past 12 months among adults,Health-Related Social Needs,SOCLNEED,Housing Insecurity,%,BRFSS
+EMOTIONSPT,Lack of social and emotional support among adults,Health-Related Social Needs,SOCLNEED,Lack of Social/Emotional Support,%,BRFSS
+SLEEP,Short sleep duration among adults,Health Risk Behaviors,RISKBEH,Short Sleep Duration,%,BRFSS
+CANCER,Cancer (non-skin) or melanoma among adults,Health Outcomes,HLTHOUT,Cancer (non-skin) or Melanoma,%,BRFSS
+HIGHCHOL,High cholesterol among adults who have ever been screened,Health Outcomes,HLTHOUT,High Cholesterol,%,BRFSS
+BPMED,Taking medicine to control high blood pressure among adults with high blood pressure,Prevention,PREVENT,High Blood Pressure Medication,%,BRFSS
+FOODSTAMP,Received food stamps in the past 12 months among adults,Health-Related Social Needs,SOCLNEED,Food Stamps,%,BRFSS
+LACKTRPT,Lack of reliable transportation in the past 12 months among adults,Health-Related Social Needs,SOCLNEED,Transportation Barriers,%,BRFSS
+CHECKUP,Visits to doctor for routine checkup within the past year among adults,Prevention,PREVENT,Annual Checkup,%,BRFSS

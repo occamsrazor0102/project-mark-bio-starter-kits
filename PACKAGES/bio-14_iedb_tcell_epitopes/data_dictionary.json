@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "source": "Immune Epitope Database (IEDB) T-cell full export v3",
+    "source_url": "https://www.iedb.org/",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) — IEDB terms of use",
+    "license_url": "https://help.iedb.org/hc/en-us/articles/114094147751",
+    "download_urls": [
+      "https://www.iedb.org/downloader.php?file_name=doc/tcell_full_v3.zip"
+    ],
+    "transforms": [
+      "Read tcell_full_v3.csv using the second header row (n=577219); kept the first 50 columns.",
+      "Preferred rows whose host or species contains 'Homo sapiens' (n=420690); if none matched, kept all rows.",
+      "Capped the extract at 25,000 assays (kept=25000) so the starter kit stays portable. Filtering is logged, not silent.",
+      "No imputed MHC or qualitative values when those columns were absent from the first 50 fields."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_assay.csv": {
+      "description": "T-cell assay records from IEDB tcell_full_v3 (selected columns).",
+      "fields": [
+        {
+          "name": "assay_iri",
+          "type": "string",
+          "description": "IEDB assay IRI (PK)",
+          "example": "http://www.iedb.org/assay/67"
+        },
+        {
+          "name": "pmid",
+          "type": "string",
+          "description": "PubMed id; null if submission-only",
+          "example": "15694996"
+        },
+        {
+          "name": "epitope_name",
+          "type": "string",
+          "description": "Epitope sequence or name (FK -> dim_epitope.epitope_name); null if missing",
+          "example": "QTVTSTPVQGR"
+        },
+        {
+          "name": "epitope_type",
+          "type": "string",
+          "description": "Epitope object type",
+          "example": "Linear peptide"
+        },
+        {
+          "name": "source_organism",
+          "type": "string",
+          "description": "Source organism (FK -> dim_organism.source_organism); null if missing",
+          "example": "Human betaherpesvirus 5"
+        },
+        {
+          "name": "source_species",
+          "type": "string",
+          "description": "Source species",
+          "example": "Human betaherpesvirus 5"
+        },
+        {
+          "name": "host_name",
+          "type": "string",
+          "description": "Host name (FK -> dim_host.host_name); null if missing",
+          "example": "Homo sapiens (human)"
+        },
+        {
+          "name": "host_sex",
+          "type": "string",
+          "description": "Host sex; null if missing",
+          "example": "M"
+        },
+        {
+          "name": "mhc_allele",
+          "type": "string",
+          "description": "MHC allele (IEDB Name.10); null if missing",
+          "example": "HLA-A*68:01"
+        },
+        {
+          "name": "assay_method",
+          "type": "string",
+          "description": "Assay method (e.g. multimer/tetramer); null if missing",
+          "example": "51 chromium"
+        },
+        {
+          "name": "qualitative",
+          "type": "string",
+          "description": "Qualitative outcome (Positive/Negative); null if missing",
+          "example": "Positive"
+        },
+        {
+          "name": "quantitative",
+          "type": "string",
+          "description": "Quantitative measurement; null if missing",
+          "example": 190
+        },
+        {
+          "name": "response_frequency",
+          "type": "string",
+          "description": "Response frequency percent; null if missing",
+          "example": 40
+        }
+      ]
+    },
+    "dim_epitope.csv": {
+      "description": "Epitope names and object types (linear peptide, etc.).",
+      "fields": [
+        {
+          "name": "epitope_name",
+          "type": "string",
+          "description": "Epitope name (PK)",
+          "example": "QTVTSTPVQGR"
+        },
+        {
+          "name": "epitope_type",
+          "type": "string",
+          "description": "Object type",
+          "example": "Linear peptide"
+        }
+      ]
+    },
+    "dim_host.csv": {
+      "description": "Host names as recorded by IEDB.",
+      "fields": [
+        {
+          "name": "host_name",
+          "type": "string",
+          "description": "Host name (PK)",
+          "example": "Homo sapiens (human)"
+        }
+      ]
+    },
+    "dim_organism.csv": {
+      "description": "Source organism / species of the epitope.",
+      "fields": [
+        {
+          "name": "source_organism",
+          "type": "string",
+          "description": "Source organism (PK)",
+          "example": "Human betaherpesvirus 5"
+        },
+        {
+          "name": "source_species",
+          "type": "string",
+          "description": "Species",
+          "example": "Human betaherpesvirus 5"
+        }
+      ]
+    },
+    "dim_qualitative.csv": {
+      "description": "Qualitative assay outcomes when present in the first 50 columns.",
+      "fields": [
+        {
+          "name": "qualitative",
+          "type": "string",
+          "description": "Qualitative label (PK)",
+          "example": "Positive"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "iedb_tcell_full_v3"
+        },
+        {
+          "name": "host_filter",
+          "type": "string",
+          "description": "Filter note",
+          "example": "Homo sapiens when present"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "IEDB T-cell epitope assays"
+        }
+      ]
+    }
+  }
+}

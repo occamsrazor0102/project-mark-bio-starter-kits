@@ -1,0 +1,949 @@
+geoid,state_abbr,state_name,county_name
+01027,AL,Alabama,Clay
+01045,AL,Alabama,Dale
+01071,AL,Alabama,Jackson
+01079,AL,Alabama,Lawrence
+01081,AL,Alabama,Lee
+01107,AL,Alabama,Pickens
+02070,AK,Alaska,Dillingham
+02100,AK,Alaska,Haines
+04027,AZ,Arizona,Yuma
+05005,AR,Arkansas,Baxter
+05007,AR,Arkansas,Benton
+05017,AR,Arkansas,Chicot
+05027,AR,Arkansas,Columbia
+05037,AR,Arkansas,Cross
+05043,AR,Arkansas,Drew
+05047,AR,Arkansas,Franklin
+05081,AR,Arkansas,Little River
+05083,AR,Arkansas,Logan
+05097,AR,Arkansas,Montgomery
+05103,AR,Arkansas,Ouachita
+05111,AR,Arkansas,Poinsett
+05113,AR,Arkansas,Polk
+05127,AR,Arkansas,Scott
+05131,AR,Arkansas,Sebastian
+05143,AR,Arkansas,Washington
+01091,AL,Alabama,Marengo
+06029,CA,California,Kern
+06033,CA,California,Lake
+01001,AL,Alabama,Autauga
+06075,CA,California,San Francisco
+06103,CA,California,Tehama
+04001,AZ,Arizona,Apache
+06115,CA,California,Yuba
+08014,CO,Colorado,Broomfield
+08029,CO,Colorado,Delta
+01061,AL,Alabama,Geneva
+08043,CO,Colorado,Fremont
+08069,CO,Colorado,Larimer
+08079,CO,Colorado,Mineral
+01039,AL,Alabama,Covington
+08113,CO,Colorado,San Miguel
+08117,CO,Colorado,Summit
+06003,CA,California,Alpine
+05057,AR,Arkansas,Hempstead
+01051,AL,Alabama,Elmore
+04007,AZ,Arizona,Gila
+12013,FL,Florida,Calhoun
+12015,FL,Florida,Charlotte
+02282,AK,Alaska,Yakutat
+12027,FL,Florida,DeSoto
+01003,AL,Alabama,Baldwin
+12035,FL,Florida,Flagler
+12037,FL,Florida,Franklin
+01077,AL,Alabama,Lauderdale
+12079,FL,Florida,Madison
+06079,CA,California,San Luis Obispo
+12097,FL,Florida,Osceola
+12101,FL,Florida,Pasco
+05105,AR,Arkansas,Perry
+01111,AL,Alabama,Randolph
+13021,GA,Georgia,Bibb
+13039,GA,Georgia,Camden
+06037,CA,California,Los Angeles
+13095,GA,Georgia,Dougherty
+05021,AR,Arkansas,Clay
+06095,CA,California,Solano
+05101,AR,Arkansas,Newton
+13185,GA,Georgia,Lowndes
+06069,CA,California,San Benito
+13205,GA,Georgia,Mitchell
+01113,AL,Alabama,Russell
+05149,AR,Arkansas,Yell
+01017,AL,Alabama,Chambers
+13263,GA,Georgia,Talbot
+13269,GA,Georgia,Taylor
+02105,AK,Alaska,Hoonah-Angoon
+13285,GA,Georgia,Troup
+13301,GA,Georgia,Warren
+13307,GA,Georgia,Webster
+02230,AK,Alaska,Skagway
+16027,ID,Idaho,Canyon
+16053,ID,Idaho,Jerome
+16071,ID,Idaho,Oneida
+16079,ID,Idaho,Shoshone
+01123,AL,Alabama,Tallapoosa
+17009,IL,Illinois,Brown
+17021,IL,Illinois,Christian
+17023,IL,Illinois,Clark
+17031,IL,Illinois,Cook
+04017,AZ,Arizona,Navajo
+17049,IL,Illinois,Effingham
+01103,AL,Alabama,Morgan
+17093,IL,Illinois,Kendall
+02016,AK,Alaska,Aleutians West
+17137,IL,Illinois,Morgan
+17147,IL,Illinois,Piatt
+17167,IL,Illinois,Sangamon
+04021,AZ,Arizona,Pinal
+04005,AZ,Arizona,Coconino
+18083,IN,Indiana,Knox
+18089,IN,Indiana,Lake
+04019,AZ,Arizona,Pima
+18111,IN,Indiana,Newton
+05067,AR,Arkansas,Jackson
+18119,IN,Indiana,Owen
+18123,IN,Indiana,Perry
+18125,IN,Indiana,Pike
+18143,IN,Indiana,Scott
+18163,IN,Indiana,Vanderburgh
+05069,AR,Arkansas,Jefferson
+19007,IA,Iowa,Appanoose
+05129,AR,Arkansas,Searcy
+01085,AL,Alabama,Lowndes
+01069,AL,Alabama,Houston
+01019,AL,Alabama,Cherokee
+19051,IA,Iowa,Davis
+19053,IA,Iowa,Decatur
+05041,AR,Arkansas,Desha
+05099,AR,Arkansas,Nevada
+01063,AL,Alabama,Greene
+19083,IA,Iowa,Hardin
+19115,IA,Iowa,Louisa
+19123,IA,Iowa,Mahaska
+19143,IA,Iowa,Osceola
+19147,IA,Iowa,Palo Alto
+01055,AL,Alabama,Etowah
+19163,IA,Iowa,Scott
+01037,AL,Alabama,Coosa
+20001,KS,Kansas,Allen
+20007,KS,Kansas,Barber
+20019,KS,Kansas,Chautauqua
+20029,KS,Kansas,Cloud
+20107,KS,Kansas,Linn
+20115,KS,Kansas,Marion
+20133,KS,Kansas,Neosho
+20139,KS,Kansas,Osage
+20153,KS,Kansas,Rawlins
+06009,CA,California,Calaveras
+20195,KS,Kansas,Trego
+20203,KS,Kansas,Wichita
+01029,AL,Alabama,Cleburne
+21027,KY,Kentucky,Breckinridge
+21031,KY,Kentucky,Butler
+06059,CA,California,Orange
+21041,KY,Kentucky,Carroll
+21053,KY,Kentucky,Clinton
+21069,KY,Kentucky,Fleming
+21075,KY,Kentucky,Fulton
+21087,KY,Kentucky,Green
+05055,AR,Arkansas,Greene
+01035,AL,Alabama,Conecuh
+21125,KY,Kentucky,Laurel
+21129,KY,Kentucky,Lee
+21147,KY,Kentucky,McCreary
+21155,KY,Kentucky,Marion
+21165,KY,Kentucky,Menifee
+21175,KY,Kentucky,Morgan
+06007,CA,California,Butte
+21237,KY,Kentucky,Wolfe
+22015,LA,Louisiana,Bossier
+22021,LA,Louisiana,Caldwell
+22049,LA,Louisiana,Jackson
+05135,AR,Arkansas,Sharp
+22103,LA,Louisiana,St. Tammany
+22123,LA,Louisiana,West Carroll
+02060,AK,Alaska,Bristol Bay
+23005,ME,Maine,Cumberland
+23027,ME,Maine,Waldo
+05091,AR,Arkansas,Miller
+24015,MD,Maryland,Cecil
+01109,AL,Alabama,Pike
+25005,MA,Massachusetts,Bristol
+25011,MA,Massachusetts,Franklin
+25021,MA,Massachusetts,Norfolk
+06047,CA,California,Merced
+26003,MI,Michigan,Alger
+26017,MI,Michigan,Bay
+01105,AL,Alabama,Perry
+26047,MI,Michigan,Emmet
+02013,AK,Alaska,Aleutians East
+04003,AZ,Arizona,Cochise
+26095,MI,Michigan,Luce
+26113,MI,Michigan,Missaukee
+26155,MI,Michigan,Shiawassee
+08059,CO,Colorado,Jefferson
+12043,FL,Florida,Glades
+27045,MN,Minnesota,Fillmore
+13147,GA,Georgia,Hart
+27073,MN,Minnesota,Lac qui Parle
+13155,GA,Georgia,Irwin
+27121,MN,Minnesota,Pope
+27127,MN,Minnesota,Redwood
+27141,MN,Minnesota,Sherburne
+28007,MS,Mississippi,Attala
+28025,MS,Mississippi,Clay
+28027,MS,Mississippi,Coahoma
+28035,MS,Mississippi,Forrest
+28047,MS,Mississippi,Harrison
+28051,MS,Mississippi,Holmes
+28067,MS,Mississippi,Jones
+13051,GA,Georgia,Chatham
+12131,FL,Florida,Walton
+13063,GA,Georgia,Clayton
+13159,GA,Georgia,Jasper
+12075,FL,Florida,Levy
+13105,GA,Georgia,Elbert
+28125,MS,Mississippi,Sharkey
+12069,FL,Florida,Lake
+28151,MS,Mississippi,Washington
+29039,MO,Missouri,Cedar
+08111,CO,Colorado,San Juan
+13133,GA,Georgia,Greene
+29061,MO,Missouri,Daviess
+12087,FL,Florida,Monroe
+29095,MO,Missouri,Jackson
+29103,MO,Missouri,Knox
+08013,CO,Colorado,Boulder
+01041,AL,Alabama,Crenshaw
+29115,MO,Missouri,Linn
+08063,CO,Colorado,Kit Carson
+29197,MO,Missouri,Schuyler
+29223,MO,Missouri,Wayne
+30019,MT,Montana,Daniels
+30025,MT,Montana,Fallon
+30059,MT,Montana,Meagher
+12041,FL,Florida,Gilchrist
+08081,CO,Colorado,Moffat
+30103,MT,Montana,Treasure
+13151,GA,Georgia,Henry
+01067,AL,Alabama,Henry
+31045,NE,Nebraska,Dawes
+31079,NE,Nebraska,Hall
+31093,NE,Nebraska,Howard
+13005,GA,Georgia,Bacon
+31115,NE,Nebraska,Loup
+13071,GA,Georgia,Colquitt
+31143,NE,Nebraska,Polk
+08019,CO,Colorado,Clear Creek
+31159,NE,Nebraska,Seward
+31165,NE,Nebraska,Sioux
+32003,NV,Nevada,Clark
+06111,CA,California,Ventura
+32017,NV,Nevada,Lincoln
+08105,CO,Colorado,Rio Grande
+32019,NV,Nevada,Lyon
+32021,NV,Nevada,Mineral
+06073,CA,California,San Diego
+33019,NH,New Hampshire,Sullivan
+34015,NJ,New Jersey,Gloucester
+34021,NJ,New Jersey,Mercer
+05125,AR,Arkansas,Saline
+36003,NY,New York,Allegany
+06071,CA,California,San Bernardino
+05085,AR,Arkansas,Lonoke
+36047,NY,New York,Kings
+02170,AK,Alaska,Matanuska-Susitna
+36059,NY,New York,Nassau
+36067,NY,New York,Onondaga
+36083,NY,New York,Rensselaer
+01043,AL,Alabama,Cullman
+36111,NY,New York,Ulster
+01095,AL,Alabama,Marshall
+01015,AL,Alabama,Calhoun
+01089,AL,Alabama,Madison
+06049,CA,California,Modoc
+37087,NC,North Carolina,Haywood
+37093,NC,North Carolina,Hoke
+05137,AR,Arkansas,Stone
+05095,AR,Arkansas,Monroe
+37171,NC,North Carolina,Surry
+01065,AL,Alabama,Hale
+01099,AL,Alabama,Monroe
+38021,ND,North Dakota,Dickey
+38067,ND,North Dakota,Pembina
+38087,ND,North Dakota,Slope
+38103,ND,North Dakota,Wells
+39003,OH,Ohio,Allen
+39027,OH,Ohio,Clinton
+01083,AL,Alabama,Limestone
+39077,OH,Ohio,Huron
+39083,OH,Ohio,Knox
+06081,CA,California,San Mateo
+39109,OH,Ohio,Miami
+39111,OH,Ohio,Monroe
+05023,AR,Arkansas,Cleburne
+39135,OH,Ohio,Preble
+39137,OH,Ohio,Putnam
+39141,OH,Ohio,Ross
+39145,OH,Ohio,Scioto
+39147,OH,Ohio,Seneca
+01007,AL,Alabama,Bibb
+05065,AR,Arkansas,Izard
+40001,OK,Oklahoma,Adair
+40037,OK,Oklahoma,Creek
+40053,OK,Oklahoma,Grant
+01117,AL,Alabama,Shelby
+40097,OK,Oklahoma,Mayes
+05087,AR,Arkansas,Madison
+40109,OK,Oklahoma,Oklahoma
+40139,OK,Oklahoma,Texas
+40141,OK,Oklahoma,Tillman
+41005,OR,Oregon,Clackamas
+41009,OR,Oregon,Columbia
+41035,OR,Oregon,Klamath
+41057,OR,Oregon,Tillamook
+42023,PA,Pennsylvania,Cameron
+44001,RI,Rhode Island,Bristol
+08095,CO,Colorado,Phillips
+13101,GA,Georgia,Echols
+12007,FL,Florida,Bradford
+13043,GA,Georgia,Candler
+45065,SC,South Carolina,McCormick
+46019,SD,South Dakota,Butte
+46059,SD,South Dakota,Hand
+46069,SD,South Dakota,Hyde
+46079,SD,South Dakota,Lake
+46123,SD,South Dakota,Tripp
+46125,SD,South Dakota,Turner
+47027,TN,Tennessee,Clay
+47051,TN,Tennessee,Franklin
+13079,GA,Georgia,Crawford
+47071,TN,Tennessee,Hardin
+47075,TN,Tennessee,Haywood
+47109,TN,Tennessee,McNairy
+47145,TN,Tennessee,Roane
+47147,TN,Tennessee,Robertson
+47155,TN,Tennessee,Sevier
+13149,GA,Georgia,Heard
+08007,CO,Colorado,Archuleta
+08027,CO,Colorado,Custer
+48011,TX,Texas,Armstrong
+48019,TX,Texas,Bandera
+48025,TX,Texas,Bee
+48039,TX,Texas,Brazoria
+13031,GA,Georgia,Bulloch
+08107,CO,Colorado,Routt
+48069,TX,Texas,Castro
+48077,TX,Texas,Clay
+48091,TX,Texas,Comal
+48095,TX,Texas,Concho
+48119,TX,Texas,Delta
+48135,TX,Texas,Ector
+48149,TX,Texas,Fayette
+48155,TX,Texas,Foard
+48161,TX,Texas,Freestone
+48163,TX,Texas,Frio
+48169,TX,Texas,Garza
+48205,TX,Texas,Hartley
+48253,TX,Texas,Jones
+48259,TX,Texas,Kendall
+48263,TX,Texas,Kent
+02063,AK,Alaska,Chugach
+01049,AL,Alabama,DeKalb
+48277,TX,Texas,Lamar
+48293,TX,Texas,Limestone
+48301,TX,Texas,Loving
+48323,TX,Texas,Maverick
+48353,TX,Texas,Nolan
+48377,TX,Texas,Presidio
+48391,TX,Texas,Refugio
+48405,TX,Texas,San Augustine
+05133,AR,Arkansas,Sevier
+48415,TX,Texas,Scurry
+48453,TX,Texas,Travis
+48457,TX,Texas,Tyler
+48465,TX,Texas,Val Verde
+05141,AR,Arkansas,Van Buren
+48483,TX,Texas,Wheeler
+01075,AL,Alabama,Lamar
+48493,TX,Texas,Wilson
+48499,TX,Texas,Wood
+49003,UT,Utah,Box Elder
+49041,UT,Utah,Sevier
+49043,UT,Utah,Summit
+06017,CA,California,El Dorado
+50009,VT,Vermont,Essex
+51033,VA,Virginia,Caroline
+51061,VA,Virginia,Fauquier
+51069,VA,Virginia,Frederick
+51073,VA,Virginia,Gloucester
+51133,VA,Virginia,Northumberland
+51187,VA,Virginia,Warren
+51590,VA,Virginia,Danville
+51750,VA,Virginia,Radford
+51760,VA,Virginia,Richmond
+51775,VA,Virginia,Salem
+53011,WA,Washington,Clark
+53053,WA,Washington,Pierce
+53059,WA,Washington,Skamania
+53067,WA,Washington,Thurston
+54001,WV,West Virginia,Barbour
+54005,WV,West Virginia,Boone
+54017,WV,West Virginia,Doddridge
+54031,WV,West Virginia,Hardy
+54033,WV,West Virginia,Harrison
+54057,WV,West Virginia,Mineral
+54061,WV,West Virginia,Monongalia
+54081,WV,West Virginia,Raleigh
+54101,WV,West Virginia,Webster
+54109,WV,West Virginia,Wyoming
+55025,WI,Wisconsin,Dane
+55027,WI,Wisconsin,Dodge
+55053,WI,Wisconsin,Jackson
+55097,WI,Wisconsin,Portage
+55101,WI,Wisconsin,Racine
+55107,WI,Wisconsin,Rusk
+05053,AR,Arkansas,Grant
+55139,WI,Wisconsin,Winnebago
+56005,WY,Wyoming,Campbell
+56015,WY,Wyoming,Goshen
+05073,AR,Arkansas,Lafayette
+05035,AR,Arkansas,Crittenden
+06061,CA,California,Placer
+01021,AL,Alabama,Chilton
+06055,CA,California,Napa
+05117,AR,Arkansas,Prairie
+05139,AR,Arkansas,Union
+04015,AZ,Arizona,Mohave
+01031,AL,Alabama,Coffee
+02050,AK,Alaska,Bethel
+01023,AL,Alabama,Choctaw
+05029,AR,Arkansas,Conway
+02198,AK,Alaska,Prince of Wales-Hyder
+06021,CA,California,Glenn
+05121,AR,Arkansas,Randolph
+06045,CA,California,Mendocino
+06051,CA,California,Mono
+01059,AL,Alabama,Franklin
+04025,AZ,Arizona,Yavapai
+02290,AK,Alaska,Yukon-Koyukuk
+01097,AL,Alabama,Mobile
+01133,AL,Alabama,Winston
+06001,CA,California,Alameda
+06067,CA,California,Sacramento
+02164,AK,Alaska,Lake and Peninsula
+06019,CA,California,Fresno
+06041,CA,California,Marin
+04009,AZ,Arizona,Graham
+01125,AL,Alabama,Tuscaloosa
+05013,AR,Arkansas,Calhoun
+06065,CA,California,Riverside
+01101,AL,Alabama,Montgomery
+02195,AK,Alaska,Petersburg
+04012,AZ,Arizona,La Paz
+06085,CA,California,Santa Clara
+05025,AR,Arkansas,Cleveland
+06039,CA,California,Madera
+05049,AR,Arkansas,Fulton
+01057,AL,Alabama,Fayette
+01073,AL,Alabama,Jefferson
+01119,AL,Alabama,Sumter
+05107,AR,Arkansas,Phillips
+06077,CA,California,San Joaquin
+01127,AL,Alabama,Walker
+06043,CA,California,Mariposa
+02122,AK,Alaska,Kenai Peninsula
+04011,AZ,Arizona,Greenlee
+06035,CA,California,Lassen
+05145,AR,Arkansas,White
+01129,AL,Alabama,Washington
+06015,CA,California,Del Norte
+05071,AR,Arkansas,Johnson
+05019,AR,Arkansas,Clark
+02180,AK,Alaska,Nome
+06093,CA,California,Siskiyou
+06023,CA,California,Humboldt
+05093,AR,Arkansas,Mississippi
+01093,AL,Alabama,Marion
+02150,AK,Alaska,Kodiak Island
+05015,AR,Arkansas,Carroll
+05075,AR,Arkansas,Lawrence
+02066,AK,Alaska,Copper River
+05045,AR,Arkansas,Faulkner
+06011,CA,California,Colusa
+06089,CA,California,Shasta
+01131,AL,Alabama,Wilcox
+05051,AR,Arkansas,Garland
+01013,AL,Alabama,Butler
+02275,AK,Alaska,Wrangell
+02185,AK,Alaska,North Slope
+05033,AR,Arkansas,Crawford
+06031,CA,California,Kings
+06005,CA,California,Amador
+02020,AK,Alaska,Anchorage
+01011,AL,Alabama,Bullock
+05001,AR,Arkansas,Arkansas
+01047,AL,Alabama,Dallas
+01009,AL,Alabama,Blount
+05119,AR,Arkansas,Pulaski
+02090,AK,Alaska,Fairbanks North Star
+02068,AK,Alaska,Denali
+02110,AK,Alaska,Juneau
+05089,AR,Arkansas,Marion
+00059,US,United States,
+06053,CA,California,Monterey
+01115,AL,Alabama,St. Clair
+05079,AR,Arkansas,Lincoln
+06087,CA,California,Santa Cruz
+01087,AL,Alabama,Macon
+05059,AR,Arkansas,Hot Spring
+02130,AK,Alaska,Ketchikan Gateway
+05109,AR,Arkansas,Pike
+04023,AZ,Arizona,Santa Cruz
+02220,AK,Alaska,Sitka
+05115,AR,Arkansas,Pope
+06099,CA,California,Stanislaus
+01121,AL,Alabama,Talladega
+01025,AL,Alabama,Clarke
+06057,CA,California,Nevada
+06091,CA,California,Sierra
+06083,CA,California,Santa Barbara
+05009,AR,Arkansas,Boone
+06027,CA,California,Inyo
+04013,AZ,Arizona,Maricopa
+01053,AL,Alabama,Escambia
+02240,AK,Alaska,Southeast Fairbanks
+01033,AL,Alabama,Colbert
+06025,CA,California,Imperial
+02188,AK,Alaska,Northwest Arctic
+05123,AR,Arkansas,St. Francis
+01005,AL,Alabama,Barbour
+02158,AK,Alaska,Kusilvak
+05063,AR,Arkansas,Independence
+05003,AR,Arkansas,Ashley
+16015,ID,Idaho,Boise
+05147,AR,Arkansas,Woodruff
+05039,AR,Arkansas,Dallas
+06013,CA,California,Contra Costa
+05077,AR,Arkansas,Lee
+05011,AR,Arkansas,Bradley
+05061,AR,Arkansas,Howard
+19161,IA,Iowa,Sac
+06063,CA,California,Plumas
+06097,CA,California,Sonoma
+20109,KS,Kansas,Logan
+05031,AR,Arkansas,Craighead
+13089,GA,Georgia,DeKalb
+13143,GA,Georgia,Haralson
+06101,CA,California,Sutter
+09160,CT,Connecticut,Northwest Hills
+10001,DE,Delaware,Kent
+13107,GA,Georgia,Emanuel
+12111,FL,Florida,St. Lucie
+13175,GA,Georgia,Laurens
+09170,CT,Connecticut,South Central Connecticut
+13127,GA,Georgia,Glynn
+09180,CT,Connecticut,Southeastern Connecticut
+12113,FL,Florida,Santa Rosa
+12089,FL,Florida,Nassau
+12003,FL,Florida,Baker
+13003,GA,Georgia,Atkinson
+13123,GA,Georgia,Gilmer
+08023,CO,Colorado,Costilla
+08003,CO,Colorado,Alamosa
+13139,GA,Georgia,Hall
+13119,GA,Georgia,Franklin
+13181,GA,Georgia,Lincoln
+13171,GA,Georgia,Lamar
+13177,GA,Georgia,Lee
+08035,CO,Colorado,Douglas
+08017,CO,Colorado,Cheyenne
+12129,FL,Florida,Wakulla
+13065,GA,Georgia,Clinch
+13173,GA,Georgia,Lanier
+13067,GA,Georgia,Cobb
+08021,CO,Colorado,Conejos
+13081,GA,Georgia,Crisp
+13137,GA,Georgia,Habersham
+09190,CT,Connecticut,Western Connecticut
+12031,FL,Florida,Duval
+13091,GA,Georgia,Dodge
+13033,GA,Georgia,Burke
+06109,CA,California,Tuolumne
+12093,FL,Florida,Okeechobee
+13047,GA,Georgia,Catoosa
+08123,CO,Colorado,Weld
+12021,FL,Florida,Collier
+12011,FL,Florida,Broward
+08065,CO,Colorado,Lake
+08033,CO,Colorado,Dolores
+12119,FL,Florida,Sumter
+12123,FL,Florida,Taylor
+13017,GA,Georgia,Ben Hill
+08047,CO,Colorado,Gilpin
+13179,GA,Georgia,Liberty
+08115,CO,Colorado,Sedgwick
+08101,CO,Colorado,Pueblo
+12103,FL,Florida,Pinellas
+08099,CO,Colorado,Prowers
+10005,DE,Delaware,Sussex
+13001,GA,Georgia,Appling
+08049,CO,Colorado,Grand
+08041,CO,Colorado,El Paso
+09110,CT,Connecticut,Capitol
+08039,CO,Colorado,Elbert
+12117,FL,Florida,Seminole
+12059,FL,Florida,Holmes
+13011,GA,Georgia,Banks
+12047,FL,Florida,Hamilton
+12051,FL,Florida,Hendry
+13103,GA,Georgia,Effingham
+12077,FL,Florida,Liberty
+12061,FL,Florida,Indian River
+08089,CO,Colorado,Otero
+13029,GA,Georgia,Bryan
+08031,CO,Colorado,Denver
+08037,CO,Colorado,Eagle
+08045,CO,Colorado,Garfield
+08103,CO,Colorado,Rio Blanco
+08125,CO,Colorado,Yuma
+08025,CO,Colorado,Crowley
+13145,GA,Georgia,Harris
+12121,FL,Florida,Suwannee
+13073,GA,Georgia,Columbia
+06107,CA,California,Tulare
+08121,CO,Colorado,Washington
+13057,GA,Georgia,Cherokee
+13035,GA,Georgia,Butts
+13115,GA,Georgia,Floyd
+13019,GA,Georgia,Berrien
+12019,FL,Florida,Clay
+08073,CO,Colorado,Lincoln
+13077,GA,Georgia,Coweta
+08015,CO,Colorado,Chaffee
+13165,GA,Georgia,Jenkins
+12049,FL,Florida,Hardee
+12107,FL,Florida,Putnam
+12009,FL,Florida,Brevard
+13013,GA,Georgia,Barrow
+12099,FL,Florida,Palm Beach
+08083,CO,Colorado,Montezuma
+13087,GA,Georgia,Decatur
+08097,CO,Colorado,Pitkin
+08011,CO,Colorado,Bent
+06105,CA,California,Trinity
+12127,FL,Florida,Volusia
+12067,FL,Florida,Lafayette
+08051,CO,Colorado,Gunnison
+12073,FL,Florida,Leon
+13085,GA,Georgia,Dawson
+12105,FL,Florida,Polk
+13121,GA,Georgia,Fulton
+08085,CO,Colorado,Montrose
+13097,GA,Georgia,Douglas
+12133,FL,Florida,Washington
+08061,CO,Colorado,Kiowa
+08055,CO,Colorado,Huerfano
+08053,CO,Colorado,Hinsdale
+13109,GA,Georgia,Evans
+13163,GA,Georgia,Jefferson
+12083,FL,Florida,Marion
+13049,GA,Georgia,Charlton
+09140,CT,Connecticut,Naugatuck Valley
+12005,FL,Florida,Bay
+12115,FL,Florida,Sarasota
+12001,FL,Florida,Alachua
+12017,FL,Florida,Citrus
+13135,GA,Georgia,Gwinnett
+12071,FL,Florida,Lee
+13025,GA,Georgia,Brantley
+10003,DE,Delaware,New Castle
+13153,GA,Georgia,Houston
+06113,CA,California,Yolo
+13015,GA,Georgia,Bartow
+13129,GA,Georgia,Gordon
+12039,FL,Florida,Gadsden
+12081,FL,Florida,Manatee
+13045,GA,Georgia,Carroll
+09130,CT,Connecticut,Lower Connecticut River Valley
+12057,FL,Florida,Hillsborough
+13023,GA,Georgia,Bleckley
+13093,GA,Georgia,Dooly
+12091,FL,Florida,Okaloosa
+13117,GA,Georgia,Forsyth
+08009,CO,Colorado,Baca
+12023,FL,Florida,Columbia
+12045,FL,Florida,Gulf
+12063,FL,Florida,Jackson
+13111,GA,Georgia,Fannin
+12033,FL,Florida,Escambia
+08077,CO,Colorado,Mesa
+13059,GA,Georgia,Clarke
+12125,FL,Florida,Union
+08109,CO,Colorado,Saguache
+08001,CO,Colorado,Adams
+13069,GA,Georgia,Coffee
+13099,GA,Georgia,Early
+12095,FL,Florida,Orange
+13007,GA,Georgia,Baker
+13009,GA,Georgia,Baldwin
+08093,CO,Colorado,Park
+13125,GA,Georgia,Glascock
+13169,GA,Georgia,Jones
+12029,FL,Florida,Dixie
+13083,GA,Georgia,Dade
+08057,CO,Colorado,Jackson
+12109,FL,Florida,St. Johns
+08067,CO,Colorado,La Plata
+09150,CT,Connecticut,Northeastern Connecticut
+13161,GA,Georgia,Jeff Davis
+13061,GA,Georgia,Clay
+08119,CO,Colorado,Teller
+13075,GA,Georgia,Cook
+08005,CO,Colorado,Arapahoe
+13055,GA,Georgia,Chattooga
+13037,GA,Georgia,Calhoun
+13113,GA,Georgia,Fayette
+13141,GA,Georgia,Hancock
+13053,GA,Georgia,Chattahoochee
+12085,FL,Florida,Martin
+12053,FL,Florida,Hernando
+13027,GA,Georgia,Brooks
+12086,FL,Florida,Miami-Dade
+13167,GA,Georgia,Johnson
+08075,CO,Colorado,Logan
+09120,CT,Connecticut,Greater Bridgeport
+08091,CO,Colorado,Ouray
+13157,GA,Georgia,Jackson
+08087,CO,Colorado,Morgan
+12055,FL,Florida,Highlands
+13131,GA,Georgia,Grady
+08071,CO,Colorado,Las Animas
+11001,DC,District of Columbia,District of Columbia
+12065,FL,Florida,Jefferson
+13183,GA,Georgia,Long
+13237,GA,Georgia,Putnam
+16069,ID,Idaho,Nez Perce
+13199,GA,Georgia,Meriwether
+18007,IN,Indiana,Benton
+13319,GA,Georgia,Wilkinson
+16039,ID,Idaho,Elmore
+15005,HI,Hawaii,Kalawao
+17169,IL,Illinois,Schuyler
+17017,IL,Illinois,Cass
+18039,IN,Indiana,Elkhart
+13239,GA,Georgia,Quitman
+13259,GA,Georgia,Stewart
+13225,GA,Georgia,Peach
+17193,IL,Illinois,White
+13321,GA,Georgia,Worth
+17019,IL,Illinois,Champaign
+16081,ID,Idaho,Teton
+16005,ID,Idaho,Bannock
+13281,GA,Georgia,Towns
+17047,IL,Illinois,Edwards
+17189,IL,Illinois,Washington
+13221,GA,Georgia,Oglethorpe
+13289,GA,Georgia,Twiggs
+17001,IL,Illinois,Adams
+16037,ID,Idaho,Custer
+18003,IN,Indiana,Allen
+17185,IL,Illinois,Wabash
+18047,IN,Indiana,Franklin
+18035,IN,Indiana,Delaware
+18041,IN,Indiana,Fayette
+13295,GA,Georgia,Walker
+13231,GA,Georgia,Pike
+13217,GA,Georgia,Newton
+17037,IL,Illinois,DeKalb
+17119,IL,Illinois,Madison
+17121,IL,Illinois,Marion
+13219,GA,Georgia,Oconee
+17039,IL,Illinois,De Witt
+16013,ID,Idaho,Blaine
+13197,GA,Georgia,Marion
+17139,IL,Illinois,Moultrie
+18043,IN,Indiana,Floyd
+18001,IN,Indiana,Adams
+15001,HI,Hawaii,Hawaii
+16029,ID,Idaho,Caribou
+17151,IL,Illinois,Pope
+18023,IN,Indiana,Clinton
+16007,ID,Idaho,Bear Lake
+17115,IL,Illinois,Macon
+17081,IL,Illinois,Jefferson
+13191,GA,Georgia,McIntosh
+16085,ID,Idaho,Valley
+17097,IL,Illinois,Lake
+13305,GA,Georgia,Wayne
+16021,ID,Idaho,Boundary
+13257,GA,Georgia,Stephens
+17135,IL,Illinois,Montgomery
+13229,GA,Georgia,Pierce
+17027,IL,Illinois,Clinton
+17063,IL,Illinois,Grundy
+13241,GA,Georgia,Rabun
+13299,GA,Georgia,Ware
+13261,GA,Georgia,Sumter
+13287,GA,Georgia,Turner
+13267,GA,Georgia,Tattnall
+16001,ID,Idaho,Ada
+17201,IL,Illinois,Winnebago
+17043,IL,Illinois,DuPage
+13243,GA,Georgia,Randolph
+15003,HI,Hawaii,Honolulu
+13235,GA,Georgia,Pulaski
+17101,IL,Illinois,Lawrence
+17025,IL,Illinois,Clay
+18045,IN,Indiana,Fountain
+17055,IL,Illinois,Franklin
+16043,ID,Idaho,Fremont
+16009,ID,Idaho,Benewah
+17171,IL,Illinois,Scott
+16045,ID,Idaho,Gem
+17165,IL,Illinois,Saline
+13317,GA,Georgia,Wilkes
+16057,ID,Idaho,Latah
+13275,GA,Georgia,Thomas
+17077,IL,Illinois,Jackson
+13233,GA,Georgia,Polk
+13193,GA,Georgia,Macon
+13223,GA,Georgia,Paulding
+18009,IN,Indiana,Blackford
+13211,GA,Georgia,Morgan
+17129,IL,Illinois,Menard
+13303,GA,Georgia,Washington
+17109,IL,Illinois,McDonough
+17085,IL,Illinois,Jo Daviess
+13227,GA,Georgia,Pickens
+17179,IL,Illinois,Tazewell
+17065,IL,Illinois,Hamilton
+16019,ID,Idaho,Bonneville
+17133,IL,Illinois,Monroe
+17155,IL,Illinois,Putnam
+13215,GA,Georgia,Muscogee
+18031,IN,Indiana,Decatur
+17057,IL,Illinois,Fulton
+17083,IL,Illinois,Jersey
+17013,IL,Illinois,Calhoun
+16011,ID,Idaho,Bingham
+17059,IL,Illinois,Gallatin
+13207,GA,Georgia,Monroe
+17003,IL,Illinois,Alexander
+13271,GA,Georgia,Telfair
+17145,IL,Illinois,Perry
+13283,GA,Georgia,Treutlen
+13209,GA,Georgia,Montgomery
+13189,GA,Georgia,McDuffie
+17033,IL,Illinois,Crawford
+16061,ID,Idaho,Lewis
+13245,GA,Georgia,Richmond
+16067,ID,Idaho,Minidoka
+18049,IN,Indiana,Fulton
+17141,IL,Illinois,Ogle
+17103,IL,Illinois,Lee
+17011,IL,Illinois,Bureau
+17187,IL,Illinois,Warren
+18021,IN,Indiana,Clay
+17067,IL,Illinois,Hancock
+13273,GA,Georgia,Terrell
+16025,ID,Idaho,Camas
+17157,IL,Illinois,Randolph
+16033,ID,Idaho,Clark
+18013,IN,Indiana,Brown
+17041,IL,Illinois,Douglas
+13253,GA,Georgia,Seminole
+13249,GA,Georgia,Schley
+17149,IL,Illinois,Pike
+13247,GA,Georgia,Rockdale
+17173,IL,Illinois,Shelby
+18027,IN,Indiana,Daviess
+16075,ID,Idaho,Payette
+17099,IL,Illinois,LaSalle
+13315,GA,Georgia,Wilcox
+16003,ID,Idaho,Adams
+17091,IL,Illinois,Kankakee
+16017,ID,Idaho,Bonner
+17029,IL,Illinois,Coles
+18011,IN,Indiana,Boone
+17161,IL,Illinois,Rock Island
+17123,IL,Illinois,Marshall
+13213,GA,Georgia,Murray
+17203,IL,Illinois,Woodford
+16065,ID,Idaho,Madison
+17073,IL,Illinois,Henry
+15007,HI,Hawaii,Kauai
+18017,IN,Indiana,Cass
+13201,GA,Georgia,Miller
+17183,IL,Illinois,Vermilion
+13195,GA,Georgia,Madison
+17061,IL,Illinois,Greene
+17197,IL,Illinois,Will
+16035,ID,Idaho,Clearwater
+16073,ID,Idaho,Owyhee
+16087,ID,Idaho,Washington
+17095,IL,Illinois,Knox
+13313,GA,Georgia,Whitfield
+16055,ID,Idaho,Kootenai
+16051,ID,Idaho,Jefferson
+17069,IL,Illinois,Hardin
+17153,IL,Illinois,Pulaski
+17035,IL,Illinois,Cumberland
+17181,IL,Illinois,Union
+16023,ID,Idaho,Butte
+17007,IL,Illinois,Boone
+18019,IN,Indiana,Clark
+16041,ID,Idaho,Franklin
+16031,ID,Idaho,Cassia
+17113,IL,Illinois,McLean
+13293,GA,Georgia,Upson
+17111,IL,Illinois,McHenry
+17125,IL,Illinois,Mason
+13187,GA,Georgia,Lumpkin
+16083,ID,Idaho,Twin Falls
+17159,IL,Illinois,Richland
+17051,IL,Illinois,Fayette
+17053,IL,Illinois,Ford
+13291,GA,Georgia,Union
+17143,IL,Illinois,Peoria
+13297,GA,Georgia,Walton
+13279,GA,Georgia,Toombs
+17191,IL,Illinois,Wayne
+18033,IN,Indiana,DeKalb
+13311,GA,Georgia,White
+17117,IL,Illinois,Macoupin
+17089,IL,Illinois,Kane
+13251,GA,Georgia,Screven
+17195,IL,Illinois,Whiteside
+17175,IL,Illinois,Stark
+17015,IL,Illinois,Carroll
+18037,IN,Indiana,Dubois
+18025,IN,Indiana,Crawford
+18015,IN,Indiana,Carroll
+15009,HI,Hawaii,Maui
+17163,IL,Illinois,St. Clair
+17131,IL,Illinois,Mercer
+17045,IL,Illinois,Edgar
+17107,IL,Illinois,Logan
+17087,IL,Illinois,Johnson
+13255,GA,Georgia,Spalding
+17177,IL,Illinois,Stephenson
+16077,ID,Idaho,Power
+16049,ID,Idaho,Idaho
+13309,GA,Georgia,Wheeler
+17075,IL,Illinois,Iroquois
+17079,IL,Illinois,Jasper
+18029,IN,Indiana,Dearborn
+13265,GA,Georgia,Taliaferro
+16063,ID,Idaho,Lincoln
+13277,GA,Georgia,Tift
+17105,IL,Illinois,Livingston
+16047,ID,Idaho,Gooding
+18005,IN,Indiana,Bartholomew
+17005,IL,Illinois,Bond
+17199,IL,Illinois,Williamson
+17127,IL,Illinois,Massac
+17071,IL,Illinois,Henderson
+16059,ID,Idaho,Lemhi

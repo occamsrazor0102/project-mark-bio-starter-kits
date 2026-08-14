@@ -1,0 +1,755 @@
+pubmed_id,first_author,pub_date,journal,study_title
+41044249,Zoodsma M,2025-10-03,Nat Genet,A genetic map of human metabolism across the allele frequency spectrum.
+35347128,Yin X,2022-03-28,Nat Commun,Genome-wide association studies of metabolites in Finnish men identify disease-relevant loci.
+38412862,Suhre K,2024-02-20,Cell Genom,Genetic associations with ratios between protein levels detect new pQTLs and reveal protein-protein interactions.
+40770095,UK Biobank Whole-Genome Sequencing Consortium,2025-08-06,Nature,"Whole-genome sequencing of 490,640 UK Biobank participants."
+33462484,Sinnott-Armstrong N,2021-01-18,Nat Genet,Genetics of 35 blood and urine biomarkers in the UK Biobank.
+41896352,Kim HI,2026-03-27,Nat Genet,"Exome sequencing and analysis of 44,028 British South Asians enriched for high autozygosity."
+29875488,Sun BB,2018-06-06,Nature,Genomic atlas of the human plasma proteome.
+32888493,Chen MH,2020-09-01,Cell,"Trans-ethnic and Ancestry-Specific Blood-Cell Genetics in 746,667 Individuals from 5 Global Populations."
+40436827,Jee YH,2025-05-28,Nat Commun,Genome-wide association studies in a large Korean cohort identify quantitative trait loci for 36 traits and illuminate their genetic architectures.
+34594039,Sakaue S,2021-09-30,Nat Genet,A cross-population atlas of genetic associations for 220 human phenotypes.
+32888494,Vuckovic D,2020-09-01,Cell,The Polygenic and Monogenic Basis of Blood Traits and Diseases.
+42097137,Koprulu M,2026-05-06,Cell,Multi-cohort proteogenomic analyses reveal genetic effects across the proteome and diseasome.
+33887147,Young WJ,2021-04-22,Circ Genom Precis Med,Genetically-Determined Serum Calcium Levels and Markers of Ventricular Repolarisation: A Mendelian Randomization Study in the UK Biobank.
+36357675,Surendran P,2022-11-10,Nat Med,Rare and common genetic determinants of metabolic individuality and their effects on human health.
+35050183,Hysi PG,2022-01-11,Metabolites,Metabolome Genome-Wide Association Study Identifies 74 Novel Genomic Regions Influencing Plasma Metabolites Levels.
+34648354,Pietzner M,2021-11-12,Science,Mapping the proteo-genomic convergence of human diseases.
+38448586,Karjalainen MK,2024-03-06,Nature,Genome-wide characterization of circulating metabolic biomarkers.
+35213538,Richardson TG,2022-02-25,PLoS Biol,Characterising metabolomic signatures of lipid-modifying therapies through drug target mendelian randomisation.
+32042192,Ruth KS,2020-02-10,Nat Med,Using human genetics to understand the disease impacts of testosterone in men and women.
+40050429,Roselli C,2025-03-06,Nat Genet,"Meta-analysis of genome-wide associations and polygenic risk prediction for atrial fibrillation in more than 180,000 cases."
+34887591,Graham SE,2021-12-09,Nature,The power of genetic diversity in genome-wide association studies of lipids.
+27863252,Astle WJ,2016-11-17,Cell,The Allelic Landscape of Human Blood Cell Trait Variation and Links to Common Complex Disease.
+21757650,Debette S,2011-07-14,Circ Res,Identification of cis- and trans-acting genetic variants explaining up to half the variation in circulating vascular endothelial growth factor levels.
+40789849,Yang C,2025-08-11,Nat Commun,European and African ancestry-specific plasma protein-QTL and metabolite-QTL analyses identify ancestry-specific T2D effector proteins and metabolites.
+34349265,Ruth KS,2021-08-04,Nature,Genetic insights into biological mechanisms governing human ovarian ageing.
+38374256,Suzuki K,2024-02-19,Nature,Genetic drivers of heterogeneity in type 2 diabetes pathophysiology.
+39528825,Western D,2024-11-11,Nat Genet,Proteogenomic analysis of human cerebrospinal fluid identifies neurologically relevant regulation and implicates causal proteins for Alzheimer's disease.
+30388399,Ligthart S,2018-11-01,Am J Hum Genet,"Genome Analyses of >200,000 Individuals Identify 58 Loci for Chronic Inflammation and Highlight Pathways that Link Inflammation and Complex Disorders."
+38728357,Xie Z,2024-05-10,PLoS Genet,iGWAS: Image-based genome-wide association of self-supervised deep phenotyping of retina fundus images.
+32929287,Orru V,2020-09-14,Nat Genet,Complex genetic signatures in immune cells underlie autoimmunity and inform therapy.
+37277652,Schlosser P,2023-06-05,Nat Genet,Genetic studies of paired metabolomes reveal enzymatic and transport processes at the interface of plasma and urine.
+36050321,Young WJ,2022-09-01,Nat Commun,Genetic analyses of the electrocardiographic QT interval and its components identify additional loci and pathways.
+36635386,Chen Y,2023-01-12,Nat Genet,Genomic atlas of the plasma metabolome prioritizes metabolites implicated in human diseases.
+41644669,White SL,2026-02-05,Nat Genet,Global multi-ancestry genome-wide analyses identify genes and biological pathways associated with thyroid cancer and benign thyroid diseases.
+39927731,D'Antonio M,2025-02-10,Hum Mol Genet,Genetic analysis of elevated levels of creatinine and cystatin C biomarkers reveals novel genetic loci associated with kidney function.
+41501457,Hujoel MLA,2026-01-07,Nature,"Insights into DNA repeat expansions among 900,000 biobank participants."
+36154123,Thibord F,2022-09-26,Circulation,Cross-Ancestry Investigation of Venous Thromboembolism Genomic Predictors.
+41325697,Noordam R,2025-11-26,Atherosclerosis,"Genome-wide gene-sleep interaction study identifies novel lipid loci in 732,564 participants."
+38453145,Michalek DA,2024-03-07,Hum Mol Genet,A multi-ancestry genome-wide association study in type 1 diabetes.
+42432248,Chai RC,2026-07-10,Nat Genet,Multiscale analysis and functional validation of the cellular and genetic determinants of skeletal disease.
+37872160,Williams AT,2023-10-23,Nat Commun,"Genome-wide association study of thyroid-stimulating hormone highlights new genes, pathways and associations with thyroid disease."
+38632349,Ghouse J,2024-04-17,Nat Genet,Integrative common and rare variant analyses provide insights into the genetic architecture of liver cirrhosis.
+38116116,Chen CY,2023-11-16,Cell Genom,"Analysis across Taiwan Biobank, Biobank Japan, and UK Biobank identifies hundreds of novel loci for 36 quantitative traits."
+37101235,Ali M,2023-04-26,Acta Neuropathol Commun,Large multi-ethnic genetic analyses of amyloid imaging identify new genes for Alzheimer disease.
+37563310,Zhao JH,2023-08-10,Nat Immunol,Genetics of circulating inflammatory proteins identifies drivers of immune-mediated disease risk and therapeutic targets.
+42054495,Western D,2026-04-29,Sci Transl Med,Low overlap of plasma and CSF protein quantitative trait loci affects protein discovery for neurological disease.
+31900758,Han X,2020-01-03,Eur J Epidemiol,Using Mendelian randomization to evaluate the causal relationship between serum C-reactive protein levels and age-related macular degeneration.
+39406924,Major TJ,2024-10-15,Nat Genet,A genome-wide association analysis reveals new pathogenic pathways in gout.
+35710981,Liu H,2022-06-16,Nat Genet,"Epigenomic and transcriptomic analyses define core cell types, genes and targetable mechanisms for kidney disease."
+30837465,Wittemans LBL,2019-03-05,Nat Commun,Assessing the causal association of glycine with risk of cardio-metabolic diseases.
+32339537,Roberts V,2020-04-24,J Invest Dermatol,Genome wide association study identifies genetic associations with perceived age.
+30586737,Sabater-Lleal M,2018-11-20,Circulation,Genome-Wide Association Trans-Ethnic Meta-Analyses Identifies Novel Associations Regulating Coagulation Factor VIII and von Willebrand Factor Plasma Levels.
+37945903,Wang A,2023-11-09,Nat Genet,Characterizing prostate cancer risk through multi-ancestry genome-wide discovery of 187 novel risk variants.
+38839884,Schormair B,2024-06-05,Nat Genet,"Genome-wide meta-analyses of restless legs syndrome yield insights into genetic architecture, disease biology and risk prediction."
+38658550,Cho C,2024-04-24,Nat Commun,Large-scale cross-ancestry genome-wide meta-analysis of serum urate.
+39134668,Shi S,2024-08-12,Nat Genet,A Genomics England haplotype reference panel and imputation of UK Biobank.
+29739929,Visconti A,2018-05-08,Nat Commun,"Genome-wide association study in 176,678 Europeans reveals genetic loci for tanning response to sun exposure."
+33980691,Martin S,2021-05-12,Diabetes,Genetic evidence for different adiposity phenotypes and their opposing influence on ectopic fat and risk of cardiometabolic disease.
+32203549,Richardson TG,2020-03-23,PLoS Med,Evaluating the relationship between circulating lipoprotein lipids and apolipoproteins with risk of coronary heart disease: A multivariable Mendelian randomisation analysis.
+36889626,Zhang L,2023-03-06,Osteoarthritis Cartilage,A sex- and site-specific relationship between body mass index and osteoarthritis: evidence from observational and genetic analyses.
+26910538,Choi SH,2016-02-24,PLoS Genet,Six Novel Loci Associated with Circulating VEGF Levels Identified by a Meta-analysis of Genome-Wide Association Studies.
+32059762,Manousaki D,2020-02-05,Am J Hum Genet,Genome-wide Association Study for Vitamin D Levels Reveals 69 Independent Loci.
+37679419,Lagou V,2023-09-07,Nat Genet,"GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification."
+33339817,Nielsen JB,2020-12-18,Nat Commun,Loss-of-function genomic variants highlight potential therapeutic targets for cardiovascular disease.
+34226706,Barton AR,2021-07-05,Nat Genet,Whole-exome imputation within UK Biobank powers rare coding variant association and fine-mapping analyses.
+31959995,Schlosser P,2020-01-20,Nat Genet,Genetic studies of urinary metabolites illuminate mechanisms of detoxification and excretion in humans.
+35551307,Mahajan A,2022-05-12,Nat Genet,Multi-ancestry genetic study of type 2 diabetes highlights the power of diverse populations for discovery and translation.
+37349795,Kang M,2023-06-22,Mol Neurodegener,"A genome-wide search for pleiotropy in more than 100,000 harmonized longitudinal cognitive domain scores."
+39930085,Hoffmann TJ,2025-02-10,Nat Genet,"Genome-wide association study of prostate-specific antigen levels in 392,522 men identifies new loci and improves prediction across ancestry groups."
+32341527,Landi MT,2020-04-27,Nat Genet,Genome-wide association meta-analyses combining multiple risk phenotypes provide insights into the genetic architecture of cutaneous melanoma susceptibility.
+29403010,Kanai M,2018-02-05,Nat Genet,Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases.
+36653534,Leinonen JT,2023-01-18,Commun Med (Lond),Genetic analyses implicate complex links between adult testosterone levels and health and disease.
+39528826,Wang C,2024-11-11,Nat Genet,Genetic architecture of cerebrospinal fluid and brain metabolite levels and the genetic colocalization of metabolites with human traits.
+32541925,Vujkovic M,2020-06-15,Nat Genet,Discovery of 318 new risk loci for type 2 diabetes and related vascular outcomes among 1.4 million participants in a multi-ancestry meta-analysis.
+30837455,Dudding T,2019-03-05,Nat Commun,Genome wide analysis for mouth ulcers identifies associations at immune regulatory loci.
+36477530,Saunders GRB,2022-12-07,Nature,Genetic diversity fuels gene discovery for tobacco and alcohol use.
+42066438,Chen G,2026-04-30,EBioMedicine,Multi-ancestry genome-wide association study of serum creatine kinase implicates myopathy genes and muscle pathways.
+39547589,Liu Y,2024-11-13,J Hepatol,Genetic study of intrahepatic cholestasis of pregnancy in Chinese women unveils East Asian etiology linked to historic HBV epidemic.
+35446786,Li Y,2022-04-21,JCI Insight,Genome-wide studies reveal factors associated with circulating uromodulin and its relations with complex diseases.
+20686565,Teslovich TM,2010-08-05,Nature,"Biological, clinical and population relevance of 95 loci for blood lipids."
+41238958,Rand SA,2025-11-14,Nat Genet,Genome-wide association study and polygenic risk prediction of hypothyroidism.
+30048462,Kim SK,2018-07-26,PLoS One,"Identification of 613 new loci associated with heel bone mineral density and a polygenic risk score for bone mineral density, osteoporosis and fracture."
+40307439,Yuan F,2025-04-30,Br J Cancer,Blood metabolic biomarkers and colorectal cancer risk: results from large prospective cohort and Mendelian randomisation analyses.
+33067605,Folkersen L,2020-10-16,Nat Metab,"Genomic and drug target evaluation of 90 cardiovascular proteins in 30,931 individuals."
+37596262,Akbari P,2023-08-18,Nat Commun,A genome-wide association study of blood cell morphology identifies cellular proteins implicated in disease aetiology.
+39379762,Huerta-Chagoya A,2024-10-08,Nat Genet,"Rare variant analyses in 51,256 type 2 diabetes cases and 370,487 controls reveal the pathogenicity spectrum of monogenic diabetes genes."
+36672889,Farre X,2023-01-05,Genes (Basel),Skin Phototype and Disease: A Comprehensive Genetic Approach to Pigmentary Traits Pleiotropy Using PRS in the GCAT Cohort.
+26691988,Fritsche LG,2015-12-21,Nat Genet,A large genome-wide association study of age-related macular degeneration highlights contributions of rare and common variants.
+33414548,Lotta LA,2021-01-07,Nat Genet,A cross-platform approach identifies genetic regulators of human metabolism and health.
+41882355,Kamitaki N,2026-03-25,Nature,The DNA virome varies with human genes and environments.
+31578528,Tin A,2019-10-02,Nat Genet,"Target genes, variants, tissues and transcriptional pathways influencing human serum urate levels."
+31070471,Akinkuolie AO,2019-04-11,Arterioscler Thromb Vasc Biol,Group IIA Secretory Phospholipase A2 and Incident Cardiovascular Disease.
+30072576,Emilsson V,2018-08-02,Science,Co-regulatory networks of human serum proteins link genetics to disease.
+33730874,Said MA,2021-03-18,Arterioscler Thromb Vasc Biol,Genome-Wide Association Study and Identification of a Protective Missense Variant on Lipoprotein(a) Concentration: Protective Missense Variant on Lipoprotein(a) Concentration.
+38685053,Elashi AA,2024-04-29,BMC Med Genomics,Genome-wide association study and trans-ethnic meta-analysis identify novel susceptibility loci for type 2 diabetes mellitus.
+36762574,Yao M,2023-02-10,J Med Virol,Disentangling the common genetic architecture and causality of rheumatoid arthritis and systemic lupus erythematosus with COVID-19 outcomes: genome-wide cross trait analysis and bi-directional Mendelian randomization study.
+23263486,Kottgen A,2012-12-23,Nat Genet,Genome-wide association analyses identify 18 new loci associated with serum urate concentrations.
+35688625,Allen RJ,2022-06-10,Thorax,Genome-wide association study across five cohorts identifies five novel loci associated with idiopathic pulmonary fibrosis.
+37315093,Agren R,2023-06-01,Mol Biol Evol,Major Genetic Risk Factors for Dupuytren's Disease Are Inherited From Neandertals.
+23143594,Tsoi LC,2012-12-01,Nat Genet,Identification of 15 new psoriasis susceptibility loci highlights the role of innate immunity.
+36066633,Jansen IE,2022-09-06,Acta Neuropathol,Genome-wide meta-analysis for Alzheimer's disease cerebrospinal fluid biomarkers.
+24097068,Willer CJ,2013-10-06,Nat Genet,Discovery and refinement of loci associated with lipid levels.
+28139693,Hoffmann TJ,2017-01-31,Nat Commun,Genome-wide association study of prostate-specific antigen levels identifies novel loci independent of prostate cancer.
+33637690,He L,2021-02-26,Transl Psychiatry,Exome-wide age-of-onset analysis reveals exonic variants in ERN1 and SPPL2C associated with Alzheimer's disease.
+37286573,Iglesias MJ,2023-06-07,Nat Commun,Elevated plasma complement factor H related 5 protein is associated with venous thromboembolism.
+23455636,Fritsche LG,2013-03-03,Nat Genet,Seven new loci associated with age-related macular degeneration.
+34857772,Png G,2021-12-02,Nat Commun,Mapping the serum proteome to neurological diseases using whole genome sequencing.
+33692100,Simcoe M,2021-03-10,Sci Adv,"Genome-wide association study in almost 195,000 individuals identifies 50 previously unidentified genetic loci for eye color."
+39375568,Sidorenko J,2024-10-07,Nat Genet,Genetic architecture reconciles linkage and association studies of complex traits.
+42014397,Timsina J,2026-04-21,Nat Commun,"GWAS meta-analysis of cerebrospinal fluid Alzheimer's biomarkers reveals loci regulating lipids, brain volume and autophagy."
+30061737,Nielsen JB,2018-07-30,Nat Genet,Biobank-driven genomic discovery yields new insight into atrial fibrillation biology.
+38191017,Xiao C,2024-01-06,Am J Obstet Gynecol,Genetic contribution of reproductive traits to risk of uterine leiomyomata: a large-scale genome-wide cross-trait analysis.
+37264206,Kachuri L,2023-06-01,Nat Med,Genetically adjusted PSA levels for prostate cancer screening.
+30054458,Xue A,2018-07-27,Nat Commun,Genome-wide association analyses identify 143 risk variants and putative regulatory mechanisms for type 2 diabetes.
+30504769,Ferkingstad E,2018-11-30,Nat Commun,Genome-wide association meta-analysis yields 20 loci associated with gallstone disease.
+39702642,Flanagan J,2024-12-19,Commun Biol,Population-specific reference panel improves imputation quality for genome-wide association studies conducted on the Japanese population.
+36349687,Png G,2022-11-09,Hum Mol Genet,Identifying causal serum protein-cardiometabolic trait relationships using whole genome sequencing.
+30642921,de Vries PS,2019-01-14,Blood,A genome-wide association study identifies new loci for factor VII and implicates factor VII in ischemic stroke etiology.
+33115273,Hoekstra M,2020-10-29,Arterioscler Thromb Vasc Biol,Genome-Wide Association Study Highlights APOH as a Novel Locus for Lipoprotein(a) Levels.
+40537477,Bentley AR,2025-06-20,Transl Psychiatry,Multi-ancestry genome-wide association analyses incorporating SNP-by-psychosocial interactions identify novel loci for serum lipids.
+24823311,Guan W,2014-05-13,Circ Cardiovasc Genet,Genome-wide association study of plasma N6 polyunsaturated fatty acids within the cohorts for heart and aging research in genomic epidemiology consortium.
+30670697,Kilpelainen TO,2019-01-22,Nat Commun,Multi-ancestry study of blood lipid levels identifies four loci interacting with physical activity.
+38425181,Asiimwe IG,2024-02-29,Clin Pharmacol Ther,"Genetic Determinants of Thiazide-Induced Hyperuricemia, Hyperglycemia, and Urinary Electrolyte Disturbances - A Genome-Wide Evaluation of the UK Biobank."
+40676597,Rajabli F,2025-07-17,Genome Biol,"Multi-ancestry genome-wide meta-analysis of 56,241 individuals identifies known and novel cross-population and ancestry-specific associations as novel risk loci for Alzheimer's disease."
+34184762,Gao C,2021-06-29,Genet Epidemiol,"Genome-wide association analysis of serum alanine and aspartate aminotransferase, and the modifying effects of BMI in 388k European individuals."
+36333282,Kim YJ,2022-11-04,Nat Commun,"The contribution of common and rare genetic variants to variation in metabolic traits in 288,137 East Asians."
+34104963,Thompson A,2021-06-08,Hum Mol Genet,Assessing the impact of alcohol consumption on the genetic contribution to mean corpuscular volume.
+24816252,Shin SY,2014-05-11,Nat Genet,An atlas of genetic influences on human blood metabolites.
+35589863,Gouveia C,2022-05-19,Sci Rep,Genome-wide association of polygenic risk extremes for Alzheimer's disease in the UK Biobank.
+38711861,Abar L,2024-05-06,NAR Genom Bioinform,"Unravelling genetic architecture of circulatory amino acid levels, and their effect on risk of complex disorders."
+38701081,Wu X,2024-05-03,PLoS Genet,A comprehensive genome-wide cross-trait analysis of sexual factors and uterine leiomyoma.
+37907536,Ottensmann L,2023-10-31,Nat Commun,Genome-wide association analysis of plasma lipidome identifies 495 genetic associations.
+33287642,Said MA,2020-12-08,J Am Heart Assoc,Associations of Observational and Genetically Determined Caffeine Intake With Coronary Artery Disease and Diabetes Mellitus.
+31959922,Matoba N,2020-01-20,Nat Hum Behav,"GWAS of 165,084 Japanese individuals identified nine loci associated with dietary habits."
+32439900,Ntalla I,2020-05-21,Nat Commun,Multi-ancestry GWAS of the electrocardiographic PR interval identifies 202 loci underlying cardiac conduction.
+25352340,Benyamin B,2014-10-29,Nat Commun,Novel loci affecting iron homeostasis and their effects in individuals at risk for hemochromatosis.
+29343764,Jiang X,2018-01-17,Nat Commun,"Genome-wide association study in 79,366 European-ancestry individuals informs the genetic architecture of 25-hydroxyvitamin D levels."
+38200128,Oliveri A,2024-01-10,Nat Genet,Comprehensive genetic study of the insulin resistance marker TG:HDL-C in the UK Biobank.
+32154731,Ripatti P,2020-03-10,Circ Genom Precis Med,Polygenic Hyperlipidemias and Coronary Artery Disease Risk.
+34651315,Fairfield CJ,2021-12-10,Hepatology,Genome-wide analysis identifies gallstone-susceptibility loci including genes regulating gastrointestinal motility.
+27664181,Kawamura R,2016-09-23,Physiol Genomics,Genome-wide association study of plasma resistin levels identified rs1423096 and rs10401670 as possible functional variants in the Japanese population.
+32970232,Zhang YX,2020-09-24,Mol Genet Genomics,Three pleiotropic loci associated with bone mineral density and lean body mass.
+29892015,Roselli C,2018-06-11,Nat Genet,Multi-ethnic genome-wide association study for atrial fibrillation.
+28512139,Mack S,2017-05-16,J Lipid Res,A genome-wide association meta-analysis on lipoprotein (a) concentrations adjusted for apolipoprotein (a) isoforms.
+38582945,Gorman BR,2024-04-06,Commun Biol,"A multi-ancestry GWAS of Fuchs corneal dystrophy highlights the contributions of laminins, collagen, and endothelial cell regulation."
+32277175,Han X,2020-04-10,J Hum Genet,Genome-wide meta-analysis identifies novel loci associated with age-related macular degeneration.
+36653681,Miyazawa K,2023-01-19,Nat Genet,Cross-ancestry genome-wide analysis of atrial fibrillation unveils disease biology and enables cardioembolic risk prediction.
+27532455,Sun W,2016-08-17,PLoS Genet,Common Genetic Polymorphisms Influence Blood Biomarker Measurements in COPD.
+30297969,Mahajan A,2018-10-08,Nat Genet,Fine-mapping type 2 diabetes loci to single-variant resolution using high-density imputation and islet-specific epigenome maps.
+36792583,Albinana C,2023-02-15,Nat Commun,Genetic correlates of vitamin D-binding protein and 25-hydroxyvitamin D in neonatal dried blood spots.
+28537254,Tsoi LC,2017-05-24,Nat Commun,Large scale meta-analysis characterizes genetic architecture for common psoriasis associated variants.
+30239722,Pulit SL,2018-09-14,Hum Mol Genet,"Meta-analysis of genome-wide association studies for body fat distribution in 694,649 individuals of European ancestry."
+33110245,Ruotsalainen SE,2020-10-27,Eur J Hum Genet,An expanded analysis framework for multivariate GWAS connects inflammatory biomarkers to functional variants and disease.
+32493714,Klimentidis YC,2020-06-03,Diabetes,Phenotypic and Genetic Characterization of Lower LDL-C and Increased Type-2 Diabetes Risk in the UK Biobank.
+35459240,Said S,2022-04-22,Nat Commun,Genetic analysis of over half a million people characterises C-reactive protein loci.
+34910505,van der Meer D,2021-12-15,Sci Adv,The genetic architecture of human cortical folding.
+35285134,Temprano-Sagrera G,2022-03-14,J Thromb Haemost,Multi-phenotype analyses of hemostatic traits with cardiovascular events reveal novel genetic associations.
+38531894,Tissink EP,2024-03-26,Nat Commun,Abundant pleiotropy across neuroimaging modalities identified through a multivariate genome-wide association study.
+42225636,Brito Nunes C,2026-06-01,Nat Commun,"Multi-ancestry, trans-generational GWAS meta-analysis of gestational diabetes and glycaemic traits during pregnancy reveals limited evidence of pregnancy-specific genetic effects."
+39256582,Loeb GB,2024-09-10,Nat Genet,Variants in tubule epithelial regulatory elements mediate most heritable differences in human kidney function.
+36777996,Zhou W,2022-10-12,Cell Genom,Global Biobank Meta-analysis Initiative: Powering genetic discovery across human disease.
+20231535,Smith NL,2010-03-15,Circulation,"Novel associations of multiple genetic loci with plasma levels of factor VII, factor VIII, and von Willebrand factor: The CHARGE (Cohorts for Heart and Aging Research in Genome Epidemiology) Consortium."
+25961943,Surakka I,2015-05-11,Nat Genet,The impact of low-frequency and rare variants on lipid levels.
+28869591,Kemp JP,2017-09-04,Nat Genet,Identification of 153 new loci associated with heel bone mineral density and functional involvement of GPC6 in osteoporosis.
+39353893,Bahrami S,2024-10-01,Nat Commun,The genetic landscape of basal ganglia and implications for common brain disorders.
+41748903,Reeve MP,2026-02-26,Nat Genet,Genome-wide association analyses of autoimmune hypothyroidism reveal autoimmune and thyroid-specific contributions and an inverse relationship with cancer risk.
+19414484,Johnson AD,2009-05-04,Hum Mol Genet,Genome-wide association meta-analysis for total serum bilirubin levels.
+39024449,Verma A,2024-07-19,Science,Diversity and scale: Genetic architecture of 2068 traits in the VA Million Veteran Program.
+40545721,Sun Y,2025-06-21,HGG Adv,"Genome-wide association studies and multi-omics integrative analysis reveal novel loci and their molecular mechanisms for circulating polyunsaturated, monounsaturated, and saturated fatty acids."
+28334935,Raffield LM,2017-05-15,Hum Mol Genet,Genome-wide association study of iron traits and relation to diabetes in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL): potential genomic intersection of iron and glucose regulation?
+40220762,Zhou F,2025-04-11,Cell Genom,Improved genetic discovery and fine-mapping resolution through multivariate latent factor analysis of high-dimensional traits.
+29059683,Michailidou K,2017-10-23,Nature,Association analysis identifies 65 new breast cancer risk loci.
+21665990,Yu Y,2011-06-10,Hum Mol Genet,Common variants near FRK/COL10A1 and VEGFA are associated with advanced age-related macular degeneration.
+39280063,Willems SM,2023-10-20,Wellcome Open Res,Large-scale exome array summary statistics resources for glycemic traits to aid effector gene prioritization.
+34059833,Chen J,2021-05-31,Nat Genet,The trans-ancestral genomic architecture of glycemic traits.
+30595370,Kichaev G,2018-12-27,Am J Hum Genet,Leveraging Polygenic Functional Enrichment to Improve GWAS Power.
+37500982,He D,2023-07-27,Osteoporos Int,A longitudinal genome-wide association study of bone mineral density mean and variability in the UK Biobank.
+32242144,Revez JA,2020-04-02,Nat Commun,Genome-wide association study identifies 143 loci associated with 25 hydroxyvitamin D concentration.
+40175353,Kim JP,2025-04-02,Nat Commun,Cross-ancestry genome-wide association study identifies implications of SORL1 in cerebral beta-amyloid deposition.
+34537190,Yousaf A,2021-09-16,J Invest Dermatol,Genome-wide association study identifies three susceptibility loci for trichilemmal cysts.
+26974007,Ellinghaus D,2016-03-14,Nat Genet,Analysis of five chronic inflammatory diseases identifies 27 new associations and highlights disease-specific patterns at shared loci.
+40465716,Liu TY,2025-06-04,Sci Adv,Diversity and longitudinal records: Genetic architecture of disease associations and polygenic risk in the Taiwanese Han population.
+28272467,Heilmann-Heimbach S,2017-03-08,Nat Commun,Meta-analysis identifies novel risk loci and yields systematic insights into the biology of male-pattern baldness.
+38964323,Nemkov T,2024-06-27,Cell Metab,Biological and genetic determinants of glycolysis: Phosphofructokinase isoforms boost energy status of stored red blood cells and transfusion outcomes.
+34469753,Kachuri L,2021-08-26,Am J Hum Genet,Genetic determinants of blood-cell traits influence susceptibility to childhood acute lymphoblastic leukemia.
+39067062,Figueredo J,2024-07-27,Eur J Endocrinol,Uncovering the Shared Genetic Components of Thyroid Disorders and Reproductive Health.
+33097823,Pei YF,2020-10-23,Commun Biol,The genetic architecture of appendicular lean mass characterized by association analysis in the UK Biobank study.
+34315874,Ward LD,2021-07-27,Nat Commun,GWAS of serum ALT and AST reveals an association of SLC30A10 Thr95Ile with hypermanganesemia symptoms.
+38064665,Yang Z,2023-12-08,Blood,Genetic Basis of Altered Platelet Counts and Gestational Thrombocytopenia in Pregnancy.
+28334899,Spracklen CN,2017-02-21,Hum Mol Genet,Association analyses of East Asian individuals and trans-ancestry analyses with European individuals reveal new loci associated with cholesterol and triglyceride levels.
+37280435,Hawkes G,2023-06-06,Diabetologia,"Genetic evidence that high BMI in childhood has a protective effect on intermediate diabetes traits, including measures of insulin sensitivity and secretion, after accounting for BMI in adulthood."
+30894546,Ivarsdottir EV,2019-03-20,Nat Commun,Sequence variation at ANAPC1 accounts for 24% of the variability in corneal endothelial cell density.
+35164939,van der Meer D,2022-02-11,Biol Psychiatry,Boosting Schizophrenia Genetics by Utilizing Genetic Overlap With Brain Morphology.
+36581621,Huang J,2022-12-29,Nat Commun,Genomics and phenomics of body mass index reveals a complex disease network.
+26626624,Stuart PE,2015-11-28,Am J Hum Genet,Genome-wide Association Analysis of Psoriatic Arthritis and Cutaneous Psoriasis Reveals Differences in Their Genetic Architecture.
+38627641,Troubat L,2024-04-17,BMC Genomics,Multi-trait GWAS for diverse ancestries: mapping the knowledge gap.
+39789286,Loya H,2025-01-09,Nat Genet,A scalable variational inference approach for increased mixed-model association power.
+39277575,DeForest N,2024-09-14,Nat Commun,Genome-wide discovery and integrative genomic characterization of insulin resistance loci using serum triglycerides to HDL-cholesterol ratio as a proxy.
+27036123,van Leeuwen EM,2016-04-01,J Med Genet,Meta-analysis of 49 549 individuals imputed with the 1000 Genomes Project reveals an exonic damaging variant in ANGPTL4 determining fasting TG levels.
+36376304,Koskeridis F,2022-11-14,Nat Commun,Pleiotropic genetic architecture and novel loci for C-reactive protein levels.
+36224396,Yengo L,2022-10-12,Nature,A saturated map of common genetic variants associated with human height.
+39939757,Staeger FF,2025-02-12,Nature,"Genetic architecture in Greenland is shaped by demography, structure and selection."
+38368726,Liu R,2024-02-17,Mol Immunol,Shared genetic architecture between hypothyroidism and rheumatoid arthritis: A large-scale cross-trait analysis.
+34899825,Jiao H,2021-11-25,Front Genet,Pathway Association Studies Reveal Gene Loci and Pathway Networks that Associated With Plasma Cystatin C Levels.
+36653479,Kiiskinen T,2023-01-18,Nat Med,Genetic predictors of lifelong medication-use patterns in cardiometabolic diseases.
+34302048,Qu HQ,2021-07-23,Commun Biol,Genetic architecture of type 1 diabetes with low genetic risk score informed by 41 unreported loci.
+39537608,Koskeridis F,2024-11-13,Nat Commun,Multi-trait association analysis reveals shared genetic loci between Alzheimer's disease and cardiovascular traits.
+30531825,Morgan MD,2018-12-10,Nat Commun,Genome-wide study of hair colour in UK Biobank explains most of the SNP heritability.
+33972514,Pazoki R,2021-05-10,Nat Commun,Genetic analysis in European ancestry individuals identifies 517 loci associated with liver enzymes.
+42109742,Zhao W,2026-04-23,Front Endocrinol (Lausanne),"Cross-ancestry analysis of gestational diabetes mellitus identifies novel loci, drug targets and biological pathways."
+30643251,Liu M,2019-01-14,Nat Genet,Association studies of up to 1.2 million individuals yield new insights into the genetic etiology of tobacco and alcohol use.
+39091897,Farashi S,2024-04-22,Ophthalmol Sci,Decreased Circulating Very Small Low-Density Lipoprotein is Likely Causal for Age-Related Macular Degeneration.
+27286809,Ligthart S,2016-06-10,BMC Genomics,Bivariate genome-wide association study identifies novel pleiotropic loci for lipids and inflammation.
+38965376,Carey CE,2024-07-04,Nat Hum Behav,Principled distillation of UK Biobank phenotype data reveals underlying structure in human variation.
+33031748,Feofanova EV,2020-10-01,Am J Hum Genet,A Genome-wide Association Study Discovers 46 Loci of the Human Metabolome in the Hispanic Community Health Study/Study of Latinos.
+39747951,Hsu LA,2025-01-02,Sci Rep,Circulating resistin levels and mutation burden of the RETN gene variants predict long-term mortality in a Taiwanese population.
+36142332,Hsu LA,2022-09-08,Int J Mol Sci,Common and Rare <i>PCSK9</i> Variants Associated with Low-Density Lipoprotein Cholesterol Levels and the Risk of Diabetes Mellitus: A Mendelian Randomization Study.
+26352407,Raffler J,2015-09-09,PLoS Genet,Genome-Wide Association Study with Targeted and Non-targeted NMR Metabolomics Identifies 15 Novel Loci of Urinary Human Metabolic Individuality.
+35078996,Gudjonsson A,2022-01-25,Nat Commun,A genome-wide association study of serum proteins reveals shared loci with common diseases.
+37794183,Dhindsa RS,2023-10-04,Nature,Rare variant associations with plasma protein levels in the UK Biobank.
+29777097,Marioni RE,2018-05-18,Transl Psychiatry,GWAS on family history of Alzheimer's disease.
+36269708,Selvaraj MS,2022-10-21,PLoS One,Genome-wide discovery for diabetes-dependent triglycerides-associated loci.
+34662886,Backman JD,2021-10-18,Nature,"Exome sequencing and analysis of 454,787 UK Biobank participants."
+36450978,Kessler MD,2022-11-30,Nature,Common and rare variant associations with clonal haematopoiesis phenotypes.
+35884923,Lee SB,2022-07-06,Biomedicines,Dyslipidaemia-Genotype Interactions with Nutrient Intake and Cerebro-Cardiovascular Disease.
+31669095,Zhu Z,2019-10-24,J Allergy Clin Immunol,Shared Genetic and Experimental Links between Obesity-Related Traits and Asthma Subtypes in UK Biobank.
+31679650,Nath AP,2019-10-30,Am J Hum Genet,"Multivariate Genome-Wide Association Analysis of a Cytokine Network Reveals Variants with Widespread Immune, Haematological, and Cardiometabolic Pleiotropy."
+32665545,van der Meer D,2020-07-14,Nat Commun,Understanding the genetic determinants of the brain with MOSTest.
+39998322,Willett JDS,2025-02-01,Alzheimers Dement,Identification of 16 novel Alzheimer's disease loci using multi-ancestry meta-analyses.
+39972214,Niu L,2025-02-19,Nat Genet,Plasma proteome variation and its genetic determinants in children and adolescents.
+40645996,Yuan S,2025-07-11,Nat Commun,Cross-population GWAS and proteomics improve risk prediction and reveal mechanisms in atrial fibrillation.
+31719535,Noordam R,2019-11-12,Nat Commun,"Multi-ancestry sleep-by-SNP interaction analysis in 126,926 individuals reveals lipid loci stratified by sleep duration."
+25500335,Tintle NL,2014-12-02,Prostaglandins Leukot Essent Fatty Acids,"A genome-wide association study of saturated, mono- and polyunsaturated red blood cell fatty acids in the Framingham Heart Offspring Study."
+42062540,McGrail C,2026-04-30,Nat Genet,Genetic association and machine learning improve the prediction of type 1 diabetes risk.
+21886157,Suhre K,2011-08-31,Nature,Human metabolic individuality in biomedical and pharmaceutical research.
+31217265,Sliz E,2019-06-19,J Med Genet,Genome-wide association study identifies seven novel loci associating with circulating cytokines and cell adhesion molecules in Finns.
+39046104,Fongang B,2024-07-24,Alzheimers Dement,A genome-wide association meta-analysis of all-cause and vascular dementia.
+42069741,Landstra EN,2026-05-02,Nat Commun,Population-based genome-wide association study of plasma complex lipid species.
+39040048,Lim AMW,2024-04-25,iScience,Unsupervised clustering identified clinically relevant metabolic syndrome endotypes in UK and Taiwan Biobanks.
+39747571,Oh K,2025-01-02,Sci Rep,A genome-wide association study of high-sensitivity C-reactive protein in a large Korean population highlights its genetic relationship with cholesterol metabolism.
+20062062,Reveille JD,2010-01-10,Nat Genet,Genome-wide association study of ankylosing spondylitis identifies non-MHC susceptibility loci.
+35546142,Choudhury A,2022-05-11,Nat Commun,Meta-analysis of sub-Saharan African studies provides insights into genetic architecture of lipid traits.
+22982463,Tang WH,2012-09-13,Arterioscler Thromb Vasc Biol,Clinical and genetic association of serum paraoxonase and arylesterase activities with cardiovascular risk.
+37669985,Deflaux N,2023-09-05,Nat Commun,Demonstrating paths for unlocking the value of cloud genomics through cross cohort analysis.
+31473137,Moreno-Grau S,2019-08-13,Alzheimers Dement,Genome-wide association analysis of dementia and its clinical endophenotypes reveal novel loci associated with Alzheimer's disease and three causality networks: The GR@ACE project.
+36168886,Thareja G,2022-09-28,Hum Mol Genet,Differences and commonalities in the genetic architecture of protein quantitative trait loci in European and Arab populations.
+37253714,Feofanova EV,2023-05-30,Nat Commun,Whole-Genome Sequencing Analysis of Human Metabolome in Multi-Ethnic Populations.
+36329257,Lee CJ,2022-11-03,Commun Biol,Phenome-wide analysis of Taiwan Biobank reveals novel glycemia-related loci and genetic risks for diabetes.
+33385400,Patrick MT,2020-12-29,J Invest Dermatol,Causal relationship and shared genetic loci between psoriasis and type 2 diabetes through trans-disease meta-analysis.
+28053049,Sennblad B,2017-02-01,Hum Mol Genet,Genome-wide association study with additional genetic and post-transcriptional analyses reveals novel regulators of plasma factor XI levels.
+31174203,Liyanage UE,2019-06-07,Hum Mol Genet,Combined analysis of keratinocyte cancers identifies novel genome-wide loci.
+27005778,Kettunen J,2016-03-23,Nat Commun,Genome-wide study for circulating metabolites identifies 62 loci and reveals novel systemic effects of LPA.
+36777999,Nam K,2022-10-05,Cell Genom,"Genome-wide study on 72,298 individuals in Korean biobank data for 76 traits."
+39192095,Burren OS,2024-08-27,Nat Genet,"Genetic architecture of telomere length in 462,666 UK Biobank whole-genome sequences."
+38640244,Peruchet-Noray L,2024-04-19,Sci Adv,Tissue-specific genetic variation suggests distinct molecular pathways between body shape phenotypes and colorectal cancer.
+35810165,Westerman KE,2022-07-09,Nat Commun,Variance-quantitative trait loci enable systematic discovery of gene-environment interactions for cardiometabolic serum biomarkers.
+30993211,Nakatochi M,2019-04-08,Commun Biol,Genome-wide meta-analysis identifies multiple novel loci associated with serum uric acid levels in Japanese individuals.
+34321204,Harrison S,2021-07-28,Sci Adv,"Testosterone and socioeconomic position: Mendelian randomization in 306,248 men and women in UK Biobank."
+33536631,Bell S,2021-02-03,Commun Biol,A genome-wide meta-analysis yields 46 new loci associating with biomarkers of iron homeostasis.
+36777997,Partanen JJ,2022-10-12,Cell Genom,Leveraging global multi-ancestry meta-analysis in the study of idiopathic pulmonary fibrosis genetics.
+37963177,Wang X,2023-11-14,PLoS Genet,Cross-ancestry analyses identify new genetic loci associated with 25-hydroxyvitamin D.
+39414775,Jacobs BM,2024-10-16,Nat Commun,Genetic architecture of routinely acquired blood tests in a British South Asian cohort.
+23143596,Eyre S,2012-12-01,Nat Genet,High-density genetic mapping identifies new susceptibility loci for rheumatoid arthritis.
+38116117,Borbye-Lorenzen N,2023-12-13,Cell Genom,The correlates of neonatal complement component 3 and 4 protein concentrations with a focus on psychiatric and autoimmune disorders.
+33227023,Wang Y,2020-11-23,PLoS Genet,Genome-wide association study identifies 16 genomic regions associated with circulating cytokines at birth.
+20585627,Eriksson N,2010-06-24,PLoS Genet,"Web-based, participant-driven studies yield novel genetic associations for common traits."
+30275531,Klarin D,2018-10-01,Nat Genet,"Genetics of blood lipids among ~300,000 multi-ethnic participants of the Million Veteran Program."
+40229599,Venkatesh SS,2025-04-14,Nat Genet,Genome-wide analyses identify 25 infertility loci and relationships with reproductive traits across the allele frequency spectrum.
+33589840,Schwartzentruber J,2021-02-15,Nat Genet,"Genome-wide meta-analysis, fine-mapping and integrative prioritization implicate new Alzheimer's disease risk genes."
+36974753,Dong X,2023-03-28,J Am Heart Assoc,"Unprocessed Red Meat and Processed Meat Consumption, Plasma Metabolome, and Risk of Ischemic Heart Disease: A Prospective Cohort Study of UK Biobank."
+42009823,Cheng FF,2026-04-20,Nat Genet,Multi-ancestry genome-wide association analyses of refractive error augment genetic discovery and polygenic prediction.
+33587031,Sinnott-Armstrong N,2021-02-15,Elife,GWAS of three molecular traits highlights core genes and pathways alongside a highly polygenic background.
+29507422,Hoffmann TJ,2018-03-05,Nat Genet,A large electronic-health-record-based genome-wide study of serum lipids.
+33356394,Gill D,2020-12-28,Hypertension,"Urate, Blood Pressure, and Cardiovascular Disease: Evidence From Mendelian Randomization and Meta-Analysis of Clinical Trials."
+31666285,Olafsson S,2019-10-30,Cancer Epidemiol Biomarkers Prev,Common and rare sequence variants influencing tumor biomarkers in blood.
+40374629,Schoeler T,2025-05-15,Nat Commun,Combining cross-sectional and longitudinal genomic approaches to identify determinants of cognitive and physical decline.
+32227373,Osazuwa-Peters OL,2020-03-29,Genet Epidemiol,Identifying blood pressure loci whose effects are modulated by multiple lifestyle exposures.
+34493870,Wightman DP,2021-09-07,Nat Genet,"A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer's disease."
+20463881,Liu F,2010-05-16,PLoS Genet,Digital quantification of human eye color highlights genetic association of three new loci.
+34272381,Stanzick KJ,2021-07-16,Nat Commun,Discovery and prioritization of variants and genes for kidney function in >1.2 million individuals.
+37705021,Zhang L,2023-09-13,BMC Med,Impact of gallstone disease on the risk of stroke and coronary artery disease: evidence from prospective observational studies and genetic analyses.
+37669986,Kamiza AB,2023-09-05,Nat Commun,"Multi-trait discovery and fine-mapping of lipid loci in 125,000 individuals of African ancestry."
+41310232,Suhre K,2025-11-27,Nat Genet,A genome-wide association study of mass spectrometry proteomics using a nanoparticle enrichment platform.
+31070104,Jia Q,2019-05-09,J Am Heart Assoc,Genetic Determinants of Circulating Glycine Levels and Risk of Coronary Artery Disease.
+25200001,Robinson PC,2014-09-08,Arthritis Rheumatol,Genetic dissection of acute anterior uveitis reveals similarities and differences in associations observed with ankylosing spondylitis.
+35647563,Kingston H,2022-05-12,HGG Adv,Accounting for population structure in genetic studies of cystic fibrosis.
+28196072,Hagenaars SP,2017-02-14,PLoS Genet,Genetic prediction of male pattern baldness.
+33547301,Chen VL,2021-02-05,Nat Commun,Genome-wide association study of serum liver enzymes implicates diverse metabolic and liver pathology.
+37965154,Jiang Y,2023-10-16,iScience,"A cross-disorder study to identify causal relationships, shared genetic variants, and genes across 21 digestive disorders."
+42237039,EADB,2026-06-03,Nat Genet,Consensus meta-analysis of genome-wide association studies for Alzheimer's disease and related dementias.
+38684452,Lin WY,2024-04-29,Adv Biol (Weinh),Gene-Environment Interactions and Gene-Gene Interactions on Two Biological Age Measures: Evidence from Taiwan Biobank Participants.
+31676865,Klarin D,2019-11-01,Nat Genet,Genome-wide association analysis of venous thromboembolism identifies new risk loci and genetic overlap with arterial vascular disease.
+34427645,Lin WY,2021-08-24,J Gerontol A Biol Sci Med Sci,"Lifestyle factors and genetic variants on two biological age measures: evidence from 94,443 Taiwan Biobank participants."
+38062574,Zhang W,2023-12-08,Chin Med J (Engl),Bidirectional relationship between type 2 diabetes mellitus and coronary artery disease: Prospective cohort study and genetic analyses.
+31453325,Wang H,2019-08-14,Sci Adv,Genotype-by-environment interactions inferred from genetic effects on phenotypic variability in the UK Biobank.
+39883516,Liu S,2024-11-01,Brief Bioinform,Novel genetic insight for psoriasis: integrative genome-wide analyses in 863 080 individuals and proteome-wide Mendelian randomization.
+35120996,Rhee EP,2022-02-01,Kidney Int,Trans-ethnic genome-wide association study of blood metabolites in the chronic renal insufficiency cohort (CRIC) study.
+29912962,Feitosa MF,2018-06-18,PLoS One,Novel genetic associations for blood pressure identified via gene-alcohol interaction in up to 570K individuals across multiple ancestries.
+36614910,Chung J,2022-12-23,J Clin Med,Genome-Wide Pleiotropy Study Identifies Association of <i>PDGFB</i> with Age-Related Macular Degeneration and COVID-19 Infection Outcomes.
+20453842,Stahl EA,2010-05-09,Nat Genet,Genome-wide association study meta-analysis identifies seven new rheumatoid arthritis risk loci.
+40210677,Petty LE,2025-04-11,Nat Commun,Large-scale multi-omics analyses in Hispanic/Latino populations identify genes for cardiometabolic traits.
+34239129,Yang C,2021-07-08,Nat Neurosci,"Genomic atlas of the proteome from brain, CSF and plasma prioritizes proteins implicated in neurological disorders."
+30698716,de Vries PS,2019-01-29,Am J Epidemiol,Multi-Ancestry Genome-Wide Association Study of Lipid Levels Incorporating Gene-Alcohol Interactions.
+33272962,Yin X,2020-12-03,Ann Rheum Dis,Meta-analysis of 208370 East Asians identifies 113 susceptibility loci for systemic lupus erythematosus.
+28369058,Folkersen L,2017-04-03,PLoS Genet,Mapping of 79 loci for 83 plasma protein biomarkers in cardiovascular disease.
+35870639,Surapaneni A,2022-07-21,Kidney Int,Identification of 969 protein quantitative trait loci in an African American population with kidney disease attributed to hypertension.
+34737426,Jiang L,2021-11-04,Nat Genet,A generalized linear mixed model association tool for biobank-scale data.
+30617256,Jansen IE,2019-01-07,Nat Genet,Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer's disease risk.
+20460622,Seshadri S,2010-05-12,JAMA,Genome-wide analysis of genetic loci associated with Alzheimer disease.
+33020668,Koyama S,2020-10-05,Nat Genet,Population-specific and trans-ancestry genome-wide analyses identify distinct and shared genetic risk loci for coronary artery disease.
+41477839,Yuan J,2026-01-01,Sci Adv,Genome-wide association study reveals genetic architecture and evolution of human retinal pigmentation.
+38286188,Wang D,2024-01-27,J Invest Dermatol,Genome-wide meta-analysis identifies 11 susceptibility variants of vitiligo in the Chinese Han population.
+35192695,Haas CB,2022-02-22,Endocrinology,Cross-ancestry genome-wide association studies of sex hormone concentrations in pre- and postmenopausal women.
+30166351,Galvan-Femenia I,2018-08-30,J Med Genet,Multitrait genome association analysis identifies new susceptibility genes for human anthropometric variation in the GCAT cohort.
+32139696,Shu X,2020-03-05,Nat Commun,Identification of novel breast cancer susceptibility loci in meta-analyses conducted among Asian and European descendants.
+33310085,Emdin CA,2020-12-10,Gastroenterology,Association of genetic variation with cirrhosis: a multi-trait genome-wide association and gene-environment interaction study.
+23300138,He M,2013-01-07,Gut,"A genome wide association study of genetic loci that influence tumour biomarkers cancer antigen 19-9, carcinoembryonic antigen and α fetoprotein and their associations with cancer risk."
+31361310,Johansson A,2019-07-30,Hum Mol Genet,"Genome-wide association analysis of 350 000 Caucasians from the UK Biobank identifies novel loci for asthma, hay fever and eczema."
+34814699,Katz DH,2021-11-24,Circulation,Whole Genome Sequence Analysis of the Plasma Proteome in Black Adults Provides Novel Insights Into Cardiovascular Disease.
+34503513,Harshfield EL,2021-09-10,BMC Med,Genome-wide analysis of blood lipid metabolites in over 5000 South Asians reveals biological insights at cardiometabolic disease loci.
+30979435,Lo MT,2019-03-12,Neurobiol Aging,Identification of genetic heterogeneity of Alzheimer's disease across age.
+30573740,Yap CX,2018-12-20,Nat Commun,Dissection of genetic variation and evidence for pleiotropy in male pattern baldness.
+37841410,Hendi NN,2023-09-29,Front Nutr,Genetic determinants of Vitamin D deficiency in the Middle Eastern Qatari population: a genome-wide association study.
+23093944,Krumsiek J,2012-10-18,PLoS Genet,Mining the unknown: a systems approach to metabolite identification combining genetic and metabolic information.
+39794498,Konieczny MJ,2025-01-10,Commun Biol,The genomic architecture of circulating cytokine levels points to drug targets for immune-related diseases.
+30598549,Morris JA,2018-12-31,Nat Genet,An atlas of genetic influences on osteoporosis in humans and mice.
+29029846,Schormair B,2017-11-01,Lancet Neurol,Identification of novel risk loci for restless legs syndrome in genome-wide association studies in individuals of European ancestry: a meta-analysis.
+32451486,Zhou H,2020-05-25,Nat Neurosci,"Genome-wide meta-analysis of problematic alcohol use in 435,563 individuals yields insights into biology and relationships with other traits."
+35668104,Cadby G,2022-06-06,Nat Commun,Comprehensive genetic analysis of the human lipidome identifies loci associated with lipid homeostasis with links to coronary artery disease.
+36474045,Aragam KG,2022-12-06,Nat Genet,Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants.
+33239738,Didriksen M,2020-11-25,Commun Biol,Large genome-wide association study identifies three novel risk variants for restless legs syndrome.
+32128391,Klaric L,2020-02-19,Sci Adv,Glycosylation of immunoglobulin G is regulated by a large network of genes pleiotropic with inflammatory diseases.
+32327693,Oskarsson GR,2020-04-23,Commun Biol,Predicted loss and gain of function mutations in ACO1 are associated with erythropoiesis.
+35654975,Vujkovic M,2022-06-02,Nat Genet,A multiancestry genome-wide association study of unexplained chronic ALT elevation as a proxy for nonalcoholic fatty liver disease with histological and radiological validation.
+37709864,Chen Y,2023-09-14,Nat Genet,Genome-wide association meta-analysis identifies 17 loci associated with nonalcoholic fatty liver disease.
+34757267,Teng MS,2021-10-15,Atherosclerosis,Genome-wide association study revealed novel candidate gene loci associated with soluble E-selectin levels in a Taiwanese population.
+35505052,Fan CC,2022-05-03,Nat Commun,Multivariate genome-wide association study on tissue-sensitive diffusion metrics highlights pathways that shape the human brain.
+32769997,Zhou W,2020-08-07,Nat Commun,GWAS of thyroid stimulating hormone highlights pleiotropic effects and inverse association with thyroid cancer.
+37250466,Hatoum AS,2023-03-22,Nat Ment Health,Multivariate genome-wide association meta-analysis of over 1 million subjects identifies loci underlying multiple substance use disorders.
+28240269,Suhre K,2017-02-27,Nat Commun,Connecting genetic risk to disease end points through the human blood plasma proteome.
+39885523,Zhang M,2025-01-30,J Transl Med,"Multi-ancestry genome-wide meta-analysis with 472,819 individuals identifies 32 novel risk loci for psoriasis."
+22916037,Inouye M,2012-08-16,PLoS Genet,Novel Loci for metabolic networks and multi-tissue expression studies reveal genes for atherosclerosis.
+28757204,Manousaki D,2017-07-21,Am J Hum Genet,Low-Frequency Synonymous Coding Variation in CYP2R1 Has Large Effects on Vitamin D Levels and Risk of Multiple Sclerosis.
+39644095,Downie CG,2024-12-06,HGG Adv,Genome-wide association study reveals shared and distinct genetic architecture underlying fatty acid and bioactive oxylipin metabolites in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL).
+38837026,Liu WS,2024-06-05,Geroscience,Whole exome sequencing analyses reveal novel genes in telomere length and their biomedical implications.
+33619380,Huang LO,2021-02-22,Nat Metab,Genome-wide discovery of genetic loci that uncouple excess adiposity from its comorbidities.
+38747556,Jiang MZ,2024-05-15,Hum Mol Genet,Whole genome sequencing based analysis of inflammation biomarkers in the Trans-Omics for Precision Medicine (TOPMed) consortium.
+21862451,Benyamin B,2011-08-23,Hum Mol Genet,"GWAS of butyrylcholinesterase activity identifies four novel loci, independent effects within BCHE and secondary associations with metabolic risk factors."
+22286219,Kettunen J,2012-01-29,Nat Genet,Genome-wide association study identifies multiple loci influencing human serum metabolite levels.
+35552711,Pankratz N,2022-05-12,Hum Mol Genet,Whole exome sequencing of 14 389 individuals from the ESP and CHARGE consortia identifies novel rare variation associated with hemostatic factors.
+41419686,Small AM,2025-12-19,Nat Genet,Genomic and transcriptomic analyses of aortic stenosis enhance therapeutic target discovery and disease prediction.
+32157176,Buchwald J,2020-03-10,Mol Psychiatry,Genome-wide association meta-analysis of nicotine metabolism and cigarette consumption measures in smokers of European descent.
+27182965,Pickrell JK,2016-05-16,Nat Genet,Detection and interpretation of shared genetic influences on 42 human traits.
+31152163,Wuttke M,2019-05-31,Nat Genet,A catalog of genetic loci associated with kidney function from analyses of a million individuals.
+30929738,Ferreira MAR,2019-03-28,Am J Hum Genet,Genetic Architectures of Childhood- and Adult-Onset Asthma Are Partly Distinct.
+38182794,Choquet H,2024-01-05,Commun Biol,Multi-ancestry genome-wide meta-analysis identifies novel basal cell carcinoma loci and shared genetic effects with squamous cell carcinoma.
+33832965,Sandoval-Plata G,2021-04-08,Ann Rheum Dis,"Variants in urate transporters, ADH1B, GCKR and MEPE genes associate with transition from asymptomatic hyperuricaemia to gout: results of the first gout versus asymptomatic hyperuricaemia GWAS in Caucasians using data from the UK Biobank."
+29874175,Bihlmeyer NA,2018-01-01,Circ Genom Precis Med,ExomeChip-Wide Analysis of 95 626 Individuals Identifies 10 Novel Loci Associated With QT and JT Intervals.
+36819030,Guo H,2023-02-03,Front Microbiol,A genome-wide cross-cancer meta-analysis highlights the shared genetic links of five solid cancers.
+37198478,Pairo-Castineira E,2023-05-17,Nature,GWAS and meta-analysis identifies 49 genetic variants underlying critical COVID-19.
+31985003,Boocock J,2020-01-27,Hum Mol Genet,Genomic dissection of 43 serum urate-associated loci provides multiple insights into molecular mechanisms of urate control.
+31217584,Wojcik GL,2019-06-19,Nature,Genetic analyses of diverse populations improves discovery for complex traits.
+24390342,Okada Y,2013-12-25,Nature,Genetics of rheumatoid arthritis contributes to biology and drug discovery.
+30423114,Laufer VA,2018-11-13,Hum Mol Genet,Genetic Influences on Susceptibility to Rheumatoid Arthritis in African-Americans.
+23603763,Liu JZ,2013-06-01,Nat Genet,Dense genotyping of immune-related disease regions identifies nine new risk loci for primary sclerosing cholangitis.
+35995766,Tahir UA,2022-08-22,Nat Commun,Whole Genome Association Study of the Plasma Metabolome Identifies Metabolites Linked to Cardiometabolic Disease in Black Individuals.
+40593539,Sharapov S,2025-07-01,Nat Commun,"A genome-wide association study in 10,000 individuals links plasma N-glycome to liver disease and anti-inflammatory proteins."
+32193382,Cole JB,2020-03-19,Nat Commun,Comprehensive genomic analysis of dietary habits in UK Biobank identifies hundreds of genetic associations.
+36828809,Han Y,2023-02-24,Nat Commun,Multitrait genome-wide analyses identify new susceptibility loci and candidate drugs to primary sclerosing cholangitis.
+24740207,Moy KA,2014-04-16,Am J Clin Nutr,Genome-wide association study of circulating vitamin D-binding protein.
+21775986,Hinch AG,2011-07-20,Nature,The landscape of recombination in African Americans.
+31809533,Han X,2019-09-06,Hum Mol Genet,Genome-wide association analysis of 95 549 individuals identifies novel loci and genes influencing optic disc morphology.
+32499647,Spracklen CN,2020-05-06,Nature,"Identification of type 2 diabetes loci in 433,540 East Asian individuals."
+32231278,Hysi PG,2020-03-30,Nat Genet,"Meta-analysis of 542,934 subjects of European ancestry identifies new genes and mechanisms predisposing to refractive error and myopia."
+34021172,Christakoudi S,2021-05-21,Sci Rep,"GWAS of allometric body-shape indices in UK Biobank identifies loci suggesting associations with morphogenesis, organogenesis, adrenal cell renewal and cancer."
+32376654,Richardson TG,2020-05-06,BMJ,Use of genetic variation to separate the effects of early and later life adiposity on disease risk: mendelian randomisation study.
+20884846,Yang Q,2010-09-30,Circ Cardiovasc Genet,Multiple genetic loci influence serum urate levels and their relationship with gout and cardiovascular disease risk factors.
+30046033,van Setten J,2018-07-25,Nat Commun,PR interval genome-wide association meta-analysis identifies 50 loci associated with atrial and atrioventricular electrical activity.
+17952075,Sulem P,2007-10-21,Nat Genet,"Genetic determinants of hair, eye and skin pigmentation in Europeans."
+28256260,Siitonen A,2017-02-02,Neurobiol Aging,Genetics of early-onset Parkinson's disease in Finland: exome sequencing and genome-wide association study.
+37377963,Wen YP,2023-06-12,Front Immunol,Identifying shared genetic loci and common risk genes of rheumatoid arthritis associated with three autoimmune diseases based on large-scale cross-trait genome-wide association studies.
+35872910,Carcel-Marquez J,2022-07-08,Front Cardiovasc Med,A Polygenic Risk Score Based on a Cardioembolic Stroke Multitrait Analysis Improves a Clinical Prediction Model for This Stroke Subtype.
+28082259,Pankow JS,2017-01-12,Arterioscler Thromb Vasc Biol,Identification of Genetic Variants Linking Protein C and Lipoprotein Metabolism: The ARIC Study (Atherosclerosis Risk in Communities).
+35389749,Nauffal V,2022-04-07,Circulation,Monogenic and Polygenic Contributions to QTc Prolongation in the Population.
+25629528,Ruggiero D,2015-01-28,PLoS Genet,Genetic variants modulating CRIPTO serum levels identified by genome-wide association study in Cilento isolates.
+36402844,van der Meer D,2022-11-19,Commun Biol,The link between liver fat and cardiometabolic diseases is highlighted by genome-wide association study of MRI-derived measures of body composition.
+27386562,Andlauer TF,2016-06-17,Sci Adv,Novel multiple sclerosis susceptibility loci implicated in epigenetic regulation.
+31152121,Zhu M,2019-05-31,Diabetes Care,Identification of Novel T1D Risk Loci and Their Association With Age and Islet Function at Diagnosis in Autoantibody-Positive T1D Individuals: Based on a Two-Stage Genome-Wide Association Study.
+38789058,Casanova F,2024-05-22,Neurobiol Dis,"MRI-derived brain iron, grey matter volume, and risk of dementia and Parkinson's disease: Observational and genetic analysis in the UK Biobank cohort."
+30111768,Yao C,2018-08-15,Nat Commun,Genome-wide mapping of plasma protein QTLs identifies putatively causal genes and pathways for cardiovascular disease.
+40325049,Gu Y,2025-05-05,Nat Commun,Genetic architecture and risk prediction of gestational diabetes mellitus in Chinese pregnancies.
+37282553,Kember RL,2023-06-07,Am J Psychiatry,Genetic Underpinnings of the Transition From Alcohol Consumption to Alcohol Use Disorder: Shared and Unique Genetic Architectures in a Cross-Ancestry Sample.
+41766532,Hirano Y,2026-03-02,Stroke,Integrative GWAS and snRNA-seq Reveal a Mesenchymal-Like Endothelial Signature in Moyamoya Disease.
+37794016,Budu-Aggrey A,2023-10-04,Nat Commun,European and multi-ancestry genome-wide association meta-analysis of atopic dermatitis highlights importance of systemic immune regulation.
+36233190,Kim YS,2022-10-06,Int J Mol Sci,Lifestage Sex-Specific Genetic Effects on Metabolic Disorders in an Adult Population in Korea: The Korean Genome and Epidemiology Study.
+36914875,Shrine N,2023-03-13,Nat Genet,Multi-ancestry genome-wide association analyses improve resolution of genes and pathways influencing lung function and chronic obstructive pulmonary disease risk.
+33887194,Hu Y,2021-04-21,Am J Hum Genet,Whole-genome sequencing association analysis of quantitative red blood cell phenotypes: The NHLBI TOPMed program.
+32723749,Kwon YC,2020-07-28,Ann Rheum Dis,Genome-wide association study in a Korean population identifies six novel susceptibility loci for rheumatoid arthritis.
+41824406,Lin YJ,2026-03-13,PLoS Genet,Unraveling the genetic links between stature and disease in East Asians: A multi-biobank genetic correlation and risk prediction study.
+42203880,Gupta R,2026-05-27,Nature,Mechanism of age-related accumulation of mtDNA mutations in human blood.
+34906840,Trinder M,2021-12-06,Atherosclerosis,Polygenic architecture and cardiovascular risk of familial combined hyperlipidemia.
+37615194,Qu Y,2023-08-24,J Bone Miner Res,"Genetic correlation, shared loci and causal association between sex hormone-binding globulin and bone mineral density: insights from a large-scale genome-wide cross-trait analysis."
+19525953,De Jager PL,2009-06-14,Nat Genet,"Meta-analysis of genome scans and replication identify CD6, IRF8 and TNFRSF1A as new multiple sclerosis susceptibility loci."
+39349817,Park S,2024-09-30,Nat Genet,Multivariate genomic analysis of 5 million people elucidates the genetic architecture of shared components of the metabolic syndrome.
+37867527,Roshandel D,2023-10-05,Front Endocrinol (Lausanne),Beyond apples and pears: sex-specific genetics of body fat percentage.
+36193934,Tabassum R,2022-10-04,J Am Heart Assoc,Lipidome- and Genome-Wide Study to Understand Sex Differences in Circulatory Lipids.
+36496446,Seviiri M,2022-12-10,Nat Commun,A multi-phenotype analysis reveals 19 susceptibility loci for basal cell carcinoma and 15 for squamous cell carcinoma.
+28892062,Akiyama M,2017-09-11,Nat Genet,Genome-wide association study identifies 112 new loci for body mass index in the Japanese population.
+33731350,Nandakumar P,2021-03-17,Sci Adv,Nuclear genome-wide associations with mitochondrial heteroplasmy.
+29212778,van der Harst P,2017-12-06,Circ Res,Identification of 64 Novel Genetic Loci Provides an Expanded View on the Genetic Architecture of Coronary Artery Disease.
+35051171,Wong HS,2022-01-20,PLoS Genet,Genome-wide association study identifies genetic risk loci for adiposity in a Taiwanese population.
+30019117,Liu J,2018-07-17,Hum Genet,The coexistence of copy number variations (CNVs) and single nucleotide polymorphisms (SNPs) at a locus can result in distorted calculations of the significance in associating SNPs to disease.
+32041948,Sarin KY,2020-02-10,Nat Commun,Genome-wide meta-analysis identifies eight new susceptibility loci for cutaneous squamous cell carcinoma.
+41565855,He Y,2026-01-21,Nat Genet,Multi-trait and multi-ancestry genetic analysis of comorbid lung diseases and traits improves genetic discovery and polygenic risk prediction.
+39361370,Diz-de Almeida S,2024-10-03,Elife,Novel risk loci for COVID-19 hospitalization among admixed American populations.
+28869590,Zhao W,2017-09-04,Nat Genet,Identification of new susceptibility loci for type 2 diabetes and shared etiological pathways with coronary heart disease.
+40316537,Pagadala MS,2025-05-02,Nat Commun,Discovery of novel ancestry specific genes for androgens and hypogonadism in Million Veteran Program Men.
+20081858,Dupuis J,2010-01-17,Nat Genet,New genetic loci implicated in fasting glucose homeostasis and their impact on type 2 diabetes risk.
+25706626,Aung T,2015-02-23,Nat Genet,A common variant mapping to CACNA1A is associated with susceptibility to exfoliation syndrome.
+38747976,Ishikawa T,2024-05-15,Eur Heart J,Brugada syndrome in Japan and Europe: a genome-wide association study reveals shared genetic architecture and new risk loci.
+34107879,Hu Y,2021-06-09,BMC Genomics,Multi-ethnic genome-wide association analyses of white blood cell and platelet traits in the Population Architecture using Genomics and Epidemiology (PAGE) study.
+34122051,Wang H,2021-05-28,Front Aging Neurosci,Similar Genetic Architecture of Alzheimer's Disease and Differential <i>APOE</i> Effect Between Sexes.
+23364009,Yang X,2013-01-30,Am J Clin Nutr,Common variants at 12q24 are associated with drinking behavior in Han Chinese.
+40359434,Munsch G,2025-05-13,Blood,A Multi-Omics Approach Reveals Novel Regulators of Plasma Factor V Levels: highlight on CLEC4M as a Clearance Receptor.
+35121771,Choe EK,2022-02-04,Sci Rep,"Leveraging deep phenotyping from health check-up cohort with 10,000 Korean individuals for phenome-wide association study of 136 traits."
+40021830,Reus LM,2025-02-28,Mol Psychiatry,Quantitative trait loci mapping of circulating metabolites in cerebrospinal fluid to uncover biological mechanisms involved in brain-related phenotypes.
+20953190,Strange A,2010-10-17,Nat Genet,A genome-wide association study identifies new psoriasis susceptibility loci and an interaction between HLA-C and ERAP1.
+39144724,Lelievre R,2024-07-31,Front Genet,Effect modification by sex of genetic associations of vitamin C related metabolites in the Canadian Longitudinal study on aging.
+24952745,Arking DE,2014-06-22,Nat Genet,Genetic association study of QT interval highlights role for calcium signaling pathways in myocardial repolarization.
+38538606,Harris BHL,2024-03-27,Sci Rep,New role of fat-free mass in cancer risk linked with genetic predisposition.
+26582766,Lu X,2015-11-18,Circ Cardiovasc Genet,Genetic Susceptibility to Lipid Levels and Lipid Change Over Time and Risk of Incident Hyperlipidemia in Chinese Populations.
+37859345,Sarsani V,2023-10-18,HGG Adv,"A Cross-ancestry genome-wide meta-analysis, fine-mapping, and gene prioritization approach to characterize the genetic architecture of adiponectin."
+33402679,Lagou V,2021-01-05,Nat Commun,Sex-dimorphic genetic effects and novel loci for fasting glucose and insulin variability.
+41268768,Dacey R,2025-11-01,Alzheimers Dement,Alzheimer's disease multi-ancestry genome-wide interaction and stratified study with smoking.
+21372407,Takeuchi F,2011-03-01,Circ J,Confirmation of ALDH2 as a Major locus of drinking behavior and of its variants regulating multiple metabolic phenotypes in a Japanese population.
+38776927,Reeve MP,2024-05-15,Am J Hum Genet,Oral and non-oral lichen planus show genetic heterogeneity and differential risk for autoimmune disease and oral cancer.
+30108127,Hoffmann TJ,2018-08-14,Genetics,A Large Multi-ethnic Genome-Wide Association Study of Adult Body Mass Index Identifies Novel Loci.
+38689001,Keaton JM,2024-04-30,Nat Genet,Genome-wide analysis in over 1 million individuals of European ancestry yields improved polygenic risk scores for blood pressure traits.
+37120436,Granot-Hershkovitz E,2023-04-29,Transl Psychiatry,Genetic loci of beta-aminoisobutyric acid are associated with aging-related mild cognitive impairment.
+42072355,Miao D,2026-04-02,Biomedicines,Genome-Wide Dissection of the Neutrophil-to-Lymphocyte Ratio Uncovers Polygenic Determinants Linked to Inflammatory Gastrointestinal Disorder Susceptibility.
+32226016,Hu Y,2020-03-30,PLoS Genet,Minority-centric meta-analyses of blood lipid levels identify novel loci in the Population Architecture using Genomics and Epidemiology (PAGE) study.
+23128233,Jostins L,2012-11-01,Nature,Host-microbe interactions have shaped the genetic architecture of inflammatory bowel disease.
+19169255,Zhang XJ,2009-01-25,Nat Genet,Psoriasis genome-wide association study identifies susceptibility variants within LCE gene cluster at 1q21.
+32492067,Ruffieux H,2020-06-03,PLoS Comput Biol,A fully joint Bayesian quantitative trait locus mapping of human protein abundance in plasma.
+37524825,Rhee EP,2023-07-31,Commun Biol,A genome-wide association study identifies 41 loci associated with eicosanoid levels.
+22190364,Patsopoulos NA,2011-12-01,Ann Neurol,Genome-wide meta-analysis identifies novel multiple sclerosis susceptibility loci.
+32716492,Simcoe MJ,2020-07-27,Hum Mol Genet,Genome-wide association study of corneal biomechanical properties identifies over 200 loci providing insight into the genetic aetiology of ocular diseases.
+28957414,Pilling LC,2017-09-28,PLoS One,"Red blood cell distribution width: Genetic evidence for aging pathways in 116,666 volunteers."
+31710517,Allen RJ,2019-11-11,Am J Respir Crit Care Med,Genome-Wide Association Study of Susceptibility to Idiopathic Pulmonary Fibrosis.
+22359512,Demirkan A,2012-02-16,PLoS Genet,Genome-wide association study identifies novel loci associated with circulating phospho- and sphingolipid concentrations.
+22703881,Tang W,2012-06-14,Am J Hum Genet,"Genetic associations for activated partial thromboplastin time and prothrombin time, their gene expression profiles, and risk of coronary artery disease."
+38561338,He XY,2024-04-01,Nat Commun,Genetic associations of protein-coding variants in venous thromboembolism.
+30643258,Karlsson Linner R,2019-01-14,Nat Genet,Genome-wide association analyses of risk tolerance and risky behaviors in over 1 million individuals identify hundreds of loci and shared genetic influences.
+36764567,Davyson E,2023-02-09,Biol Psychiatry,Metabolomic Investigation of Major Depressive Disorder Identifies a Potentially Causal Association With Polyunsaturated Fatty Acids.
+35692035,Borges MC,2022-06-13,BMC Med,"Role of circulating polyunsaturated fatty acids on cardiovascular diseases risk: analysis using Mendelian randomization and fatty acid genetic association data from over 114,000 UK Biobank participants."
+32963231,Hofer E,2020-09-22,Nat Commun,"Genetic correlations and genome-wide associations of cortical structure in general population samples of 22,824 adults."
+30664655,Adhikari K,2019-01-21,Nat Commun,A GWAS in Latin Americans highlights the convergent evolution of lighter skin pigmentation in Eurasia.
+34308111,Amin HA,2021-01-07,BMJ Nutr Prev Health,No evidence that vitamin D is able to prevent or affect the severity of COVID-19 in individuals with European ancestry: a Mendelian randomisation study of open data.
+21743469,Evans DM,2011-07-10,Nat Genet,Interaction between ERAP1 and HLA-B27 in ankylosing spondylitis implicates peptide handling in the mechanism for HLA-B27 in disease susceptibility.
+20802025,Tang W,2010-08-27,Blood,Genome-wide association study identifies novel loci for plasma levels of protein C: the ARIC study.
+28358029,Afshari NA,2017-03-30,Nat Commun,Genome-wide association study identifies three novel loci in Fuchs endothelial corneal dystrophy.
+36996866,Choi CK,2023-03-22,Epidemiol Health,No association between C-reactive protein and colorectal cancer survival: Two-sample Mendelian randomization analysis.
+30223776,Hwang LD,2018-09-17,BMC Genomics,Bivariate genome-wide association analysis strengthens the role of bitter receptor clusters on chromosomes 7 and 12 in human bitter taste.
+26426971,Winkler TW,2015-10-01,PLoS Genet,The Influence of Age and Sex on Genetic Associations with Adult Body Size and Shape: A Large-Scale Genome-Wide Interaction Study.
+33437055,Panyard DJ,2021-01-12,Commun Biol,Cerebrospinal fluid metabolomics identifies 19 brain-related phenotype associations.
+36093044,Mathieu S,2022-08-20,iScience,Genetic association and Mendelian randomization for hypothyroidism highlight immune molecular mechanisms.
+31015401,Wu Y,2019-04-23,Nat Commun,Genome-wide association study of medication-use and associated disease in the UK Biobank.
+37949852,Gelfman S,2023-11-11,Nat Commun,A large meta-analysis identifies genes associated with anterior uveitis.
+32581359,Saevarsdottir S,2020-06-24,Nature,FLT3 stop mutation increases FLT3 ligand level and risk of autoimmune thyroid disease.
+21829393,Plagnol V,2011-08-04,PLoS Genet,Genome-wide association analysis of autoantibody positivity in type 1 diabetes cases.
+27329260,Teumer A,2016-06-21,Aging Cell,Genomewide meta-analysis identifies loci associated with IGF-I and IGFBP-3 levels with impact on age-related traits.
+42173832,Sinnott-Armstrong N,2026-05-22,Nat Commun,Genetic variants affect diurnal glucose levels throughout the day.
+19503597,Kolz M,2009-06-05,PLoS Genet,"Meta-analysis of 28,141 individuals identifies common variants within five new loci that influence uric acid concentrations."
+33398198,Conti DV,2021-01-04,Nat Genet,Trans-ancestry genome-wide association meta-analysis of prostate cancer identifies new susceptibility loci and informs genetic risk prediction.
+27073872,Yet I,2016-04-13,PLoS One,Genetic Influences on Metabolite Levels: A Comparison across Metabolomic Platforms.
+36848389,Currant H,2023-02-27,PLoS Genet,Sub-cellular level resolution of common genetic variation in the photoreceptor layer identifies continuum between rare disease and common variation.
+41606330,Namba S,2026-01-28,Nature,A cross-population compendium of gene-environment interactions.
+41469377,Wang X,2025-12-30,Nat Commun,The Health for Life in Singapore (HELIOS) Study: delivering precision medicine research for Asian populations.
+31562340,Akiyama M,2019-09-27,Nat Commun,Characterizing rare and low-frequency height-associated variants in the Japanese population.
+31675503,Gurdasani D,2019-10-01,Cell,Uganda Genome Resource Enables Insights into Population History and Genomic Discovery in Africa.
+30804560,Shrine N,2019-02-25,Nat Genet,New genetic signals for lung function highlight pathways and chronic obstructive pulmonary disease associations across multiple ancestries.
+37277458,Vosberg DE,2023-06-05,Sci Rep,"The genetics of a ""femaleness/maleness"" score in cardiometabolic traits in the UK biobank."
+37989062,Kheirkhah A,2023-11-10,Atherosclerosis,Meta-GWAS on PCSK9 concentrations reveals associations of novel loci outside the PCSK9 locus in White populations.
+38036781,He Y,2023-11-30,Nat Genet,East Asian-specific and cross-ancestry genome-wide meta-analyses provide mechanistic insights into peptic ulcer disease.
+32876488,Meeks KAC,2020-09-02,Circ Genom Precis Med,"The Genetics of Circulating Resistin Level, A Biomarker for Cardiovascular Diseases, Is Informed by Mendelian Randomization and the Unique Characteristics of African Genomes."
+31420334,Lindstrom S,2019-08-16,Blood,Genomic and Transcriptomic Association Studies Identify 16 Novel Susceptibility Loci for Venous Thromboembolism.
+23056639,de Boer RA,2012-10-09,PLoS One,A genome-wide association study of circulating galectin-3.
+32514122,Ishigaki K,2020-06-08,Nat Genet,Large-scale genome-wide association study in a Japanese population identifies novel susceptibility loci across different diseases.
+21300955,Dehghan A,2011-02-07,Circulation,Meta-analysis of genome-wide association studies in >80 000 subjects identifies multiple loci for C-reactive protein levels.
+23381943,Williams FM,2013-01-01,Ann Neurol,Ischemic stroke is associated with the ABO locus: the EuroCLOT study.
+18794853,Raychaudhuri S,2008-09-14,Nat Genet,Common variants at CD40 and other loci confer risk of rheumatoid arthritis.
+32193296,Grasby KL,2020-03-01,Science,The genetic architecture of the human cerebral cortex.
+36575460,Kanoni S,2022-12-27,Genome Biol,"Implicating genes, pleiotropy, and sexual dimorphism at blood lipid loci through multi-ancestry meta-analysis."
+19525955,Bahlo M,2009-06-14,Nat Genet,Genome-wide association study identifies new multiple sclerosis susceptibility loci on chromosomes 12 and 20.
+35449187,Kim Y,2022-04-21,Commun Biol,Genome-wide association study of actinic keratosis identifies new susceptibility loci implicated in pigmentation and immune regulation pathways.
+21572414,Suhre K,2011-05-15,Nat Genet,A genome-wide association study of metabolic traits in human urine.
+36301540,Deak JD,2022-10-03,JAMA Netw Open,Genome-Wide Investigation of Maximum Habitual Alcohol Intake in US Veterans in Relation to Alcohol Consumption Traits and Alcohol Use Disorder.
+37072623,Wang X,2023-04-18,J Hum Genet,"Common and rare variants associated with cardiometabolic traits across 98,622 whole-genome sequences in the All of Us research program."
+39232002,Ambalavanan A,2024-09-04,Nat Commun,Human milk oligosaccharides are associated with maternal genetics and respiratory health of human milk-fed children.
+19300499,Takeuchi F,2009-03-20,PLoS Genet,"A genome-wide association study confirms VKORC1, CYP2C9, and CYP4F2 as principal genetic determinants of warfarin dose."
+26561523,de Vries PS,2015-11-10,Hum Mol Genet,A meta-analysis of 120 246 individuals identifies 18 new loci for fibrinogen concentration.
+35210625,Barc J,2022-02-24,Nat Genet,Genome-wide association analyses identify new Brugada syndrome risk loci and highlight a new mechanism of sodium channel regulation in disease susceptibility.
+36672180,Tirozzi A,2023-01-06,Cells,"A Multi-Trait Association Analysis of Brain Disorders and Platelet Traits Identifies Novel Susceptibility Loci for Major Depression, Alzheimer's and Parkinson's Disease."
+29892016,Schumacher FR,2018-06-11,Nat Genet,"Association analyses of more than 140,000 men identify 63 new prostate cancer susceptibility loci."
+33574239,Eriksson D,2021-02-11,Nat Commun,GWAS for autoimmune Addison's disease identifies multiple risk loci and highlights AIRE in disease susceptibility.
+20037589,Illig T,2009-12-27,Nat Genet,A genome-wide perspective of genetic variation in human metabolism.
+39366959,Gorman BR,2024-10-04,Nat Commun,Multi-ancestry GWAS meta-analyses of lung cancer reveal susceptibility loci and elucidate smoking-independent genetic risk.
+28753643,Yeo A,2017-07-28,PLoS One,"Pharmacogenetic meta-analysis of baseline risk factors, pharmacodynamic, efficacy and tolerability endpoints from two large global cardiovascular outcomes trials for darapladib."
+23548203,Zhang M,2013-04-01,Hum Mol Genet,Genome-wide association studies identify several new loci associated with pigmentation traits and skin cancer risk in European Americans.
+31903547,Pei YF,2020-01-05,Clin Genet,Bivariate genome-wide association analysis identified three pleiotropic loci underlying osteoporosis and obesity.
+38172110,Riesmeijer SA,2024-01-03,Nat Commun,A genome-wide association meta-analysis implicates Hedgehog and Notch signaling in Dupuytren's disease.
+26068415,Draisma HHM,2015-06-12,Nat Commun,Genome-wide association study identifies novel genetic variants contributing to variation in blood metabolite levels.
+27989323,Ahola-Olli AV,2016-12-13,Am J Hum Genet,Genome-wide Association Study Identifies 27 Loci Influencing Concentrations of Circulating Cytokines and Growth Factors.
+37919453,Nethander M,2023-11-02,Nat Genet,An atlas of genetic determinants of forearm fracture.
+23603761,Hinks A,2013-04-21,Nat Genet,Dense genotyping of immune-related disease regions identifies 14 new susceptibility loci for juvenile idiopathic arthritis.
+36333501,Ishigaki K,2022-11-04,Nat Genet,Multi-ancestry genome-wide association analyses identify novel genetic mechanisms in rheumatoid arthritis.
+34128465,Liu Y,2021-06-15,Elife,Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning.
+30679032,Brazel DM,2018-12-06,Biol Psychiatry,Exome Chip Meta-analysis Fine Maps Causal Variants and Elucidates the Genetic Architecture of Rare Coding Variants in Smoking and Alcohol Use.
+37386247,Han X,2023-06-29,Nat Genet,Large-scale multitrait genome-wide association analyses identify hundreds of glaucoma risk loci.
+26584805,Dorajoo R,2015-11-19,Genes Nutr,A genome-wide association study of n-3 and n-6 plasma fatty acids in a Singaporean Chinese population.
+37131961,Tomasoni M,2023-02-16,Ophthalmol Sci,Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases.
+23535729,Michailidou K,2013-04-01,Nat Genet,Large-scale genotyping identifies 41 new loci associated with breast cancer risk.
+26192919,Liu JZ,2015-07-20,Nat Genet,Association analyses identify 38 susceptibility loci for inflammatory bowel disease and highlight shared genetic risk across populations.
+36281732,Sumpter NA,2022-10-25,Arthritis Rheumatol,Association of Gout Polygenic Risk Score with Age at Disease Onset and Tophaceous Disease in European and Polynesian Men with Gout.
+38155330,Kim JJ,2023-12-28,Nat Genet,Multi-ancestry genome-wide association meta-analysis of Parkinson's disease.
+35964923,Timoteo VJ,2022-08-11,J Nutr Biochem,Common and Ethnic-Specific Genetic Determinants of Hemoglobin Concentration between Taiwanese Han Chinese and European Whites: Findings from Comparative Two-Stage Genome-Wide Association Studies.
+30575882,Lotta LA,2018-12-01,JAMA,"Association of Genetic Variants Related to Gluteofemoral vs Abdominal Fat Distribution With Type 2 Diabetes, Coronary Disease, and Cardiovascular Risk Factors."
+30718926,Suzuki K,2019-02-04,Nat Genet,Identification of 28 new susceptibility loci for type 2 diabetes in the Japanese population.
+18834626,Dehghan A,2008-10-01,Lancet,Association of three genetic loci with uric acid concentration and risk of gout: a genome-wide association study.
+33763119,Read RW,2021-03-02,Front Genet,Genome-Wide Identification of Rare and Common Variants Driving Triglyceride Levels in a Nevada Population.
+32171239,Hodonsky CJ,2020-03-14,BMC Genomics,Ancestry-specific associations identified in genome-wide combined-phenotype study of red blood cell traits emphasize benefits of diversity in genomics.
+31589552,Lind L,2019-10-07,Metab Syndr Relat Disord,Genome-Wide Association Study of the Metabolic Syndrome in UK Biobank.
+26502338,Bentham J,2015-10-26,Nat Genet,Genetic association analyses implicate aberrant regulation of innate and adaptive immunity genes in the pathogenesis of systemic lupus erythematosus.
+27790247,He L,2016-11-03,Front Genet,Pleiotropic Meta-Analyses of Longitudinal Studies Discover Novel Genetic Variants Associated with Age-Related Diseases.
+24105470,Wu Y,2013-10-14,Hum Mol Genet,A meta-analysis of genome-wide association studies for adiponectin levels in East Asians identifies a novel locus near WDR11-FGFR2.
+33875891,Smith SM,2021-04-19,Nat Neurosci,An expanded set of genome-wide association studies of brain imaging phenotypes in UK Biobank.
+24586186,Rueedi R,2014-02-20,PLoS Genet,Genome-wide association study of metabolic traits reveals novel gene-metabolite-disease links.
+25751625,Michailidou K,2015-04-01,Nat Genet,"Genome-wide association analysis of more than 120,000 individuals identifies 15 new susceptibility loci for breast cancer."
+38201907,Ho CY,2023-12-25,Nutrients,A Genome-Wide Association Study of Metabolic Syndrome in the Taiwanese Population.
+34780722,Di Narzo AF,2021-11-12,Gastroenterology,Integrative analysis of the Inflammatory Bowel Disease serum metabolome improves our understanding of genetic etiology and points to novel putative therapeutic targets.
+38297123,Huang S,2024-01-31,Nature,The Born in Guangzhou Cohort Study enables generational genetic discoveries.
+38849341,Kim B,2024-06-07,Nat Commun,Mapping and annotating genomic loci to prioritize genes and implicate distinct polygenic adaptations for skin color.
+36423732,Akiyama M,2022-11-21,Ophthalmology,GWAS of age-related macular degeneration reveals two new loci implying shared genetic components with central serous chorioretinopathy.
+35470158,Saevarsdottir S,2022-04-25,Ann Rheum Dis,Multiomics analysis of rheumatoid arthritis yields sequence variants that have large effects on risk of the seropositive subset.
+37069358,Cosentino J,2023-04-17,Nat Genet,Inference of chronic obstructive pulmonary disease with deep learning on raw spirograms identifies new genetic loci and improves risk models.
+36750564,Khunsriraksakul C,2023-02-07,Nat Commun,Multi-ancestry and multi-trait genome-wide association meta-analyses inform clinical risk prediction for systemic lupus erythematosus.
+32005708,Forgetta V,2020-01-31,Diabetes,Rare Genetic Variants of Large Effect Influence Risk of Type 1 Diabetes.
+39023044,Ge YJ,2024-07-18,Alzheimers Dement,Genome-wide meta-analysis identifies ancestry-specific loci for Alzheimer's disease.
+38867047,Liu A,2024-06-12,Nature,Genetic drivers and cellular selection of female mosaic X chromosome loss.
+20639394,Kang TW,2010-07-16,Hum Mol Genet,Genome-wide association of serum bilirubin levels in Korean population.
+37156999,Liu Z,2023-05-08,Nat Genet,Genetic architecture of the inflammatory bowel diseases across East Asian and European ancestries.
+25282103,Wood AR,2014-10-05,Nat Genet,Defining the role of common variation in the genomic and biological architecture of adult human height.
+19734902,Harold D,2009-09-06,Nat Genet,Genome-wide association study identifies variants at CLU and PICALM associated with Alzheimer's disease.
+33713608,Graff M,2021-03-05,Am J Hum Genet,Discovery and fine-mapping of height loci via high-density imputation of GWASs in individuals of African ancestry.
+31046077,Zhong VW,2019-05-02,Hum Mol Genet,A genome-wide association study of bitter and sweet beverage consumption.
+25673413,Locke AE,2015-02-12,Nature,Genetic studies of body mass index yield new insights for obesity biology.
+40069456,Pujol Gualdo N,2025-03-11,Nat Med,Atlas of genetic and phenotypic associations across 42 female reproductive health diagnoses.
+32296059,Han Y,2020-04-15,Nat Commun,Genome-wide analysis highlights contribution of immune system pathways to the genetic architecture of asthma.
+34620218,Meeks KAC,2021-10-07,Genome Med,Genome-wide analyses of multiple obesity-related cytokines and hormones informs biology of cardiometabolic traits.
+25293881,Patel YM,2014-10-07,Cancer Epidemiol Biomarkers Prev,The contribution of common genetic variation to nicotine and cotinine glucuronidation in multiple ethnic/racial populations.
+28416818,Christophersen IE,2017-04-17,Nat Genet,Large-scale analyses of common and rare variants identify 12 new loci associated with atrial fibrillation.
+42236496,Zhao X,2026-06-03,Nat Commun,Genetic architecture of white matter microstructure captured by unsupervised deep representation learning of fractional anisotropy maps.
+39937552,Rayinda T,2025-02-12,JAMA Dermatol,Epistasis of ERAP1 With 4 Major Histocompatibility Complex Class I Alleles in Frontal Fibrosing Alopecia: A Genome-Wide Association Study Meta-Analysis.
+32231244,Xie J,2020-03-30,Nat Commun,The genetic architecture of membranous nephropathy and its potential to improve non-invasive diagnosis.
+31701892,Nalls MA,2019-12-01,Lancet Neurol,"Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies."
+21829377,Lemaitre RN,2011-07-28,PLoS Genet,Genetic loci associated with plasma phospholipid n-3 fatty acids: a meta-analysis of genome-wide association studies from the CHARGE Consortium.
+34337532,Fantus RJ,2021-05-25,Eur Urol Open Sci,Genetic Susceptibility for Low Testosterone in Men and Its Implications in Biology and Screening: Data from the UK Biobank.
+36804072,Pardinas AF,2023-03-01,Lancet Psychiatry,Pharmacokinetics and pharmacogenomics of clozapine in an ancestrally diverse sample: a longitudinal analysis and genome-wide association study using UK clinical monitoring data.
+28452372,Gorski M,2017-04-28,Sci Rep,1000 Genomes-based meta-analysis identifies 10 novel loci for kidney function.
+29220522,Liu F,2017-12-06,Hum Mol Genet,Meta-analysis of genome-wide association studies identifies 8 novel loci involved in shape variation of human head hair.
+27539887,Chahal HS,2016-08-19,Nat Commun,Genome-wide association study identifies 14 novel risk alleles associated with basal cell carcinoma.
+39749473,Crouch DJM,2025-01-01,Genet Epidemiol,Bayesian Effect Size Ranking to Prioritise Genetic Risk Variants in Common Diseases for Follow-Up Studies.
+39904976,Jackson VE,2025-02-04,Nat Commun,Multi-omic spatial effects on high-resolution AI-derived retinal thickness.
+39078117,Akcimen F,2024-07-30,Ann Neurol,Genomic Analysis Identifies Risk Factors in Restless Legs Syndrome.
+36536295,Vollenbrock CE,2022-12-19,BMC Genomics,Genome-wide association study identifies novel loci associated with skin autofluorescence in individuals without diabetes.
+36757925,Jiang X,2023-02-09,PLoS Genet,GWAS on retinal vasculometry phenotypes.
+36539618,Fernandez-Rozadilla C,2022-12-20,Nat Genet,"Deciphering colorectal cancer genetics through multi-omic analysis of 100,204 cases and 154,587 controls of European and east Asian ancestries."
+36543923,Sherva R,2022-12-22,Mol Psychiatry,African ancestry GWAS of dementia in a large military cohort identifies significant risk loci.
+25811787,Huffman JE,2015-03-26,PLoS One,Modulation of genetic associations with serum urate levels by body-mass-index in humans.
+32335043,Park S,2020-04-22,J Acad Nutr Diet,"Alcohol, Carbohydrate, and Calcium Intakes and Smoking Interactions with APOA5 rs662799 and rs2266788 were Associated with Elevated Plasma Triglyceride Concentrations in a Cross-Sectional Study of Korean Adults."
+25096241,Keller MF,2014-08-05,Hum Mol Genet,Trans-ethnic meta-analysis of white blood cell phenotypes.
+36778051,Tsuo K,2022-11-08,Cell Genom,Multi-ancestry meta-analysis of asthma identifies novel associations and highlights the value of increased power and diversity.
+31178129,Spracklen CN,2019-06-06,Am J Hum Genet,Exome-Derived Adiponectin-Associated Variants Implicate Obesity and Lipid Biology.
+37106081,Schoeler T,2023-04-27,Nat Hum Behav,Participation bias in the UK Biobank distorts genetic associations and downstream analyses.
+28346443,Melin BS,2017-03-27,Nat Genet,Genome-wide association study of glioma subtypes identifies specific differences in genetic susceptibility to glioblastoma and non-glioblastoma tumors.
+22832961,Kamboh MI,2012-05-15,Transl Psychiatry,Genome-wide association study of Alzheimer's disease.
+34290314,Brandes N,2021-07-21,Sci Rep,Genetic association studies of alterations in protein function expose recessive effects on cancer predisposition.
+37696869,Fan Q,2023-09-11,Nat Commun,Contribution of common and rare variants to Asian neovascular age-related macular degeneration subtypes.
+28430825,Ng MCY,2017-04-21,PLoS Genet,Discovery and fine-mapping of adiposity loci using high density imputation of genome-wide association studies in individuals of African ancestry: African Ancestry Anthropometry Genetics Consortium.
+38182742,Elliott A,2024-01-05,Nat Genet,Distinct and shared genetic architectures of gestational diabetes mellitus and type 2 diabetes.
+33310728,Ha E,2020-12-11,Ann Rheum Dis,"Large-scale meta-analysis across East Asian and European populations updated genetic architecture and variant-driven biology of rheumatoid arthritis, identifying 11 novel susceptibility loci."
+31501611,Karlsson T,2019-09-09,Nat Med,Contribution of genetics to visceral adiposity and its relation to cardiovascular and metabolic disease.
+36578646,Yeh KH,2022-01-31,Tzu Chi Med J,Circulating serum amyloid A levels but not SAA1 variants predict long-term outcomes of angiographically confirmed coronary artery disease.
+35729600,Guo P,2022-06-22,BMC Med,Pinpointing novel risk loci for Lewy body dementia and the shared genetic etiology with Alzheimer's disease and Parkinson's disease: a large-scale multi-trait association analysis.
+38532495,Pott J,2024-03-26,Biol Sex Differ,Sex and statin-related genetic associations at the PCSK9 gene locus: results of genome-wide association meta-analysis.
+36788602,Li S,2023-02-14,Genome Med,"Ultra-low-coverage genome-wide association study-insights into gestational age using 17,844 embryo samples with preimplantation genetic testing."
+33283231,Calvo-Serra B,2020-12-05,Hum Mol Genet,Urinary metabolite quantitative trait loci in children and their interaction with dietary factors.
+34077760,Alipanahi B,2021-06-01,Am J Hum Genet,Large-scale machine-learning-based phenotyping significantly improves genomic discovery for optic nerve head morphology.
+32386560,Ramirez J,2020-04-29,Am J Hum Genet,Common Genetic Variants Modulate the Electrocardiographic Tpeak-to-Tend Interval.
+35396452,Sarnowski C,2022-04-08,Commun Biol,Meta-analysis of genome-wide association studies identifies ancestry-specific associations underlying circulating total tau levels.
+28107422,de Vries PS,2017-01-20,PLoS One,Comparison of HapMap and 1000 Genomes Reference Panels in a Large-Scale Genome-Wide Association Study.
+37791980,Larsson SC,2023-10-04,Cancer Epidemiol Biomarkers Prev,Genome-Wide Association and Two-Sample Mendelian Randomization Analyses of Plasma Ghrelin and Gastrointestinal Cancer Risk.
+30070759,Olsson M,2018-08-02,J Thromb Haemost,Genome-wide analysis of genetic determinants of circulating factor VII activating protease (FSAP) activity.
+33532862,Hartiala JA,2021-02-03,Eur Heart J,Genome-wide analysis identifies novel susceptibility loci for myocardial infarction.
+34737440,Lona-Durazo F,2021-11-04,Commun Biol,A large Canadian cohort provides insights into the genetic architecture of human hair colour.
+35361970,Okbay A,2022-03-31,Nat Genet,Polygenic prediction of educational attainment within and between families from genome-wide association analyses in 3 million individuals.
+32916098,Verweij N,2020-09-02,Cell Syst,The Genetic Makeup of the Electrocardiogram.
+41419685,Kany S,2025-12-19,Nat Genet,Multitrait analyses identify genetic variants associated with aortic valve function and aortic stenosis risk.
+33619548,Oldoni F,2021-02-23,J Clin Endocrinol Metab,Genetic and Metabolic Determinants of Plasma Levels of ANGPTL8.
+22885922,Morris AP,2012-09-01,Nat Genet,Large-scale association analysis provides insights into the genetic architecture and pathophysiology of type 2 diabetes.
+23754956,Grarup N,2013-06-06,PLoS Genet,Genetic architecture of vitamin B12 and folate levels uncovered applying deeply sequenced large datasets.
+31451708,Hellwege JN,2019-08-26,Nat Commun,Mapping eGFR loci to the renal transcriptome and phenome in the VA Million Veteran Program.
+35168826,Wood AC,2022-01-07,Nutr Metab Cardiovasc Dis,Identification of genetic loci simultaneously associated with multiple cardiometabolic traits.
+40922984,Ahmed A,2025-08-31,J Obes,MRI-Based Genetic Studies Reveal Specific Genetic Variants and Disease Risks Associated With Fat Distribution Across Anatomical Sites.
+30926973,Bentley AR,2019-03-29,Nat Genet,"Multi-ancestry genome-wide gene-smoking interaction study of 387,272 individuals identifies new loci associated with serum lipids."
+39389019,He Q,2024-10-01,Cell Genom,A genome-wide association study of neonatal metabolites.
+23267103,Desch KC,2012-12-24,Proc Natl Acad Sci U S A,Linkage analysis identifies a locus for plasma von Willebrand factor undetected by genome-wide association.
+22705344,Sobrin L,2012-06-15,Ophthalmology,Heritability and genome-wide association study to assess genetic differences between advanced age-related macular degeneration subtypes.
+20383146,Kottgen A,2010-04-11,Nat Genet,New loci associated with kidney function and chronic kidney disease.
+30659077,Onengut-Gumuscu S,2019-01-18,Diabetes Care,Type 1 Diabetes Risk in African-Ancestry Participants and Utility of an Ancestry-Specific Genetic Risk Score.
+39643614,Allara E,2024-12-06,Commun Biol,Novel loci and biomedical consequences of iron homoeostasis variation.
+35935937,Hoglund J,2022-07-22,Front Immunol,Gene-Based Variant Analysis of Whole-Exome Sequencing in Relation to Eosinophil Count.
+26908601,Hinds DA,2016-02-09,Hum Mol Genet,Genome-wide association analysis of self-reported events in 6135 individuals and 252 827 controls identifies 8 loci associated with thrombosis.
+35446358,He W,2022-04-21,JAMA Ophthalmol,Association of Novel Loci With Keratoconus Susceptibility in a Multitrait Genome-Wide Association Study of the UK Biobank Database and Canadian Longitudinal Study on Aging.
+39746953,Valo E,2025-01-02,Nat Commun,Genome-wide characterization of 54 urinary metabolites reveals molecular impact of kidney function.
+28898252,Wheeler E,2017-09-12,PLoS Med,Impact of common genetic determinants of Hemoglobin A1c on type 2 diabetes risk and diagnosis in ancestrally diverse populations: A transethnic genome-wide meta-analysis.
+28416822,Low SK,2017-04-17,Nat Genet,Identification of six new genetic loci associated with atrial fibrillation in the Japanese population.
+26959369,Haiman CA,2016-03-09,PLoS One,Benzene Uptake and Glutathione S-transferase T1 Status as Determinants of S-Phenylmercapturic Acid in Cigarette Smokers in the Multiethnic Cohort.
+36502284,Yu XH,2022-12-10,Obesity (Silver Spring),Body surface area is a potential obesity index: Its genetic determination and its causality for later-life diseases.
+17554300,Wellcome Trust Case Control Consortium,2007-06-07,Nature,"Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls."
+29878111,Kocarnik JM,2018-08-01,Hum Mol Genet,"Discovery, fine-mapping, and conditional analyses of genetic variants associated with C-reactive protein in multiethnic populations using the Metabochip in the Population Architecture using Genomics and Epidemiology (PAGE) study."
+31213470,Moon JY,2019-06-18,Diabetes Care,A Genome-Wide Association Study Identifies Blood Disorder-Related Variants Influencing Hemoglobin A1c With Implications for Glycemic Status in U.S. Hispanics/Latinos.
+32247823,Parisinos CA,2020-04-02,J Hepatol,Genome-wide and Mendelian randomisation studies of liver MRI yield insights into the pathogenesis of steatohepatitis.
+35255492,Kousathanas A,2022-03-07,Nature,Whole genome sequencing reveals host factors underlying critical Covid-19.
+30940813,Kranzler HR,2019-04-02,Nat Commun,"Genome-wide association study of alcohol consumption and use disorder in 274,424 individuals from multiple populations."
+26362759,Rothwell S,2015-09-11,Ann Rheum Dis,Dense genotyping of immune-related loci in idiopathic inflammatory myopathies confirms HLA alleles as the strongest genetic risk factor and suggests different genetic background for major clinical subgroups.
+21833088,Sawcer S,2011-08-11,Nature,Genetic risk and a primary role for cell-mediated immune mechanisms in multiple sclerosis.
+41703085,Moberget T,2026-02-17,Commun Biol,The genetic architecture of human cerebellar morphology supports a key role for the cerebellum in human evolution and psychopathology.
+40050615,Kim J,2025-03-06,Nat Commun,Genome-wide meta-analysis identifies novel risk loci for uterine fibroids within and across multiple ancestry groups.
+32568366,Raghavan NS,2020-06-22,JAMA Neurol,"Association Between Common Variants in RBFOX1, an RNA-Binding Protein, and Brain Amyloidosis in Early and Preclinical Alzheimer Disease."
+41861830,Bartell E,2026-03-19,Am J Hum Genet,Genetics of skeletal proportions across two different populations.
+37479695,Cheng S,2023-07-21,Cell Discov,The STROMICS genome study: deep whole-genome sequencing and analysis of 10K Chinese patients with ischemic stroke reveal complex genetic and phenotypic interplay.
+39620209,Lyu X,2024-11-15,Front Immunol,A genome-wide cross-trait analysis identifying shared genetic basis and causal relationships between Hunner-type interstitial cystitis and autoimmune diseases in East Asian populations.
+37308787,Rajagopal VM,2023-06-12,Nat Genet,Rare coding variants in CHRNB2 reduce the likelihood of smoking.
+37488169,Thijssen AB,2023-07-25,Mol Psychiatry,Investigating genetically stratified subgroups to better understand the etiology of alcohol misuse.
+26366553,Danjou F,2015-09-14,Nat Genet,Genome-wide association analyses based on whole-genome sequencing in Sardinia provide insights into regulation of hemoglobin levels.
+37587153,Yang C,2023-08-16,Commun Biol,Genome-wide association studies and fine-mapping identify genomic loci for n-3 and n-6 polyunsaturated fatty acids in Hispanic American and African American cohorts.
+34925446,Soremekun O,2021-12-02,Front Genet,Genome-Wide Association and Mendelian Randomization Analysis Reveal the Causal Relationship Between White Blood Cell Subtypes and Asthma in Africans.
+28604728,Litchfield K,2017-06-12,Nat Genet,Identification of 19 new risk loci and potential regulatory mechanisms influencing susceptibility to testicular germ cell tumor.
+18978792,Cooper JD,2008-11-02,Nat Genet,Meta-analysis of genome-wide association study data identifies additional type 1 diabetes risk loci.
+37097752,Vergara C,2023-04-25,JCI Insight,Multi-ancestry sex-stratified genomic associations with HIV viral load and controller status from the ICGH.
+33057200,Bao EL,2020-10-14,Nature,Inherited myeloproliferative neoplasm risk affects haematopoietic stem cells.
+38072966,Al-Ali AK,2023-12-10,Sci Rep,Uncovering myocardial infarction genetic signatures using GWAS exploration in Saudi and European cohorts.
+41686896,Du M,2026-02-13,Sci Adv,Cross-trait genomic modeling reveals the polygenic architecture and systemic impact of MASLD.
+41951582,Kimura T,2026-04-08,Transl Psychiatry,Whole-genome sequencing reveals an East Asian-specific rare variant of INPP5J associated with Alzheimer's disease.
+23969696,Sabater-Lleal M,2013-08-22,Circulation,Multiethnic meta-analysis of genome-wide association studies in >100 000 subjects identifies 23 fibrinogen-associated Loci but no strong evidence of a causal association between circulating fibrinogen and cardiovascular disease.
+39948438,Wen S,2025-02-13,Nat Genet,Comparative analysis of the Mexico City Prospective Study and the UK Biobank identifies ancestry-specific effects on clonal hematopoiesis.
+18483556,Han J,2008-05-16,PLoS Genet,A genome-wide association study identifies novel alleles associated with hair color and skin pigmentation.
+32678081,Timmers PRHJ,2020-07-16,Nat Commun,Multivariate genomic scan implicates novel loci and haem metabolism in human ageing.
+24532676,Kim K,2014-02-14,Ann Rheum Dis,High-density genotyping of immune loci in Koreans and Europeans identifies eight new rheumatoid arthritis risk loci.
+31959851,Olafsdottir TA,2020-01-20,Nat Commun,Eighty-eight variants highlight the role of T cell regulation and airway remodeling in asthma pathogenesis.
+33821002,Naqvi S,2021-04-05,Nat Genet,Shared heritability of human face and brain shape.
+21909109,Kim YJ,2011-09-11,Nat Genet,Large-scale genome-wide association studies in East Asians identify new genetic loci influencing metabolic traits.
+31511532,Teumer A,2019-09-11,Nat Commun,Genome-wide association meta-analyses and fine-mapping elucidate pathways influencing albuminuria.
+40708016,Sherva R,2025-07-24,Alzheimers Res Ther,"Genome-wide association studies of Alzheimer's disease and related disorders stratified by sex, onset age, and Apolipoprotein E genotype reveal novel risk loci in African Americans."
+31358974,Evangelou E,2019-07-29,Nat Hum Behav,New alcohol-related genes suggest shared genetic mechanisms with neuropsychiatric disorders.
+32150548,Riveros-Mckay F,2020-03-09,PLoS Genet,The influence of rare variants in circulating metabolic biomarkers.
+24449572,Orozco G,2014-01-01,Arthritis Rheumatol,Novel rheumatoid arthritis susceptibility locus at 22q12 identified in an extended UK genome-wide association study.
+30578418,Giri A,2018-12-21,Nat Genet,"Trans-ethnic association study of blood pressure determinants in over 750,000 individuals."
+33910371,Stanislawski MA,2021-04-29,Arterioscler Thromb Vasc Biol,Soluble CD14 Levels in the Jackson Heart Study: Associations With Cardiovascular Disease Risk and Genetic Variants.
+22001757,Chambers JC,2011-10-16,Nat Genet,Genome-wide association study identifies loci influencing concentrations of liver enzymes in plasma.
+28892059,Chang D,2017-09-11,Nat Genet,A meta-analysis of genome-wide association studies identifies 17 new Parkinson's disease risk loci.
+23381795,Verweij N,2013-02-04,Hypertension,Genome-wide association study on plasma levels of midregional-proadrenomedullin and C-terminal-pro-endothelin-1.
+33517400,Ahluwalia TS,2021-01-30,Hum Mol Genet,Genome-Wide Association Study of Circulating Interleukin 6 Levels Identifies Novel Loci.
+33627673,Gharahkhani P,2021-02-24,Nat Commun,Genome-wide meta-analysis identifies 127 open-angle glaucoma loci with consistent effect across ancestries.
+35652341,Kelly TN,2022-06-02,Hypertension,"Insights From a Large-Scale Whole-Genome Sequencing Study of Systolic Blood Pressure, Diastolic Blood Pressure, and Hypertension."
+31636271,Gallois A,2019-10-21,Nat Commun,A comprehensive study of metabolite genetics reveals strong pleiotropy and heterogeneity across time and context.
+30617275,Erzurumluoglu AM,2019-01-07,Mol Psychiatry,"Meta-analysis of up to 622,409 individuals identifies 40 novel smoking behaviour associated genetic loci."
+21533024,Pare G,2011-04-21,PLoS Genet,"Genome-wide association analysis of soluble ICAM-1 concentration reveals novel associations at the NFKBIK, PNPLA3, RELA, and SH2B3 loci."
+34707639,Liu T,2021-10-11,Front Genet,Exome-Wide Association Study Identifies East Asian-Specific Missense Variant MTHFR C136T Influencing Homocysteine Levels in Chinese Populations RH: ExWAS of tHCY in a Chinese Population.
+26853712,Zhang YB,2016-02-08,Nat Commun,Genome-wide association study identifies multiple susceptibility loci for craniofacial microsomia.
+20935630,Speliotes EK,2010-10-10,Nat Genet,"Association analyses of 249,796 individuals reveal 18 new loci associated with body mass index."
+30535121,Gao XR,2018-12-07,Hum Mol Genet,Genome-wide association analyses identify 139 loci associated with macular thickness in the UK Biobank cohort.
+30946743,Li Z,2019-04-04,PLoS Genet,Genome-wide association study in Turkish and Iranian populations identify rare familial Mediterranean fever gene (MEFV) polymorphisms associated with ankylosing spondylitis.
+36580032,Rothwell S,2022-12-29,Arthritis Rheumatol,Genome-wide imputation identifies novel associations and localises signals in idiopathic inflammatory myopathies.
+32460577,Song L,2020-05-28,Arterioscler Thromb Vasc Biol,Association of TIM-1 (T-Cell Immunoglobulin and Mucin Domain 1) With Incidence of Stroke.
+25108386,Hou S,2014-08-10,Nat Genet,Genome-wide association analysis of Vogt-Koyanagi-Harada syndrome identifies two new susceptibility loci at 1p31.2 and 10q21.3.
+26926045,Adhikari K,2016-03-01,Nat Commun,A genome-wide association scan in admixed Latin Americans identifies loci influencing facial and scalp hair features.
+28017375,van Rooij FJA,2016-12-22,Am J Hum Genet,Genome-wide Trans-ethnic Meta-analysis Identifies Seven Genetic Loci Influencing Erythrocyte Traits and a Role for RBPMS in Erythropoiesis.
+20385826,Neale BM,2010-04-12,Proc Natl Acad Sci U S A,Genome-wide association study of advanced age-related macular degeneration identifies a role of the hepatic lipase gene (LIPC).
+30572963,Marquez A,2018-12-20,Genome Med,Meta-analysis of Immunochip data of four autoimmune diseases reveals novel single-disease and cross-phenotype associations.
+30850646,Tziotzios C,2019-03-08,Nat Commun,Genome-wide association study in frontal fibrosing alopecia identifies four susceptibility loci including HLA-B*07:02.
+21685912,Hoglinger GU,2011-06-19,Nat Genet,Identification of common variants influencing risk of the tauopathy progressive supranuclear palsy.
+31969989,Oni-Orisan A,2020-01-16,NPJ Genom Med,The impact of adjusting for baseline in pharmacogenomic genome-wide association studies of quantitative change.
+35228297,Joseph CB,2022-03-01,J Am Soc Nephrol,Meta-GWAS Reveals Novel Genetic Variants Associated with Urinary Excretion of Uromodulin.
+36918541,Young WJ,2023-03-14,Nat Commun,Genetic architecture of spatial electrical biomarkers for cardiac arrhythmia and relationship with cardiovascular disease.
+34785669,Grosche S,2021-11-16,Nat Commun,"Rare variant analysis in eczema identifies exonic variants in DUSP1, NOTCH4 and SLC9A4."
+35379992,Bellenguez C,2022-04-04,Nat Genet,New insights into the genetic etiology of Alzheimer's disease and related dementias.
+28371326,Zhu Y,2017-03-30,J Cell Mol Med,Susceptibility loci for metabolic syndrome and metabolic components identified in Han Chinese: a multi-stage genome-wide association study.
+28714469,Langefeld CD,2017-07-17,Nat Commun,Transancestral mapping and genetic load in systemic lupus erythematosus.
+41922918,Portas L,2026-04-01,Nat Commun,Genetic architecture of sleep in a genome wide association study of device measured sleep traits.
+32843070,Winkler TW,2020-08-26,BMC Med Genomics,Genome-wide association meta-analysis for early age-related macular degeneration highlights novel loci and insights for advanced disease.
+34033851,Cordell HJ,2021-05-22,J Hepatol,An international genome-wide meta-analysis of primary biliary cholangitis: novel risk loci and candidate drugs.
+40075078,Yuan S,2025-03-12,Nat Commun,"GWAS identifies genetic loci, lifestyle factors and circulating biomarkers that are risk factors for sarcoidosis."
+41238566,Luben RN,2025-11-14,Nat Commun,GWAS for primary angle-closure glaucoma identifies loci related to ocular biometry and morphology.
+24755620,Perez-Palma E,2014-04-22,PLoS One,Overrepresentation of glutamate signaling in Alzheimer's disease: network-based pathway enrichment using meta-analysis of genome-wide association studies.
+36800424,Sha Z,2023-02-17,Sci Adv,Genetic architecture of the white matter connectome of the human brain.
+38437179,Nordeidet AN,2024-03-04,Eur J Prev Cardiol,Sex-specific and polygenic effects underlying resting heart rate and associated risk of cardiovascular disease.
+26838040,Kristjansson RP,2016-02-03,Nat Commun,Common and rare variants associating with serum levels of creatine kinase and lactate dehydrogenase.
+28443625,Justice AE,2017-04-26,Nat Commun,"Genome-wide meta-analysis of 241,258 adults accounting for smoking behaviour identifies novel loci for obesity traits."
+35511172,Gabriel AAG,2022-05-02,J Natl Cancer Inst,Genetic analysis of lung cancer and the germline impact on somatic mutation burden.
+35762941,Plotnikov D,2022-06-01,Invest Ophthalmol Vis Sci,High Blood Pressure and Intraocular Pressure: A Mendelian Randomization Study.
+37845353,Roychowdhury T,2023-10-16,Nat Genet,Genome-wide association meta-analysis identifies risk loci for abdominal aortic aneurysm and highlights PCSK9 as a therapeutic target.
+34274964,Duijvenboden S,2021-07-19,Hum Mol Genet,Genomic and pleiotropic analyses of resting QT interval identifies novel loci and overlap with atrial electrical disorders.
+37934784,Kwong A,2023-11-02,Hum Mol Genet,"Whole genome sequencing of 4,787 individuals identifies gene-based rare variants in age-related macular degeneration."
+31630189,Casanova F,2019-10-20,Hum Mol Genet,A genome-wide association study implicates multiple mechanisms influencing raised urinary albumin-creatinine ratio.
+24097067,Lessard CJ,2013-11-01,Nat Genet,Variants at multiple loci implicated in both innate and adaptive immune responses are associated with Sjögren's syndrome.
+28270201,Nagy R,2017-03-07,Genome Med,"Exploration of haplotype research consortium imputation for genome-wide association studies in 20,032 Generation Scotland participants."
+22581228,Manning AK,2012-05-13,Nat Genet,A genome-wide approach accounting for body mass index identifies genetic variants influencing fasting glycemic traits and insulin resistance.
+38459180,Yang ML,2024-03-08,Nat Med,Sex-specific genetic architecture of blood pressure.
+30089514,Chen JA,2018-08-08,Mol Neurodegener,Joint genome-wide association study of progressive supranuclear palsy identifies novel susceptibility loci and genetic correlation to neurodegenerative diseases.
+42178310,Tyrmi JS,2026-05-25,Nat Commun,Genome-wide meta-analysis identifies genetic drivers of bile acid metabolism in intrahepatic cholestasis of pregnancy.
+31087446,Han S,2019-05-13,Genet Epidemiol,"Exome chip-driven association study of lipidemia in >14,000 Koreans and evaluation of genetic effect on identified variants between different ethnic groups."
+32929176,Feng GJ,2020-09-14,J Hum Genet,Identification of pleiotropic loci underlying hip bone mineral density and trunk lean mass.
+28073927,Springelkamp H,2017-01-10,Hum Mol Genet,New insights into the genetics of primary open-angle glaucoma based on meta-analyses of intraocular pressure and optic disc characteristics.
+31036433,Pividori M,2019-04-26,Lancet Respir Med,Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies.
+21124955,Marzi C,2010-11-18,PLoS Genet,Genome-wide association study identifies two novel regions at 11p15.5-p13 and 1p31 with major impact on acute-phase serum amyloid A.
+27424798,Chahal HS,2016-07-18,Nat Commun,Genome-wide association study identifies novel susceptibility loci for cutaneous squamous cell carcinoma.
+38898991,Andreu-Sanchez S,2024-03-30,Imeta,Unraveling interindividual variation of trimethylamine <i>N</i>-oxide and its precursors at the population level.
+37156394,Ozeki T,2023-05-06,J Invest Dermatol,Association of Genetic Variants of HLA-DQA1 with Bullous Pemphigoid Induced by Dipeptidyl Peptidase-4 Inhibitors.
+28067908,de Lange KM,2017-01-09,Nat Genet,Genome-wide association study implicates immune activation of multiple integrin genes in inflammatory bowel disease.
+31869403,Kowalski MH,2019-12-23,PLoS Genet,"Use of >100,000 NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium whole genome sequences improves imputation quality and detection of rare variant associations in admixed African and Hispanic/Latino populations."
+30012220,Prins BP,2018-07-17,Genome Biol,"Exome-chip meta-analysis identifies novel loci associated with cardiac conduction, including ADAMTS6."
+41325371,Sadler MC,2025-12-01,PLoS Genet,Genetic determinants of zinc homeostasis and its role in cardiometabolic diseases.
+39251599,Farrell K,2024-09-09,Nat Commun,"Genetic, transcriptomic, histological, and biochemical analysis of progressive supranuclear palsy implicates glial activation and novel risk genes."
+35915169,Byun J,2022-08-01,Nat Genet,"Cross-ancestry genome-wide meta-analysis of 61,047 cases and 947,237 controls identifies new susceptibility loci contributing to lung cancer."
+37127109,Zhang J,2023-04-29,Am J Clin Nutr,Metabolic signature of healthy lifestyle and risk of rheumatoid arthritis: observational and Mendelian randomization study.
+23563607,Berndt SI,2013-04-07,Nat Genet,Genome-wide meta-analysis identifies 11 new loci for anthropometric traits and provides insights into genetic architecture.
+25231870,Perry JR,2014-07-23,Nature,Parent-of-origin-specific allelic associations among 106 genomic loci for age at menarche.
+37492107,Wu Y,2023-06-05,Cell Genom,150 risk variants for diverticular disease of intestine prioritize cell types and enable polygenic prediction of disease susceptibility.
+37587338,Gupta R,2023-08-16,Nature,Nuclear genetic control of mtDNA copy number and heteroplasmy in humans.
+21757653,Lovely RS,2011-07-14,Arterioscler Thromb Vasc Biol,Assessment of genetic determinants of the association of γ' fibrinogen in relation to cardiovascular disease.
+41791023,Jacobs BM,2026-03-06,Neurology,Genetic Determinants of Multiple Sclerosis Susceptibility in People From Diverse Ancestral Backgrounds.
+20541252,Wang TJ,2010-06-09,Lancet,Common genetic determinants of vitamin D insufficiency: a genome-wide association study.
+37002690,Zeng Y,2023-04-01,Am J Psychiatry,Genetic Associations Between Stress-Related Disorders and Autoimmune Disease.
+28448500,Graff M,2017-04-27,PLoS Genet,"Genome-wide physical activity interactions in adiposity - A meta-analysis of 200,452 adults."
+41640362,Awada A,2026-02-05,J Infect Dis,Multi-ancestry GWAS identifies variants in a zinc finger gene cluster as novel regulators of HIV control.
+37985223,Archer DB,2023-11-20,Alzheimers Dement,Longitudinal change in memory performance as a strong endophenotype for Alzheimer's disease.
+17804836,Plenge RM,2007-09-05,N Engl J Med,TRAF1-C5 as a risk locus for rheumatoid arthritis--a genomewide study.
+33311554,Jiang X,2020-12-11,Commun Biol,Fine-mapping and cell-specific enrichment at corneal resistance factor loci prioritize candidate causal regulatory variants.
+37539664,Ta M,2023-08-04,Mov Disord,Genome-Wide Meta-Analysis of Cerebrospinal Fluid Biomarkers in Alzheimer's Disease and Parkinson's Disease Cohorts.
+36539420,Xiong Z,2022-12-20,Nat Commun,Combining genome-wide association studies highlight novel loci involved in human facial variation.
+29808027,Tedja MS,2018-05-28,Nat Genet,Genome-wide association meta-analysis highlights light-induced signaling as a driver for refractive error.
+30220432,Haas ME,2018-09-06,Am J Hum Genet,Genetic Association of Albuminuria with Cardiometabolic Disease and Blood Pressure.

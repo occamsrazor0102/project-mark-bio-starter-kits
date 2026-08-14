@@ -1,0 +1,5 @@
+analyte_code,analyte_name,unit,loinc
+GHB,Glycohemoglobin (HbA1c),%,4548-4
+TC,Total cholesterol,mg/dL,2093-3
+HDL,Direct HDL cholesterol,mg/dL,2085-9
+GLU,Fasting plasma glucose,mg/dL,1558-2

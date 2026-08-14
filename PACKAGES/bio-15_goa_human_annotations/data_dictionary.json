@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "source": "GOA Human (UniProt-GOA) gene association file",
+    "source_url": "https://www.ebi.ac.uk/GOA/",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) — Gene Ontology Consortium / UniProt-GOA",
+    "license_url": "https://geneontology.org/docs/go-citation-policy/",
+    "download_urls": [
+      "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human.gaf.gz"
+    ],
+    "transforms": [
+      "Streamed goa_human.gaf.gz (GAF 2.2, generated 2026-07-28).",
+      "Kept evidence codes in EXP/IDA/IPI/IMP/IGI/IEP/TAS/IC/HTP/HDA/HMP/HGI/HEP (IEA electronic annotations excluded from the starter grain).",
+      "Capped at 40,000 annotation rows (kept=40000) after the evidence filter.",
+      "Split gene, GO term, evidence, and aspect into dimensions."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_annotation.csv": {
+      "description": "Human GO annotations restricted to experimental, author-statement, and HTP evidence.",
+      "fields": [
+        {
+          "name": "db",
+          "type": "string",
+          "description": "Source database (UniProtKB)",
+          "example": "UniProtKB"
+        },
+        {
+          "name": "db_object_id",
+          "type": "string",
+          "description": "UniProt accession (FK -> dim_gene.db_object_id)",
+          "example": "A0A024RBG1"
+        },
+        {
+          "name": "db_object_symbol",
+          "type": "string",
+          "description": "Gene / product symbol",
+          "example": "NUDT4B"
+        },
+        {
+          "name": "qualifier",
+          "type": "string",
+          "description": "GO qualifier (e.g. NOT); null if empty",
+          "example": "enables"
+        },
+        {
+          "name": "go_id",
+          "type": "string",
+          "description": "GO term (FK -> dim_go.go_id)",
+          "example": "GO:0005515"
+        },
+        {
+          "name": "evidence_code",
+          "type": "string",
+          "description": "Evidence code (FK -> dim_evidence.evidence_code)",
+          "example": "IPI"
+        },
+        {
+          "name": "aspect",
+          "type": "string",
+          "description": "F/P/C (FK -> dim_aspect.aspect)",
+          "example": "F"
+        },
+        {
+          "name": "db_object_name",
+          "type": "string",
+          "description": "Product name; null if empty",
+          "example": "Diphosphoinositol polyphosphate phosphohydrolase NUDT4B"
+        },
+        {
+          "name": "db_object_type",
+          "type": "string",
+          "description": "Object type (protein)",
+          "example": "protein"
+        },
+        {
+          "name": "taxon",
+          "type": "string",
+          "description": "Taxon string",
+          "example": "taxon:9606"
+        },
+        {
+          "name": "assigned_by",
+          "type": "string",
+          "description": "Assigning group",
+          "example": "IntAct"
+        }
+      ]
+    },
+    "dim_gene.csv": {
+      "description": "UniProt accessions, symbols, and object types.",
+      "fields": [
+        {
+          "name": "db_object_id",
+          "type": "string",
+          "description": "UniProt accession (PK)",
+          "example": "A0A024RBG1"
+        },
+        {
+          "name": "db_object_symbol",
+          "type": "string",
+          "description": "Symbol",
+          "example": "NUDT4B"
+        },
+        {
+          "name": "db_object_name",
+          "type": "string",
+          "description": "Name; null if empty",
+          "example": "Diphosphoinositol polyphosphate phosphohydrolase NUDT4B"
+        },
+        {
+          "name": "db_object_type",
+          "type": "string",
+          "description": "Object type",
+          "example": "protein"
+        }
+      ]
+    },
+    "dim_go.csv": {
+      "description": "GO term ids with aspect.",
+      "fields": [
+        {
+          "name": "go_id",
+          "type": "string",
+          "description": "GO id (PK)",
+          "example": "GO:0005515"
+        },
+        {
+          "name": "aspect",
+          "type": "string",
+          "description": "Aspect",
+          "example": "F"
+        }
+      ]
+    },
+    "dim_evidence.csv": {
+      "description": "Evidence codes grouped as experimental / high-throughput / author.",
+      "fields": [
+        {
+          "name": "evidence_code",
+          "type": "string",
+          "description": "Evidence code (PK)",
+          "example": "IPI"
+        },
+        {
+          "name": "evidence_group",
+          "type": "string",
+          "description": "experimental / high-throughput / author",
+          "example": "experimental"
+        }
+      ]
+    },
+    "dim_aspect.csv": {
+      "description": "GO aspect codebook.",
+      "fields": [
+        {
+          "name": "aspect",
+          "type": "string",
+          "description": "Aspect code (PK)",
+          "example": "F"
+        },
+        {
+          "name": "aspect_name",
+          "type": "string",
+          "description": "Aspect name",
+          "example": "molecular function"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "GAF generation date from the file header.",
+      "fields": [
+        {
+          "name": "gaf_date",
+          "type": "date",
+          "description": "GAF date (PK)",
+          "example": "2026-07-28"
+        },
+        {
+          "name": "gaf_version",
+          "type": "string",
+          "description": "GAF version",
+          "example": "2.2"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "GOA human experimental annotations"
+        }
+      ]
+    }
+  }
+}

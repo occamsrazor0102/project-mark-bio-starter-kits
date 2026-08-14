@@ -1,0 +1,963 @@
+{
+  "name": "Strata",
+  "prefix": "bio",
+  "description": "Starter data kits for decomposing headline effects in experimental, clinical-population, and omics analysis.",
+  "kits": [
+    {
+      "id": "bio-01_nhanes_cardiometabolic",
+      "prefix": "bio",
+      "code": "bio-01",
+      "title": "NHANES 2017–2018: cardiometabolic exam, HbA1c, lipids, and glucose",
+      "framing": "Judge whether a cardiometabolic screening or fitness-benefit program's headline A1c / LDL / BMI change still holds after decomposing by age, sex, race/ethnicity, education, and income.",
+      "source": "CDC / NCHS National Health and Nutrition Examination Survey (NHANES) 2017–2018",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 23683,
+      "files": [
+        {
+          "name": "fact_exam.csv",
+          "rows": 5533,
+          "grain": "one row per MEC-examined adult participant"
+        },
+        {
+          "name": "fact_lab.csv",
+          "rows": 18150,
+          "grain": "one row per adult participant × laboratory analyte"
+        },
+        {
+          "name": "dim_participant.csv",
+          "rows": 5533,
+          "grain": "one row per adult participant (PK seqn)"
+        },
+        {
+          "name": "dim_analyte.csv",
+          "rows": 4,
+          "grain": "one row per laboratory analyte (PK analyte_code)"
+        },
+        {
+          "name": "dim_code.csv",
+          "rows": 27,
+          "grain": "one row per codebook value (sex / race / education / income)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row describing the 2017–2018 NHANES vintage"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "assay",
+        "cohort",
+        "nhanes"
+      ],
+      "short": "Assay + cohort"
+    },
+    {
+      "id": "bio-02_cdc_places_county",
+      "prefix": "bio",
+      "code": "bio-02",
+      "title": "CDC PLACES 2024: county crude prevalence of chronic disease and prevention indicators",
+      "framing": "Judge whether a county wellness or insurer-embedded fitness program's headline outcome still holds after decomposing by measure family, state, and county size.",
+      "source": "CDC PLACES: Local Data for Better Health, County Data 2024 release",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 25112,
+      "files": [
+        {
+          "name": "fact_prevalence.csv",
+          "rows": 25112,
+          "grain": "one row per county × measure × year (crude prevalence)"
+        },
+        {
+          "name": "dim_geography.csv",
+          "rows": 948,
+          "grain": "one row per county (PK geoid = 5-digit FIPS)"
+        },
+        {
+          "name": "dim_measure.csv",
+          "rows": 40,
+          "grain": "one row per PLACES measure (PK measure_id)"
+        },
+        {
+          "name": "dim_category.csv",
+          "rows": 6,
+          "grain": "one row per PLACES category (PK category_id)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for the 2024 PLACES release vintage"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "registry",
+        "county",
+        "brfss"
+      ],
+      "short": "County registry"
+    },
+    {
+      "id": "bio-03_nchs_leading_causes",
+      "prefix": "bio",
+      "code": "bio-03",
+      "title": "NCHS leading causes of death by state and year",
+      "framing": "Judge whether a prevention program's headline mortality drop survives decomposition by cause, state, and year.",
+      "source": "NCHS Leading Causes of Death, United States (data.cdc.gov)",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 4,
+      "n_files": 6,
+      "n_fact_rows": 10868,
+      "files": [
+        {
+          "name": "fact_deaths.csv",
+          "rows": 10868,
+          "grain": "one row per state × cause × year"
+        },
+        {
+          "name": "dim_cause.csv",
+          "rows": 11,
+          "grain": "one row per NCHS 113-cause grouping (PK cause_id)"
+        },
+        {
+          "name": "dim_state.csv",
+          "rows": 52,
+          "grain": "one row per state or United States total"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 19,
+          "grain": "one row per calendar year present in the series"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "registry",
+        "mortality"
+      ],
+      "short": "Mortality registry"
+    },
+    {
+      "id": "bio-04_cdc_diabetes_burden",
+      "prefix": "bio",
+      "code": "bio-04",
+      "title": "CDC USDSS: diagnosed diabetes burden and state economic cost",
+      "framing": "Judge whether a diabetes-prevention program's headline prevalence or cost reduction survives decomposition by state, age, race/ethnicity, sex, and education.",
+      "source": "CDC United States Diabetes Surveillance System (USDSS) and Diabetes State Burden Toolkit",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 74752,
+      "files": [
+        {
+          "name": "fact_prevalence.csv",
+          "rows": 50000,
+          "grain": "one row per geography × year × indicator × demographic strata"
+        },
+        {
+          "name": "fact_cost.csv",
+          "rows": 24752,
+          "grain": "one row per state × year × cost indicator × published stratification"
+        },
+        {
+          "name": "dim_geography.csv",
+          "rows": 107,
+          "grain": "one row per state or national rollup (PK geo_name)"
+        },
+        {
+          "name": "dim_indicator.csv",
+          "rows": 4,
+          "grain": "one row per USDSS burden indicator (PK indicator_id)"
+        },
+        {
+          "name": "dim_strata.csv",
+          "rows": 29,
+          "grain": "one row per unique age × race × sex × education combination (PK strata_id)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 15,
+          "grain": "one row per calendar year"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "registry",
+        "diabetes",
+        "cost"
+      ],
+      "short": "Diabetes burden"
+    },
+    {
+      "id": "bio-05_cdc_stroke_mortality",
+      "prefix": "bio",
+      "code": "bio-05",
+      "title": "CDC NVSS: county stroke mortality among adults 35+ by sex and race/ethnicity",
+      "framing": "Judge whether a stroke-prevention program's headline mortality decline survives decomposition by county, sex, and race/ethnicity.",
+      "source": "CDC Stroke Mortality Data Among US Adults (35+) by State/Territory and County — NVSS",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 19592,
+      "files": [
+        {
+          "name": "fact_stroke_mortality.csv",
+          "rows": 19592,
+          "grain": "one row per county × year × sex × race/ethnicity"
+        },
+        {
+          "name": "dim_geography.csv",
+          "rows": 890,
+          "grain": "one row per county (PK geoid)"
+        },
+        {
+          "name": "dim_sex.csv",
+          "rows": 3,
+          "grain": "one row per sex stratification"
+        },
+        {
+          "name": "dim_race.csv",
+          "rows": 8,
+          "grain": "one row per race/ethnicity stratification"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row per published year"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "registry",
+        "stroke",
+        "neuroscience"
+      ],
+      "short": "Stroke registry"
+    },
+    {
+      "id": "bio-06_gwas_catalog_associations",
+      "prefix": "bio",
+      "code": "bio-06",
+      "title": "GWAS Catalog: genome-wide significant lead associations with EFO trait classes",
+      "framing": "Judge whether a polygenic-score product's headline effect size survives decomposition by trait class, study size, chromosome, and mapped gene family.",
+      "source": "NHGRI-EBI GWAS Catalog (EMBL-EBI / NHGRI)",
+      "license": "GWAS Catalog data are freely available under EMBL-EBI terms; the Catalog is a public NHGRI-EBI resource intended for reuse with attribution (CC0-style catalog content).",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 40000,
+      "files": [
+        {
+          "name": "fact_association.csv",
+          "rows": 40000,
+          "grain": "one row per genome-wide significant SNP–trait association"
+        },
+        {
+          "name": "dim_trait.csv",
+          "rows": 98234,
+          "grain": "one row per GWAS Catalog disease/trait (PK disease_trait)"
+        },
+        {
+          "name": "dim_study.csv",
+          "rows": 754,
+          "grain": "one row per PubMed-indexed study (PK pubmed_id)"
+        },
+        {
+          "name": "dim_gene.csv",
+          "rows": 5443,
+          "grain": "one row per mapped gene symbol (first gene if multi-mapped)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this catalog extract / significance threshold"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "gwas",
+        "genetics"
+      ],
+      "short": "GWAS"
+    },
+    {
+      "id": "bio-07_hpa_tissue_specificity",
+      "prefix": "bio",
+      "code": "bio-07",
+      "title": "Human Protein Atlas: RNA tissue specificity and nTPM for human genes",
+      "framing": "Judge whether a target's 'broadly expressed' or 'tissue-restricted' headline survives decomposition by HPA specificity class, chromosome, and protein class.",
+      "source": "The Human Protein Atlas — proteinatlas.tsv subset",
+      "license": "Creative Commons Attribution-ShareAlike 3.0 International (CC BY-SA 3.0) as stated by HPA for the downloadable atlas files",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 17870,
+      "files": [
+        {
+          "name": "fact_tissue_rna.csv",
+          "rows": 17870,
+          "grain": "one row per gene × tissue reported as RNA-specific nTPM"
+        },
+        {
+          "name": "dim_gene.csv",
+          "rows": 20151,
+          "grain": "one row per HPA gene (PK gene_symbol)"
+        },
+        {
+          "name": "dim_tissue.csv",
+          "rows": 37,
+          "grain": "one row per consensus tissue / cell type label"
+        },
+        {
+          "name": "dim_specificity.csv",
+          "rows": 5,
+          "grain": "one row per HPA RNA tissue-specificity class"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this atlas extract"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "expression",
+        "protein-atlas"
+      ],
+      "short": "Expression"
+    },
+    {
+      "id": "bio-08_reactome_pathways",
+      "prefix": "bio",
+      "code": "bio-08",
+      "title": "Reactome: human pathway hierarchy and UniProt participation",
+      "framing": "Judge whether a pathway-enrichment headline survives decomposition by top-level event, evidence code, and protein membership.",
+      "source": "Reactome Pathway Database",
+      "license": "Creative Commons CC0 1.0 Universal — Reactome content is waived to the public domain",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 57598,
+      "files": [
+        {
+          "name": "fact_participation.csv",
+          "rows": 54699,
+          "grain": "one row per UniProt accession × human Reactome pathway (capped extract)"
+        },
+        {
+          "name": "fact_hierarchy.csv",
+          "rows": 2899,
+          "grain": "one row per parent–child link among human pathways"
+        },
+        {
+          "name": "dim_pathway.csv",
+          "rows": 2883,
+          "grain": "one row per human Reactome pathway (PK pathway_id)"
+        },
+        {
+          "name": "dim_species.csv",
+          "rows": 1,
+          "grain": "one row for Homo sapiens"
+        },
+        {
+          "name": "dim_evidence.csv",
+          "rows": 2,
+          "grain": "one row per Reactome evidence code observed on participation"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for the current Reactome download"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "pathway",
+        "reactome"
+      ],
+      "short": "Pathways"
+    },
+    {
+      "id": "bio-09_chembl_drug_mechanisms",
+      "prefix": "bio",
+      "code": "bio-09",
+      "title": "ChEMBL: mechanism of action and max development phase",
+      "framing": "Judge whether a target-class 'druggable / approved' headline survives decomposition by action type, max phase, and direct-interaction flag.",
+      "source": "ChEMBL (EMBL-EBI) mechanism API",
+      "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 4000,
+      "files": [
+        {
+          "name": "fact_mechanism.csv",
+          "rows": 4000,
+          "grain": "one row per ChEMBL mechanism record"
+        },
+        {
+          "name": "dim_molecule.csv",
+          "rows": 3041,
+          "grain": "one row per molecule_chembl_id (PK)"
+        },
+        {
+          "name": "dim_target.csv",
+          "rows": 826,
+          "grain": "one row per target_chembl_id (PK)"
+        },
+        {
+          "name": "dim_action.csv",
+          "rows": 30,
+          "grain": "one row per action_type"
+        },
+        {
+          "name": "dim_phase.csv",
+          "rows": 5,
+          "grain": "one row per max_phase value"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row describing the API extract"
+        }
+      ],
+      "domain": "assay",
+      "tags": [
+        "chembl",
+        "mechanism"
+      ],
+      "short": "Drug mechanism"
+    },
+    {
+      "id": "bio-10_openfda_faers",
+      "prefix": "bio",
+      "code": "bio-10",
+      "title": "openFDA FAERS: adverse-event reaction counts and report-level sample",
+      "framing": "Judge whether a drug-safety signal's headline report count survives decomposition by reaction, sex, seriousness, and co-mentioned drug.",
+      "source": "FDA openFDA drug adverse-event (FAERS) API",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government. FAERS reports are not proof of causation.",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 694,
+      "files": [
+        {
+          "name": "fact_event.csv",
+          "rows": 694,
+          "grain": "one row per FAERS report × drug × reaction (from the API sample)"
+        },
+        {
+          "name": "dim_reaction.csv",
+          "rows": 307,
+          "grain": "one row per MedDRA PT (counts from the openFDA count endpoint, plus any sample-only terms)"
+        },
+        {
+          "name": "dim_drug.csv",
+          "rows": 107,
+          "grain": "one row per generic/brand/medicinal product name in the sample"
+        },
+        {
+          "name": "dim_sex.csv",
+          "rows": 3,
+          "grain": "FAERS patientsex codebook"
+        },
+        {
+          "name": "dim_serious.csv",
+          "rows": 2,
+          "grain": "FAERS serious flag codebook"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this openFDA extract"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "safety",
+        "faers"
+      ],
+      "short": "Safety reports"
+    },
+    {
+      "id": "bio-11_clinicaltrials_interventional",
+      "prefix": "bio",
+      "code": "bio-11",
+      "title": "ClinicalTrials.gov: interventional study status, phase, conditions, and interventions",
+      "framing": "Judge whether a pipeline 'on-time completion' headline survives decomposition by phase, status, sponsor class, and condition.",
+      "source": "ClinicalTrials.gov API v2 (National Library of Medicine)",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 7473,
+      "files": [
+        {
+          "name": "fact_study.csv",
+          "rows": 1600,
+          "grain": "one row per NCT interventional study in the API sample"
+        },
+        {
+          "name": "fact_condition.csv",
+          "rows": 2698,
+          "grain": "one row per study × condition"
+        },
+        {
+          "name": "fact_intervention.csv",
+          "rows": 3175,
+          "grain": "one row per study × intervention"
+        },
+        {
+          "name": "dim_status.csv",
+          "rows": 4,
+          "grain": "one row per overall status"
+        },
+        {
+          "name": "dim_phase.csv",
+          "rows": 6,
+          "grain": "one row per primary phase token"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this ClinicalTrials.gov extract"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "trials",
+        "registry"
+      ],
+      "short": "Trials"
+    },
+    {
+      "id": "bio-12_usda_fooddata_foundation",
+      "prefix": "bio",
+      "code": "bio-12",
+      "title": "USDA FoodData Central Foundation Foods: nutrients per 100 g",
+      "framing": "Judge whether a reformulation or meal-plan headline ('20% less sodium') survives decomposition by food category and nutrient.",
+      "source": "USDA FoodData Central — Foundation Foods CSV, April 30 2026",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 16975,
+      "files": [
+        {
+          "name": "fact_food_nutrient.csv",
+          "rows": 16975,
+          "grain": "one row per foundation food × nutrient"
+        },
+        {
+          "name": "dim_food.csv",
+          "rows": 395,
+          "grain": "one row per FDC foundation food (PK fdc_id)"
+        },
+        {
+          "name": "dim_nutrient.csv",
+          "rows": 477,
+          "grain": "one row per nutrient (PK nutrient_id)"
+        },
+        {
+          "name": "dim_category.csv",
+          "rows": 28,
+          "grain": "one row per food category (PK food_category_id)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for the April 2026 Foundation Foods release"
+        }
+      ],
+      "domain": "assay",
+      "tags": [
+        "nutrition",
+        "food",
+        "usda"
+      ],
+      "short": "Nutrients"
+    },
+    {
+      "id": "bio-13_clinvar_gene_yield",
+      "prefix": "bio",
+      "code": "bio-13",
+      "title": "ClinVar: pathogenic / likely-pathogenic allele yield by gene",
+      "framing": "Judge whether a sequencing panel's 'high diagnostic yield' headline survives decomposition by gene, OMIM status, and P/LP-allele bin.",
+      "source": "NCBI ClinVar gene_specific_summary (tab-delimited)",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 92949,
+      "files": [
+        {
+          "name": "fact_gene_yield.csv",
+          "rows": 92949,
+          "grain": "one row per gene in ClinVar with submission and P/LP allele counts"
+        },
+        {
+          "name": "dim_gene.csv",
+          "rows": 92937,
+          "grain": "one row per gene symbol (PK gene_symbol) with NCBI GeneID and MIM"
+        },
+        {
+          "name": "dim_yield_bin.csv",
+          "rows": 5,
+          "grain": "one row per P/LP-allele count bin"
+        },
+        {
+          "name": "dim_mim.csv",
+          "rows": 17631,
+          "grain": "one row per OMIM MIM number observed"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for the ClinVar gene-summary snapshot date"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "clinvar",
+        "diagnostics"
+      ],
+      "short": "ClinVar yield"
+    },
+    {
+      "id": "bio-14_iedb_tcell_epitopes",
+      "prefix": "bio",
+      "code": "bio-14",
+      "title": "IEDB: T-cell epitope assays (human-preferring extract)",
+      "framing": "Judge whether a vaccine epitope's 'immunodominant' headline survives decomposition by host, source organism, epitope type, and qualitative outcome.",
+      "source": "Immune Epitope Database (IEDB) T-cell full export v3",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) — IEDB terms of use",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 25000,
+      "files": [
+        {
+          "name": "fact_assay.csv",
+          "rows": 25000,
+          "grain": "one row per IEDB T-cell assay (human-preferring extract, capped)"
+        },
+        {
+          "name": "dim_epitope.csv",
+          "rows": 8182,
+          "grain": "one row per epitope name (PK epitope_name)"
+        },
+        {
+          "name": "dim_host.csv",
+          "rows": 22,
+          "grain": "one row per host organism / strain name"
+        },
+        {
+          "name": "dim_organism.csv",
+          "rows": 161,
+          "grain": "one row per epitope source organism"
+        },
+        {
+          "name": "dim_qualitative.csv",
+          "rows": 5,
+          "grain": "one row per qualitative outcome label"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this IEDB extract"
+        }
+      ],
+      "domain": "assay",
+      "tags": [
+        "immunology",
+        "epitope"
+      ],
+      "short": "T-cell assays"
+    },
+    {
+      "id": "bio-15_goa_human_annotations",
+      "prefix": "bio",
+      "code": "bio-15",
+      "title": "GOA human: experimental and author-statement Gene Ontology annotations",
+      "framing": "Judge whether a gene-set 'enriched for process X' headline survives decomposition by evidence code, aspect, and qualifier.",
+      "source": "GOA Human (UniProt-GOA) gene association file",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0) — Gene Ontology Consortium / UniProt-GOA",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 40000,
+      "files": [
+        {
+          "name": "fact_annotation.csv",
+          "rows": 40000,
+          "grain": "one row per GO annotation (experimental / TAS / HTP extract, capped)"
+        },
+        {
+          "name": "dim_gene.csv",
+          "rows": 1375,
+          "grain": "one row per UniProt accession (PK db_object_id)"
+        },
+        {
+          "name": "dim_go.csv",
+          "rows": 3734,
+          "grain": "one row per GO term observed (PK go_id)"
+        },
+        {
+          "name": "dim_evidence.csv",
+          "rows": 12,
+          "grain": "one row per evidence code"
+        },
+        {
+          "name": "dim_aspect.csv",
+          "rows": 3,
+          "grain": "one row per GO aspect (F/P/C)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this GOA GAF vintage"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "go",
+        "annotation"
+      ],
+      "short": "GO annotations"
+    },
+    {
+      "id": "bio-16_orange_book_products",
+      "prefix": "bio",
+      "code": "bio-16",
+      "title": "FDA Orange Book: approved products, exclusivity, and listed patents",
+      "framing": "Judge whether a generic-entry or 'exclusivity cliff' headline survives decomposition by application type, marketing status, and exclusivity code.",
+      "source": "FDA Orange Book data files (products, exclusivity, patents)",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 24472,
+      "files": [
+        {
+          "name": "fact_exclusivity.csv",
+          "rows": 2341,
+          "grain": "one row per product × exclusivity code"
+        },
+        {
+          "name": "fact_patent.csv",
+          "rows": 22131,
+          "grain": "one row per product × patent number"
+        },
+        {
+          "name": "dim_product.csv",
+          "rows": 48502,
+          "grain": "one row per Orange Book product (PK product_key)"
+        },
+        {
+          "name": "dim_appl_type.csv",
+          "rows": 2,
+          "grain": "one row per application type (NDA/ANDA)"
+        },
+        {
+          "name": "dim_marketing.csv",
+          "rows": 3,
+          "grain": "one row per marketing type (RX/OTC/DISCN)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this Orange Book extract"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "regulatory",
+        "fda"
+      ],
+      "short": "Orange Book"
+    },
+    {
+      "id": "bio-17_owid_covid_vaccination",
+      "prefix": "bio",
+      "code": "bio-17",
+      "title": "Our World in Data: COVID-19 vaccination coverage by country",
+      "framing": "Judge whether a vaccination program's headline coverage or mortality-adjacent benefit survives decomposition by country vs aggregate, month, and dose series.",
+      "source": "Our World in Data COVID-19 vaccinations (github.com/owid/covid-19-data)",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 6691,
+      "files": [
+        {
+          "name": "fact_latest.csv",
+          "rows": 235,
+          "grain": "one row per country or OWID aggregate (latest published date)"
+        },
+        {
+          "name": "fact_monthly.csv",
+          "rows": 6456,
+          "grain": "one row per entity × year-month (last observation in month, 2021–2023)"
+        },
+        {
+          "name": "dim_entity.csv",
+          "rows": 235,
+          "grain": "one row per OWID location (PK entity)"
+        },
+        {
+          "name": "dim_iso.csv",
+          "rows": 235,
+          "grain": "one row per ISO / OWID code"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this OWID extract"
+        }
+      ],
+      "domain": "clinical-population",
+      "tags": [
+        "vaccination",
+        "public-health"
+      ],
+      "short": "Vaccination"
+    },
+    {
+      "id": "bio-18_pdb_structure_resolution",
+      "prefix": "bio",
+      "code": "bio-18",
+      "title": "wwPDB: structure resolution and method class for every current entry",
+      "framing": "Judge whether a structure-based design program's 'tractable pocket / high-res structure' headline survives decomposition by resolution bin and method class.",
+      "source": "Worldwide Protein Data Bank derived data — resolu.idx",
+      "license": "Creative Commons CC0 1.0 Universal — wwPDB data are released to the public domain",
+      "n_tables": 5,
+      "n_files": 7,
+      "n_fact_rows": 258167,
+      "files": [
+        {
+          "name": "fact_resolution.csv",
+          "rows": 258167,
+          "grain": "one row per PDB entry in resolu.idx"
+        },
+        {
+          "name": "dim_entry.csv",
+          "rows": 258008,
+          "grain": "one row per PDB id (PK pdb_id)"
+        },
+        {
+          "name": "dim_method.csv",
+          "rows": 2,
+          "grain": "one row per method class inferred from the resolution sentinel"
+        },
+        {
+          "name": "dim_resolution_bin.csv",
+          "rows": 7,
+          "grain": "one row per resolution bin"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this wwPDB derived-data extract"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "structure",
+        "pdb"
+      ],
+      "short": "Structures"
+    },
+    {
+      "id": "bio-19_uniprot_human_reviewed",
+      "prefix": "bio",
+      "code": "bio-19",
+      "title": "UniProt Swiss-Prot: reviewed human proteins, keywords, and PDB flags",
+      "framing": "Judge whether a target portfolio's 'human reviewed / structured / keyword-class' headline survives decomposition by length, keyword, and PDB presence.",
+      "source": "UniProtKB/Swiss-Prot reviewed human proteome (organism_id:9606)",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 70431,
+      "files": [
+        {
+          "name": "fact_keyword.csv",
+          "rows": 50000,
+          "grain": "one row per protein × UniProt keyword (capped)"
+        },
+        {
+          "name": "fact_structure_flag.csv",
+          "rows": 20431,
+          "grain": "one row per protein with a boolean has_pdb flag"
+        },
+        {
+          "name": "dim_protein.csv",
+          "rows": 20431,
+          "grain": "one row per reviewed human UniProt accession (PK accession)"
+        },
+        {
+          "name": "dim_keyword.csv",
+          "rows": 660,
+          "grain": "one row per keyword"
+        },
+        {
+          "name": "dim_length.csv",
+          "rows": 4,
+          "grain": "one row per length bin"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this UniProt stream extract"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "uniprot",
+        "proteome"
+      ],
+      "short": "Proteome"
+    },
+    {
+      "id": "bio-20_ncbi_human_genes",
+      "prefix": "bio",
+      "code": "bio-20",
+      "title": "NCBI Gene: Homo sapiens gene_info (biotype, chromosome, HGNC)",
+      "framing": "Judge whether a panel vendor's 'covers all disease genes' headline survives decomposition by biotype, chromosome, and official-nomenclature status.",
+      "source": "NCBI Gene gene_info for Homo sapiens",
+      "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+      "n_tables": 6,
+      "n_files": 8,
+      "n_fact_rows": 193884,
+      "files": [
+        {
+          "name": "fact_gene.csv",
+          "rows": 193884,
+          "grain": "one row per human NCBI gene (identity + classification FKs)"
+        },
+        {
+          "name": "dim_gene.csv",
+          "rows": 193884,
+          "grain": "one row per GeneID with description, map location, HGNC"
+        },
+        {
+          "name": "dim_biotype.csv",
+          "rows": 11,
+          "grain": "one row per NCBI type_of_gene"
+        },
+        {
+          "name": "dim_chromosome.csv",
+          "rows": 28,
+          "grain": "one row per chromosome / scaffold token"
+        },
+        {
+          "name": "dim_nomenclature.csv",
+          "rows": 2,
+          "grain": "one row per nomenclature status (O = official, etc.)"
+        },
+        {
+          "name": "dim_year.csv",
+          "rows": 1,
+          "grain": "one row for this NCBI gene_info extract"
+        }
+      ],
+      "domain": "omics",
+      "tags": [
+        "ncbi",
+        "gene",
+        "reference"
+      ],
+      "short": "Gene reference"
+    }
+  ]
+}

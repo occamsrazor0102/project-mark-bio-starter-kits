@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "source": "CDC / NCHS National Health and Nutrition Examination Survey (NHANES) 2017–2018",
+    "source_url": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.cdc.gov/nchs/data_access/restrictions.htm",
+    "download_urls": [
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.xpt",
+      "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPXO_J.xpt"
+    ],
+    "transforms": [
+      "Read SAS XPORT files for DEMO/BMX/GHB/TCHOL/HDL/GLU/BPXO (DEMO n=9254).",
+      "Restricted dim_participant and facts to MEC-examined adults RIDAGEYR>=18 and RIDSTATR=2 (n=5533); interview-only and age<18 rows excluded from the analytic universe and logged here.",
+      "Nulled DMDEDUC2 in {7,9} and INDHHIN2 in {77,99} (refused / don't know). Nulled INDFMPIR >= 10.",
+      "Melted four lab files into fact_lab (one row per participant × analyte) and dropped rows with missing numeric values.",
+      "Joined first oscillometric BP reading (BPXOSY1/BPXODI1) and body measures onto fact_exam.",
+      "Attached published NHANES codebook labels for sex, RIDRETH3, DMDEDUC2, INDHHIN2."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_exam.csv": {
+      "description": "Anthropometry and first-reading oscillometric blood pressure for MEC-examined adults.",
+      "fields": [
+        {
+          "name": "seqn",
+          "type": "string",
+          "description": "Respondent sequence number (FK -> dim_participant.seqn)",
+          "example": "93705"
+        },
+        {
+          "name": "bmi",
+          "type": "float",
+          "description": "Body mass index (kg/m2); null if not measured",
+          "example": 31.7
+        },
+        {
+          "name": "weight_kg",
+          "type": "float",
+          "description": "Body weight in kilograms; null if not measured",
+          "example": 79.5
+        },
+        {
+          "name": "height_cm",
+          "type": "float",
+          "description": "Standing height in centimetres; null if not measured",
+          "example": 158.3
+        },
+        {
+          "name": "waist_cm",
+          "type": "float",
+          "description": "Waist circumference in centimetres; null if not measured",
+          "example": 101.8
+        },
+        {
+          "name": "systolic_mmhg",
+          "type": "integer",
+          "description": "First oscillometric systolic BP (mm Hg); null if not measured",
+          "example": 164
+        },
+        {
+          "name": "diastolic_mmhg",
+          "type": "integer",
+          "description": "First oscillometric diastolic BP (mm Hg); null if not measured",
+          "example": 66
+        }
+      ]
+    },
+    "fact_lab.csv": {
+      "description": "Tidy laboratory results (HbA1c, lipids, fasting glucose) for the same adults.",
+      "fields": [
+        {
+          "name": "seqn",
+          "type": "string",
+          "description": "Respondent sequence number (FK -> dim_participant.seqn)",
+          "example": "93705"
+        },
+        {
+          "name": "analyte_code",
+          "type": "string",
+          "description": "Analyte key (FK -> dim_analyte.analyte_code)",
+          "example": "GHB"
+        },
+        {
+          "name": "value",
+          "type": "float",
+          "description": "Numeric laboratory result in dim_analyte.unit; rows with missing values dropped",
+          "example": 6.2
+        }
+      ]
+    },
+    "dim_participant.csv": {
+      "description": "Survey demographics, poverty ratio, and design weights. Grain: one examined adult.",
+      "fields": [
+        {
+          "name": "seqn",
+          "type": "string",
+          "description": "Respondent sequence number (PK)",
+          "example": "93705"
+        },
+        {
+          "name": "age_years",
+          "type": "integer",
+          "description": "Age at screening in years",
+          "example": 66
+        },
+        {
+          "name": "sex_code",
+          "type": "string",
+          "description": "Sex (FK -> dim_code.code where code_type=sex)",
+          "example": "2"
+        },
+        {
+          "name": "race_code",
+          "type": "string",
+          "description": "Race/ethnicity RIDRETH3 (FK -> dim_code.code where code_type=race)",
+          "example": "4"
+        },
+        {
+          "name": "education_code",
+          "type": "string",
+          "description": "Adult education DMDEDUC2; 7/9 (refused/don't know) nulled (FK -> dim_code)",
+          "example": "2"
+        },
+        {
+          "name": "income_code",
+          "type": "string",
+          "description": "Household income INDHHIN2; 77/99 nulled (FK -> dim_code)",
+          "example": "3"
+        },
+        {
+          "name": "poverty_ratio",
+          "type": "float",
+          "description": "Family income-to-poverty ratio (INDFMPIR); values >=10 treated as missing",
+          "example": 0.82
+        },
+        {
+          "name": "interview_weight",
+          "type": "float",
+          "description": "Full-sample 2-year interview weight WTINT2YR",
+          "example": 8614.571172412112
+        },
+        {
+          "name": "exam_weight",
+          "type": "float",
+          "description": "Full-sample 2-year MEC exam weight WTMEC2YR",
+          "example": 8338.419786183256
+        },
+        {
+          "name": "strata",
+          "type": "string",
+          "description": "Masked variance unit stratum SDMVSTRA",
+          "example": "145"
+        },
+        {
+          "name": "psu",
+          "type": "string",
+          "description": "Masked variance unit PSU SDMVPSU",
+          "example": "2"
+        }
+      ]
+    },
+    "dim_analyte.csv": {
+      "description": "Analyte codebook with units and LOINC.",
+      "fields": [
+        {
+          "name": "analyte_code",
+          "type": "string",
+          "description": "Short analyte key (PK)",
+          "example": "GHB"
+        },
+        {
+          "name": "analyte_name",
+          "type": "string",
+          "description": "Laboratory test name",
+          "example": "Glycohemoglobin (HbA1c)"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "description": "Reporting unit",
+          "example": "%"
+        },
+        {
+          "name": "loinc",
+          "type": "string",
+          "description": "LOINC code for the analyte",
+          "example": "4548-4"
+        }
+      ]
+    },
+    "dim_code.csv": {
+      "description": "Labels for sex, race/ethnicity, education, and household income codes.",
+      "fields": [
+        {
+          "name": "code_type",
+          "type": "string",
+          "description": "Code family: sex, race, education, or income",
+          "example": "sex"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "Source codebook value (PK with code_type)",
+          "example": "1"
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "description": "Human-readable label from the NHANES codebook",
+          "example": "Male"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Survey cycle metadata (vintage, universe, title).",
+      "fields": [
+        {
+          "name": "cycle",
+          "type": "string",
+          "description": "NHANES data cycle (PK)",
+          "example": "2017-2018"
+        },
+        {
+          "name": "survey",
+          "type": "string",
+          "description": "Survey program name",
+          "example": "NHANES"
+        },
+        {
+          "name": "file_suffix",
+          "type": "string",
+          "description": "NCHS file letter for this cycle (J = 2017–2018)",
+          "example": "J"
+        },
+        {
+          "name": "universe",
+          "type": "string",
+          "description": "Analytic universe after filters",
+          "example": "U.S. civilian noninstitutionalized population, MEC-examined adults 18+"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "National Health and Nutrition Examination Survey 2017–2018 cardiometabolic exam + labs"
+        }
+      ]
+    }
+  }
+}

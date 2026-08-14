@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "source": "Worldwide Protein Data Bank derived data — resolu.idx",
+    "source_url": "https://www.wwpdb.org/",
+    "license": "Creative Commons CC0 1.0 Universal — wwPDB data are released to the public domain",
+    "license_url": "https://www.wwpdb.org/about/usage",
+    "download_urls": [
+      "https://files.wwpdb.org/pub/pdb/derived_data/index/resolu.idx"
+    ],
+    "transforms": [
+      "Parsed resolu.idx IDCODE / RESOLUTION rows (n=258167). Header lines skipped.",
+      "Mapped resolution -1.00 to method_class=nmr_or_other per the file documentation; did not treat -1 as an Å value in bins.",
+      "Binned positive resolutions at 1.5 / 2.0 / 2.5 / 3.0 / 4.0 Å."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_resolution.csv": {
+      "description": "Reported resolution (Å) for every current PDB entry, plus method class.",
+      "fields": [
+        {
+          "name": "pdb_id",
+          "type": "string",
+          "description": "Lowercase PDB id (FK -> dim_entry.pdb_id)",
+          "example": "100d"
+        },
+        {
+          "name": "resolution_a",
+          "type": "float",
+          "description": "Resolution in Å; -1.00 is the PDB sentinel for NMR/other (not a measured Å value)",
+          "example": 1.9
+        },
+        {
+          "name": "method_class",
+          "type": "string",
+          "description": "Inferred method class (FK -> dim_method.method_class)",
+          "example": "diffraction_or_em"
+        },
+        {
+          "name": "resolution_bin",
+          "type": "string",
+          "description": "Resolution bin (FK -> dim_resolution_bin.resolution_bin)",
+          "example": "1.5-2.0"
+        }
+      ]
+    },
+    "dim_entry.csv": {
+      "description": "PDB four-character identifiers.",
+      "fields": [
+        {
+          "name": "pdb_id",
+          "type": "string",
+          "description": "PDB id (PK)",
+          "example": "100d"
+        }
+      ]
+    },
+    "dim_method.csv": {
+      "description": "Method class derived from the official -1.00 NMR/other sentinel.",
+      "fields": [
+        {
+          "name": "method_class",
+          "type": "string",
+          "description": "Method class (PK)",
+          "example": "diffraction_or_em"
+        },
+        {
+          "name": "note",
+          "type": "string",
+          "description": "How the class is assigned",
+          "example": "Positive resolution value (X-ray / EM / related)"
+        }
+      ]
+    },
+    "dim_resolution_bin.csv": {
+      "description": "Resolution bins used to decompose 'tractable structure' claims.",
+      "fields": [
+        {
+          "name": "resolution_bin",
+          "type": "string",
+          "description": "Bin key (PK)",
+          "example": "1.5-2.0"
+        },
+        {
+          "name": "sort_order",
+          "type": "integer",
+          "description": "Display order",
+          "example": 2
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "wwPDB derived-data file date.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "wwpdb_resolu_idx"
+        },
+        {
+          "name": "file_date",
+          "type": "date",
+          "description": "wwPDB file date",
+          "example": "2026-08-07"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "wwPDB structure resolution index"
+        }
+      ]
+    }
+  }
+}

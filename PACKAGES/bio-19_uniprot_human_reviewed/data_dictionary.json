@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "source": "UniProtKB/Swiss-Prot reviewed human proteome (organism_id:9606)",
+    "source_url": "https://www.uniprot.org/",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "license_url": "https://www.uniprot.org/help/license",
+    "download_urls": [
+      "https://rest.uniprot.org/uniprotkb/stream?format=tsv&query=(reviewed:true)+AND+(organism_id:9606)&fields=accession,id,protein_name,gene_primary,gene_names,length,cc_function,cc_subcellular_location,ft_domain,go_p,xref_pdb,keyword"
+    ],
+    "transforms": [
+      "Streamed reviewed human entries from the UniProt REST API (n=20431).",
+      "Melted the Keywords column (capped at 50,000 protein–keyword rows; kept=50000).",
+      "Derived has_pdb from the PDB cross-reference field without downloading coordinates.",
+      "Binned protein length at 200 / 500 / 1000 aa."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_keyword.csv": {
+      "description": "Melted UniProt keywords for reviewed human proteins.",
+      "fields": [
+        {
+          "name": "accession",
+          "type": "string",
+          "description": "UniProt accession (FK -> dim_protein.accession)",
+          "example": "A0A087X1C5"
+        },
+        {
+          "name": "keyword",
+          "type": "string",
+          "description": "Keyword (FK -> dim_keyword.keyword)",
+          "example": "Cytoplasm"
+        }
+      ]
+    },
+    "fact_structure_flag.csv": {
+      "description": "Whether the UniProt record lists a PDB cross-reference.",
+      "fields": [
+        {
+          "name": "accession",
+          "type": "string",
+          "description": "UniProt accession (FK -> dim_protein.accession)",
+          "example": "A0A087X1C5"
+        },
+        {
+          "name": "has_pdb",
+          "type": "boolean",
+          "description": "True if a PDB xref string was present",
+          "example": false
+        }
+      ]
+    },
+    "dim_protein.csv": {
+      "description": "Accession, entry name, protein name, primary gene, length.",
+      "fields": [
+        {
+          "name": "accession",
+          "type": "string",
+          "description": "UniProt accession (PK)",
+          "example": "A0A087X1C5"
+        },
+        {
+          "name": "entry_name",
+          "type": "string",
+          "description": "Entry name",
+          "example": "CP2D7_HUMAN"
+        },
+        {
+          "name": "protein_name",
+          "type": "string",
+          "description": "Recommended protein name string",
+          "example": "Cytochrome P450 2D7 (EC 1.14.14.1)"
+        },
+        {
+          "name": "gene_primary",
+          "type": "string",
+          "description": "Primary gene name; null if missing",
+          "example": "CYP2D7"
+        },
+        {
+          "name": "length",
+          "type": "integer",
+          "description": "Amino-acid length; null if missing",
+          "example": 515
+        },
+        {
+          "name": "length_bin",
+          "type": "string",
+          "description": "Length bin (FK -> dim_length.length_bin)",
+          "example": "500-999"
+        }
+      ]
+    },
+    "dim_keyword.csv": {
+      "description": "Distinct keywords.",
+      "fields": [
+        {
+          "name": "keyword",
+          "type": "string",
+          "description": "Keyword (PK)",
+          "example": "Cytoplasm"
+        }
+      ]
+    },
+    "dim_length.csv": {
+      "description": "Protein-length bins.",
+      "fields": [
+        {
+          "name": "length_bin",
+          "type": "string",
+          "description": "Bin key (PK)",
+          "example": "<200"
+        },
+        {
+          "name": "bin_label",
+          "type": "string",
+          "description": "Label",
+          "example": "Short (<200 aa)"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata (reviewed human proteome query).",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "uniprot_swissprot_human"
+        },
+        {
+          "name": "query",
+          "type": "string",
+          "description": "UniProt query",
+          "example": "reviewed:true AND organism_id:9606"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "UniProt reviewed human proteome"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+extract,query,title
+uniprot_swissprot_human,reviewed:true AND organism_id:9606,UniProt reviewed human proteome

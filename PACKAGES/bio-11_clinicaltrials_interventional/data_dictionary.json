@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "source": "ClinicalTrials.gov API v2 (National Library of Medicine)",
+    "source_url": "https://clinicaltrials.gov/",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.clinicaltrials.gov/about-site/terms-conditions",
+    "download_urls": [
+      "https://clinicaltrials.gov/api/v2/studies?pageSize=200&query.term=AREA[StudyType]Interventional"
+    ],
+    "transforms": [
+      "Paged the v2 studies endpoint 8 times (200/page) for interventional studies (n=1600).",
+      "Took the first listed phase when multiple phases were present.",
+      "Exploded conditions and interventions into bridge fact tables; no studies were dropped."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_study.csv": {
+      "description": "Core protocol fields for interventional studies from the v2 API.",
+      "fields": [
+        {
+          "name": "nct_id",
+          "type": "string",
+          "description": "ClinicalTrials.gov identifier (PK)",
+          "example": "NCT00702507"
+        },
+        {
+          "name": "brief_title",
+          "type": "string",
+          "description": "Brief title",
+          "example": "Prospective Two-Year Study to Assess Miconazole Nitrate Resistance in Neonates and Infants"
+        },
+        {
+          "name": "overall_status",
+          "type": "string",
+          "description": "Overall status (FK -> dim_status.overall_status)",
+          "example": "COMPLETED"
+        },
+        {
+          "name": "phase",
+          "type": "string",
+          "description": "First listed phase (FK -> dim_phase.phase); null if not phased",
+          "example": "PHASE4"
+        },
+        {
+          "name": "study_type",
+          "type": "string",
+          "description": "Study type",
+          "example": "INTERVENTIONAL"
+        },
+        {
+          "name": "enrollment",
+          "type": "integer",
+          "description": "Enrollment count; null if missing",
+          "example": 200
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "description": "Start date as published; null if missing",
+          "example": "2007-05"
+        },
+        {
+          "name": "completion_date",
+          "type": "string",
+          "description": "Completion date as published; null if missing",
+          "example": "2010-12"
+        },
+        {
+          "name": "lead_sponsor",
+          "type": "string",
+          "description": "Lead sponsor name",
+          "example": "Stiefel, a GSK Company"
+        },
+        {
+          "name": "sponsor_class",
+          "type": "string",
+          "description": "Lead sponsor class (FK -> dim_sponsor_class.sponsor_class); null if missing",
+          "example": "INDUSTRY"
+        },
+        {
+          "name": "sex",
+          "type": "string",
+          "description": "Eligibility sex; null if missing",
+          "example": "ALL"
+        },
+        {
+          "name": "min_age",
+          "type": "string",
+          "description": "Minimum age text; null if missing",
+          "example": "18 Years"
+        },
+        {
+          "name": "max_age",
+          "type": "string",
+          "description": "Maximum age text; null if missing",
+          "example": "15 Months"
+        }
+      ]
+    },
+    "fact_condition.csv": {
+      "description": "Bridge of studies to listed conditions.",
+      "fields": [
+        {
+          "name": "nct_id",
+          "type": "string",
+          "description": "NCT id (FK -> fact_study.nct_id)",
+          "example": "NCT00702507"
+        },
+        {
+          "name": "condition",
+          "type": "string",
+          "description": "Listed condition",
+          "example": "Diaper Rash"
+        }
+      ]
+    },
+    "fact_intervention.csv": {
+      "description": "Bridge of studies to listed interventions.",
+      "fields": [
+        {
+          "name": "nct_id",
+          "type": "string",
+          "description": "NCT id (FK -> fact_study.nct_id)",
+          "example": "NCT00702507"
+        },
+        {
+          "name": "intervention_type",
+          "type": "string",
+          "description": "Intervention type",
+          "example": "DRUG"
+        },
+        {
+          "name": "intervention_name",
+          "type": "string",
+          "description": "Intervention name",
+          "example": "0.25 % Miconazole Nitrate Ointment"
+        }
+      ]
+    },
+    "dim_status.csv": {
+      "description": "Overall status values.",
+      "fields": [
+        {
+          "name": "overall_status",
+          "type": "string",
+          "description": "Status (PK)",
+          "example": "COMPLETED"
+        }
+      ]
+    },
+    "dim_phase.csv": {
+      "description": "Phase tokens (PHASE1, PHASE2, ...).",
+      "fields": [
+        {
+          "name": "phase",
+          "type": "string",
+          "description": "Phase token (PK)",
+          "example": "PHASE4"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "clinicaltrials_gov_v2"
+        },
+        {
+          "name": "n_studies",
+          "type": "integer",
+          "description": "Studies in extract",
+          "example": 1600
+        },
+        {
+          "name": "study_type_filter",
+          "type": "string",
+          "description": "Filter applied",
+          "example": "Interventional (query)"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "ClinicalTrials.gov interventional studies sample"
+        }
+      ]
+    }
+  }
+}

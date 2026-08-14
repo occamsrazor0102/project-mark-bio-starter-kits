@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "source": "Reactome Pathway Database",
+    "source_url": "https://reactome.org/download-data",
+    "license": "Creative Commons CC0 1.0 Universal — Reactome content is waived to the public domain",
+    "license_url": "https://reactome.org/license",
+    "download_urls": [
+      "https://reactome.org/download/current/ReactomePathways.txt",
+      "https://reactome.org/download/current/ReactomePathwaysRelation.txt",
+      "https://reactome.org/download/current/UniProt2Reactome.txt"
+    ],
+    "transforms": [
+      "Read all pathways (n=23603) and relations (n=23717); kept Homo sapiens pathways only (n=2883).",
+      "Streamed UniProt2Reactome.txt and kept Homo sapiens rows (capped at 80,000; kept=54699).",
+      "Restricted hierarchy facts to parent and child ids present in the human pathway dimension.",
+      "Flagged top-level pathways as those that never appear as a child."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_participation.csv": {
+      "description": "Human UniProt accessions annotated to Reactome pathways.",
+      "fields": [
+        {
+          "name": "uniprot_id",
+          "type": "string",
+          "description": "UniProt accession",
+          "example": "A0A075B6P5"
+        },
+        {
+          "name": "pathway_id",
+          "type": "string",
+          "description": "Reactome pathway id (FK -> dim_pathway.pathway_id)",
+          "example": "R-HSA-166663"
+        },
+        {
+          "name": "pathway_name",
+          "type": "string",
+          "description": "Pathway display name (denormalized from source file)",
+          "example": "Initial triggering of complement"
+        },
+        {
+          "name": "evidence",
+          "type": "string",
+          "description": "Reactome evidence code (FK -> dim_evidence.evidence_code)",
+          "example": "TAS"
+        }
+      ]
+    },
+    "fact_hierarchy.csv": {
+      "description": "Directed parent/child relations among human pathways.",
+      "fields": [
+        {
+          "name": "parent_id",
+          "type": "string",
+          "description": "Parent pathway (FK -> dim_pathway.pathway_id)",
+          "example": "R-HSA-109581"
+        },
+        {
+          "name": "child_id",
+          "type": "string",
+          "description": "Child pathway (FK -> dim_pathway.pathway_id)",
+          "example": "R-HSA-109606"
+        }
+      ]
+    },
+    "dim_pathway.csv": {
+      "description": "Human pathway identifiers, names, and top-level flag.",
+      "fields": [
+        {
+          "name": "pathway_id",
+          "type": "string",
+          "description": "Reactome stable id (PK)",
+          "example": "R-HSA-164843"
+        },
+        {
+          "name": "pathway_name",
+          "type": "string",
+          "description": "Pathway name",
+          "example": "2-LTR circle formation"
+        },
+        {
+          "name": "species",
+          "type": "string",
+          "description": "Species name (FK -> dim_species.species)",
+          "example": "Homo sapiens"
+        },
+        {
+          "name": "is_top_level",
+          "type": "boolean",
+          "description": "True when the pathway is never a child in the human hierarchy",
+          "example": false
+        }
+      ]
+    },
+    "dim_species.csv": {
+      "description": "Species dimension (human only in this kit).",
+      "fields": [
+        {
+          "name": "species",
+          "type": "string",
+          "description": "Species name (PK)",
+          "example": "Homo sapiens"
+        },
+        {
+          "name": "taxon_id",
+          "type": "string",
+          "description": "NCBI taxonomy id",
+          "example": "9606"
+        }
+      ]
+    },
+    "dim_evidence.csv": {
+      "description": "Evidence codes (e.g. TAS, IEA) on participation rows.",
+      "fields": [
+        {
+          "name": "evidence_code",
+          "type": "string",
+          "description": "Evidence code (PK)",
+          "example": "TAS"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Reactome 'current' download vintage.",
+      "fields": [
+        {
+          "name": "release",
+          "type": "string",
+          "description": "Reactome release tag (PK)",
+          "example": "current"
+        },
+        {
+          "name": "organism",
+          "type": "string",
+          "description": "Organism",
+          "example": "Homo sapiens"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "Reactome human pathways and UniProt participation"
+        }
+      ]
+    }
+  }
+}

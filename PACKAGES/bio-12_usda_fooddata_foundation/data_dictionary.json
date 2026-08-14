@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "source": "USDA FoodData Central — Foundation Foods CSV, April 30 2026",
+    "source_url": "https://fdc.nal.usda.gov/download-datasets",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.usda.gov/policies-and-links",
+    "download_urls": [
+      "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_csv_2026-04-30.zip"
+    ],
+    "transforms": [
+      "Read foundation food.csv, then kept only fdc_ids listed in foundation_food.csv (n_foods=395).",
+      "Restricted fact rows to fdc_id and nutrient_id present in the dimension tables.",
+      "Amounts coerced to numeric; no imputed nutrient values."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_food_nutrient.csv": {
+      "description": "Measured nutrient amounts for Foundation Foods.",
+      "fields": [
+        {
+          "name": "fdc_id",
+          "type": "string",
+          "description": "FoodData Central id (FK -> dim_food.fdc_id)",
+          "example": "321358"
+        },
+        {
+          "name": "nutrient_id",
+          "type": "string",
+          "description": "Nutrient id (FK -> dim_nutrient.nutrient_id)",
+          "example": "1262"
+        },
+        {
+          "name": "amount",
+          "type": "float",
+          "description": "Amount per 100 g as published; null if missing",
+          "example": 0
+        }
+      ]
+    },
+    "dim_food.csv": {
+      "description": "Food descriptions, data type, publication date, and category.",
+      "fields": [
+        {
+          "name": "fdc_id",
+          "type": "string",
+          "description": "FDC id (PK)",
+          "example": "321358"
+        },
+        {
+          "name": "food_description",
+          "type": "string",
+          "description": "Food description",
+          "example": "Hummus, commercial"
+        },
+        {
+          "name": "data_type",
+          "type": "string",
+          "description": "FDC data type (foundation_food)",
+          "example": "foundation_food"
+        },
+        {
+          "name": "publication_date",
+          "type": "string",
+          "description": "Publication date",
+          "example": "2019-04-01"
+        },
+        {
+          "name": "food_category_id",
+          "type": "string",
+          "description": "Category id (FK -> dim_category.food_category_id); null if missing",
+          "example": "16"
+        }
+      ]
+    },
+    "dim_nutrient.csv": {
+      "description": "Nutrient names and units.",
+      "fields": [
+        {
+          "name": "nutrient_id",
+          "type": "string",
+          "description": "Nutrient id (PK)",
+          "example": "2047"
+        },
+        {
+          "name": "nutrient_name",
+          "type": "string",
+          "description": "Nutrient name",
+          "example": "Energy (Atwater General Factors)"
+        },
+        {
+          "name": "unit_name",
+          "type": "string",
+          "description": "Unit",
+          "example": "KCAL"
+        },
+        {
+          "name": "nutrient_nbr",
+          "type": "float",
+          "description": "Nutrient number; null if missing",
+          "example": 957
+        }
+      ]
+    },
+    "dim_category.csv": {
+      "description": "WWEIA / FDC food categories.",
+      "fields": [
+        {
+          "name": "food_category_id",
+          "type": "string",
+          "description": "Category id (PK)",
+          "example": "1"
+        },
+        {
+          "name": "category_code",
+          "type": "integer",
+          "description": "Category code; null if missing",
+          "example": 100
+        },
+        {
+          "name": "category_description",
+          "type": "string",
+          "description": "Category description; null if missing",
+          "example": "Dairy and Egg Products"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Foundation Foods vintage.",
+      "fields": [
+        {
+          "name": "release",
+          "type": "date",
+          "description": "Release date (PK)",
+          "example": "2026-04-30"
+        },
+        {
+          "name": "data_type",
+          "type": "string",
+          "description": "FDC data type",
+          "example": "foundation_foods"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "USDA FoodData Central Foundation Foods nutrients"
+        }
+      ]
+    }
+  }
+}

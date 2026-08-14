@@ -1,0 +1,5 @@
+indicator_id,indicator_name,unit
+diagnosed_diabetes,Diagnosed Diabetes,Median of States
+newly_diagnosed_diabetes,Newly Diagnosed Diabetes,Median of States
+diagnosed_type_1_diabetes,Diagnosed Type 1 Diabetes,Median of States
+diagnosed_type_2_diabetes,Diagnosed Type 2 Diabetes,Median of States

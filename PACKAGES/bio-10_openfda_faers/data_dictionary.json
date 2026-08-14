@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "source": "FDA openFDA drug adverse-event (FAERS) API",
+    "source_url": "https://open.fda.gov/apis/drug/event/",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government. FAERS reports are not proof of causation.",
+    "license_url": "https://open.fda.gov/apis/terms/",
+    "download_urls": [
+      "https://api.fda.gov/drug/event.json?count=patient.reaction.reactionmeddrapt.exact&limit=200",
+      "https://api.fda.gov/drug/event.json?limit=50"
+    ],
+    "transforms": [
+      "Pulled reaction counts (n=307) and a sample of 50 safety reports.",
+      "Exploded each report to one row per (drug × reaction); did not impute missing age/sex/drug.",
+      "Uppercased drug names for a stable join key. FAERS is spontaneous-report data — counts are not incidence rates."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_event.csv": {
+      "description": "Exploded sample of FAERS safety reports (drug × reaction).",
+      "fields": [
+        {
+          "name": "safetyreportid",
+          "type": "string",
+          "description": "FAERS safety report id",
+          "example": "5801206-7"
+        },
+        {
+          "name": "receivedate",
+          "type": "string",
+          "description": "Receipt date YYYYMMDD as published",
+          "example": "20080707"
+        },
+        {
+          "name": "serious",
+          "type": "string",
+          "description": "Serious flag (FK -> dim_serious.serious)",
+          "example": "1"
+        },
+        {
+          "name": "patient_age",
+          "type": "integer",
+          "description": "Onset age as reported; null if missing",
+          "example": 26
+        },
+        {
+          "name": "patient_age_unit",
+          "type": "string",
+          "description": "Age unit code; null if missing",
+          "example": "801"
+        },
+        {
+          "name": "patient_sex_code",
+          "type": "string",
+          "description": "Sex code (FK -> dim_sex.patient_sex_code); null if missing",
+          "example": "1"
+        },
+        {
+          "name": "drug_name",
+          "type": "string",
+          "description": "Uppercased drug name (FK -> dim_drug.drug_name); null if missing",
+          "example": "DURAGESIC-100"
+        },
+        {
+          "name": "reaction",
+          "type": "string",
+          "description": "MedDRA PT (FK -> dim_reaction.reaction); null if missing",
+          "example": "DRUG ADMINISTRATION ERROR"
+        }
+      ]
+    },
+    "dim_reaction.csv": {
+      "description": "Reaction preferred terms with national event counts from the count API.",
+      "fields": [
+        {
+          "name": "reaction",
+          "type": "string",
+          "description": "MedDRA preferred term (PK)",
+          "example": "DRUG INEFFECTIVE"
+        },
+        {
+          "name": "event_count",
+          "type": "string",
+          "description": "openFDA count of reports with this PT; null if only seen in the sample",
+          "example": 1299291
+        }
+      ]
+    },
+    "dim_drug.csv": {
+      "description": "Drug names observed in the sample.",
+      "fields": [
+        {
+          "name": "drug_name",
+          "type": "string",
+          "description": "Uppercased drug name (PK)",
+          "example": "ACETAMINOPHEN"
+        }
+      ]
+    },
+    "dim_sex.csv": {
+      "description": "Sex codes 0/1/2.",
+      "fields": [
+        {
+          "name": "patient_sex_code",
+          "type": "string",
+          "description": "FAERS sex code (PK)",
+          "example": "0"
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "description": "Label",
+          "example": "Unknown"
+        }
+      ]
+    },
+    "dim_serious.csv": {
+      "description": "Serious vs not-serious codes.",
+      "fields": [
+        {
+          "name": "serious",
+          "type": "string",
+          "description": "Serious code (PK)",
+          "example": "1"
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "description": "Label",
+          "example": "Serious"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "openfda_faers"
+        },
+        {
+          "name": "api",
+          "type": "string",
+          "description": "API root",
+          "example": "https://api.fda.gov/drug/event.json"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "openFDA FAERS reaction counts and event sample"
+        }
+      ]
+    }
+  }
+}

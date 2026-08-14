@@ -1,0 +1,12 @@
+cause_id,cause_name,cause_113_label
+kidney_disease,Kidney disease,"Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"
+suicide,Suicide,"Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"
+influenza_and_pneumonia,Influenza and pneumonia,Influenza and pneumonia (J09-J18)
+alzheimer_s_disease,Alzheimer's disease,Alzheimer's disease (G30)
+diabetes,Diabetes,Diabetes mellitus (E10-E14)
+clrd,CLRD,Chronic lower respiratory diseases (J40-J47)
+unintentional_injuries,Unintentional injuries,"Accidents (unintentional injuries) (V01-X59,Y85-Y86)"
+stroke,Stroke,Cerebrovascular diseases (I60-I69)
+heart_disease,Heart disease,"Diseases of heart (I00-I09,I11,I13,I20-I51)"
+cancer,Cancer,Malignant neoplasms (C00-C97)
+all_causes,All causes,All Causes

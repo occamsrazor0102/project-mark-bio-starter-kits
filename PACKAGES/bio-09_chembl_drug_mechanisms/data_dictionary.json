@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "source": "ChEMBL (EMBL-EBI) mechanism API",
+    "source_url": "https://www.ebi.ac.uk/chembl/",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+    "license_url": "https://chembl.gitbook.io/chembl-interface-documentation/about",
+    "download_urls": [
+      "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=0",
+      "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=1000",
+      "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=2000",
+      "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=3000"
+    ],
+    "transforms": [
+      "Fetched 4 API pages of mechanisms (n=4000).",
+      "Did not invent molecule names; molecule/target dimensions are the ChEMBL ids present on the mechanism records.",
+      "Mapped max_phase 0–4 to preclinical / Phase I–III / Approved labels."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_mechanism.csv": {
+      "description": "ChEMBL mechanism-of-action records (API pages 0–3, 1000 each).",
+      "fields": [
+        {
+          "name": "mec_id",
+          "type": "string",
+          "description": "ChEMBL mechanism id (PK)",
+          "example": "13"
+        },
+        {
+          "name": "molecule_chembl_id",
+          "type": "string",
+          "description": "Molecule id (FK -> dim_molecule.molecule_chembl_id)",
+          "example": "CHEMBL19"
+        },
+        {
+          "name": "target_chembl_id",
+          "type": "string",
+          "description": "Target id (FK -> dim_target.target_chembl_id)",
+          "example": "CHEMBL2326"
+        },
+        {
+          "name": "action_type",
+          "type": "string",
+          "description": "Action type (FK -> dim_action.action_type)",
+          "example": "INHIBITOR"
+        },
+        {
+          "name": "mechanism_of_action",
+          "type": "string",
+          "description": "Free-text mechanism",
+          "example": "Carbonic anhydrase VII inhibitor"
+        },
+        {
+          "name": "max_phase",
+          "type": "integer",
+          "description": "Highest phase (FK -> dim_phase.max_phase); null if unknown",
+          "example": 4
+        },
+        {
+          "name": "direct_interaction",
+          "type": "boolean",
+          "description": "Whether ChEMBL flags a direct interaction; null if unknown",
+          "example": true
+        },
+        {
+          "name": "disease_efficacy",
+          "type": "boolean",
+          "description": "Whether disease efficacy is flagged; null if unknown",
+          "example": true
+        },
+        {
+          "name": "molecular_mechanism",
+          "type": "boolean",
+          "description": "Whether a molecular mechanism is flagged; null if unknown",
+          "example": true
+        }
+      ]
+    },
+    "dim_molecule.csv": {
+      "description": "Distinct ChEMBL molecule ids appearing in the extract.",
+      "fields": [
+        {
+          "name": "molecule_chembl_id",
+          "type": "string",
+          "description": "ChEMBL molecule id (PK)",
+          "example": "CHEMBL19"
+        }
+      ]
+    },
+    "dim_target.csv": {
+      "description": "Distinct ChEMBL target ids appearing in the extract.",
+      "fields": [
+        {
+          "name": "target_chembl_id",
+          "type": "string",
+          "description": "ChEMBL target id (PK)",
+          "example": "CHEMBL2326"
+        }
+      ]
+    },
+    "dim_action.csv": {
+      "description": "Action types (inhibitor, agonist, etc.).",
+      "fields": [
+        {
+          "name": "action_type",
+          "type": "string",
+          "description": "Action type (PK)",
+          "example": "INHIBITOR"
+        },
+        {
+          "name": "action_family",
+          "type": "string",
+          "description": "First token of action_type",
+          "example": "INHIBITOR"
+        }
+      ]
+    },
+    "dim_phase.csv": {
+      "description": "Maximum phase of development with labels.",
+      "fields": [
+        {
+          "name": "max_phase",
+          "type": "integer",
+          "description": "Numeric max phase (PK)",
+          "example": 4
+        },
+        {
+          "name": "phase_label",
+          "type": "string",
+          "description": "Label",
+          "example": "Approved"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "API extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "chembl_mechanism_api"
+        },
+        {
+          "name": "n_pages",
+          "type": "integer",
+          "description": "API pages fetched",
+          "example": 4
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "ChEMBL mechanism of action for molecules (first 4000)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "source": "NHGRI-EBI GWAS Catalog (EMBL-EBI / NHGRI)",
+    "source_url": "https://www.ebi.ac.uk/gwas/",
+    "license": "GWAS Catalog data are freely available under EMBL-EBI terms; the Catalog is a public NHGRI-EBI resource intended for reuse with attribution (CC0-style catalog content).",
+    "license_url": "https://www.ebi.ac.uk/gwas/docs/about",
+    "download_urls": [
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-catalog-associations-full.zip",
+      "https://ftp.ebi.ac.uk/pub/databases/gwas/releases/latest/gwas-efo-trait-mappings.tsv"
+    ],
+    "transforms": [
+      "Read full association download (n=1188619).",
+      "Kept genome-wide significant rows with p <= 5e-8 (n=1016716); non-significant associations excluded from the starter grain.",
+      "If more than 40,000 GWS rows remained, kept the 40,000 smallest p-values (kept=40000).",
+      "Joined EFO parent terms; added unmatched catalog traits so fact keys are not orphaned.",
+      "Collapsed mapped_gene lists to the first symbol for dim_gene (fact retains the raw mapped_gene string)."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_association.csv": {
+      "description": "Lead SNP associations from the GWAS Catalog with p <= 5e-8.",
+      "fields": [
+        {
+          "name": "pubmed_id",
+          "type": "string",
+          "description": "PubMed ID (FK -> dim_study.pubmed_id)",
+          "example": "41044249"
+        },
+        {
+          "name": "disease_trait",
+          "type": "string",
+          "description": "Reported trait (FK -> dim_trait.disease_trait)",
+          "example": "Concentration of very large HDL particles"
+        },
+        {
+          "name": "mapped_gene",
+          "type": "string",
+          "description": "Mapped gene(s) as published",
+          "example": "PLTP - PCIF1"
+        },
+        {
+          "name": "snp",
+          "type": "string",
+          "description": "rsID of the strongest SNP",
+          "example": "rs6073958"
+        },
+        {
+          "name": "chr_id",
+          "type": "string",
+          "description": "Chromosome",
+          "example": "20"
+        },
+        {
+          "name": "chr_pos",
+          "type": "string",
+          "description": "Base-pair position as published",
+          "example": "45923216"
+        },
+        {
+          "name": "risk_allele",
+          "type": "string",
+          "description": "Strongest SNP-risk allele string",
+          "example": "rs6073958-C"
+        },
+        {
+          "name": "p_value",
+          "type": "float",
+          "description": "Association p-value",
+          "example": 0
+        },
+        {
+          "name": "p_mlog",
+          "type": "float",
+          "description": "-log10(p)",
+          "example": 912.1549019599858
+        },
+        {
+          "name": "or_or_beta",
+          "type": "float",
+          "description": "Odds ratio or beta as published; null if missing",
+          "example": 0.217317
+        },
+        {
+          "name": "ci_text",
+          "type": "string",
+          "description": "95% CI text; null if missing",
+          "example": "[0.21-0.22] mmol/L decrease"
+        },
+        {
+          "name": "risk_allele_frequency",
+          "type": "float",
+          "description": "Risk-allele frequency; null if missing",
+          "example": 0.787
+        },
+        {
+          "name": "initial_sample_size",
+          "type": "string",
+          "description": "Initial sample-size text (used to decompose ancestry/size)",
+          "example": "241,027 British ancestry females"
+        }
+      ]
+    },
+    "dim_trait.csv": {
+      "description": "Trait labels mapped to EFO terms and parent classes.",
+      "fields": [
+        {
+          "name": "disease_trait",
+          "type": "string",
+          "description": "GWAS Catalog trait name (PK)",
+          "example": "Cervical cancer"
+        },
+        {
+          "name": "efo_term",
+          "type": "string",
+          "description": "Mapped EFO / MONDO term; null if unmapped",
+          "example": "cervical cancer"
+        },
+        {
+          "name": "efo_uri",
+          "type": "string",
+          "description": "Term URI; null if unmapped",
+          "example": "http://purl.obolibrary.org/obo/MONDO_0002974"
+        },
+        {
+          "name": "parent_term",
+          "type": "string",
+          "description": "Parent EFO class; null if unmapped",
+          "example": "Cancer"
+        },
+        {
+          "name": "parent_uri",
+          "type": "string",
+          "description": "Parent URI; null if unmapped",
+          "example": "http://www.ebi.ac.uk/efo/EFO_0000616"
+        }
+      ]
+    },
+    "dim_study.csv": {
+      "description": "Study bibliographic fields.",
+      "fields": [
+        {
+          "name": "pubmed_id",
+          "type": "string",
+          "description": "PubMed ID (PK)",
+          "example": "41044249"
+        },
+        {
+          "name": "first_author",
+          "type": "string",
+          "description": "First author",
+          "example": "Zoodsma M"
+        },
+        {
+          "name": "pub_date",
+          "type": "date",
+          "description": "Publication date as catalogued",
+          "example": "2025-10-03"
+        },
+        {
+          "name": "journal",
+          "type": "string",
+          "description": "Journal",
+          "example": "Nat Genet"
+        },
+        {
+          "name": "study_title",
+          "type": "string",
+          "description": "Study title",
+          "example": "A genetic map of human metabolism across the allele frequency spectrum."
+        }
+      ]
+    },
+    "dim_gene.csv": {
+      "description": "Unique mapped gene symbols appearing on associations.",
+      "fields": [
+        {
+          "name": "gene_symbol",
+          "type": "string",
+          "description": "Mapped HGNC-style symbol (PK)",
+          "example": "PLTP"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Catalog vintage and filter metadata.",
+      "fields": [
+        {
+          "name": "catalog_release",
+          "type": "string",
+          "description": "Release tag (PK)",
+          "example": "latest"
+        },
+        {
+          "name": "retrieved",
+          "type": "date",
+          "description": "Download date",
+          "example": "2026-08-14"
+        },
+        {
+          "name": "threshold",
+          "type": "string",
+          "description": "Significance filter applied",
+          "example": "p <= 5e-8 (genome-wide significant)"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "GWAS Catalog lead associations, ontology-mapped traits"
+        }
+      ]
+    }
+  }
+}

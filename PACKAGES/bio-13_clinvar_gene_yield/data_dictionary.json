@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "source": "NCBI ClinVar gene_specific_summary (tab-delimited)",
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "download_urls": [
+      "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/gene_specific_summary.txt"
+    ],
+    "transforms": [
+      "Read gene_specific_summary.txt (n=92949); skipped the banner comment row.",
+      "Coerced count columns to numeric (dashes / empty -> null).",
+      "Binned P/LP allele counts into none / 1-5 / 6-20 / 21-100 / 100+ for panel-yield decomposition.",
+      "Dropped rows with no gene symbol. No individual-level variant records are included."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_gene_yield.csv": {
+      "description": "ClinVar per-gene counts of submissions, alleles, P/LP alleles, VUS, and conflicts.",
+      "fields": [
+        {
+          "name": "gene_symbol",
+          "type": "string",
+          "description": "Gene symbol (FK -> dim_gene.gene_symbol)",
+          "example": "A-GAMMA3'E"
+        },
+        {
+          "name": "total_submissions",
+          "type": "integer",
+          "description": "ClinVar submissions for the gene; null if not reported",
+          "example": 8
+        },
+        {
+          "name": "total_alleles",
+          "type": "integer",
+          "description": "Distinct alleles; null if not reported",
+          "example": 8
+        },
+        {
+          "name": "pathogenic_likely_pathogenic_alleles",
+          "type": "integer",
+          "description": "Alleles reported Pathogenic or Likely pathogenic; null if not reported",
+          "example": 1
+        },
+        {
+          "name": "uncertain_alleles",
+          "type": "integer",
+          "description": "Uncertain-significance alleles; null if not reported",
+          "example": 1
+        },
+        {
+          "name": "conflict_alleles",
+          "type": "integer",
+          "description": "Alleles with conflicting interpretations; null if not reported",
+          "example": 0
+        },
+        {
+          "name": "yield_bin",
+          "type": "string",
+          "description": "P/LP count bin (FK -> dim_yield_bin.yield_bin)",
+          "example": "none"
+        }
+      ]
+    },
+    "dim_gene.csv": {
+      "description": "Gene identity (symbol, GeneID, MIM).",
+      "fields": [
+        {
+          "name": "gene_symbol",
+          "type": "string",
+          "description": "Gene symbol (PK)",
+          "example": "A-GAMMA3'E"
+        },
+        {
+          "name": "gene_id",
+          "type": "string",
+          "description": "NCBI GeneID",
+          "example": "109951028"
+        },
+        {
+          "name": "mim_number",
+          "type": "string",
+          "description": "OMIM number; null if none listed",
+          "example": "-"
+        }
+      ]
+    },
+    "dim_yield_bin.csv": {
+      "description": "Bins used to decompose 'high yield' panel claims.",
+      "fields": [
+        {
+          "name": "yield_bin",
+          "type": "string",
+          "description": "Bin key (PK)",
+          "example": "none"
+        },
+        {
+          "name": "bin_label",
+          "type": "string",
+          "description": "Human label",
+          "example": "No P/LP alleles"
+        }
+      ]
+    },
+    "dim_mim.csv": {
+      "description": "OMIM identifiers present on at least one gene.",
+      "fields": [
+        {
+          "name": "mim_number",
+          "type": "string",
+          "description": "OMIM id (PK)",
+          "example": "-"
+        },
+        {
+          "name": "in_omim",
+          "type": "boolean",
+          "description": "Always true for rows in this table",
+          "example": true
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "ClinVar file date (header of gene_specific_summary.txt).",
+      "fields": [
+        {
+          "name": "snapshot",
+          "type": "date",
+          "description": "ClinVar file date (PK)",
+          "example": "2026-08-08"
+        },
+        {
+          "name": "source_file",
+          "type": "string",
+          "description": "Source filename",
+          "example": "gene_specific_summary.txt"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "ClinVar pathogenic yield by gene"
+        }
+      ]
+    }
+  }
+}

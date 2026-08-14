@@ -1,0 +1,30 @@
+strata_id,age,race,sex,education
+1,18-44,All,All,All
+2,45-64,All,All,All
+3,65-74,All,All,All
+4,75+,All,All,All
+5,Crude,All,All,All
+6,Crude,All,All,< High School
+7,Crude,All,All,High School
+8,Crude,All,All,> High School
+9,Crude,All,Male,All
+10,Crude,All,Female,All
+11,Age-Adjusted,All,All,All
+12,Age-Adjusted,All,All,< High School
+13,Age-Adjusted,All,All,High School
+14,Age-Adjusted,All,All,> High School
+15,Age-Adjusted,All,Male,All
+16,Age-Adjusted,All,Female,All
+17,Crude,Hispanic,All,All
+18,Age-Adjusted,Hispanic,All,All
+19,Crude,Non-Hispanic White,All,All
+20,Age-Adjusted,Non-Hispanic White,All,All
+21,Crude,Non-Hispanic Black,All,All
+22,Age-Adjusted,Non-Hispanic Black,All,All
+23,Crude,Non-Hispanic Asian or Pacific Islander,All,All
+24,Age-Adjusted,Non-Hispanic Asian or Pacific Islander,All,All
+25,65+,All,All,All
+26,18-49,All,All,All
+27,Crude,All,All,<= High School
+28,Age-Adjusted,All,All,<= High School
+29,50+,All,All,All

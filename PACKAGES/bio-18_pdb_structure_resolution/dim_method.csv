@@ -1,0 +1,3 @@
+method_class,note
+diffraction_or_em,Positive resolution value (X-ray / EM / related)
+nmr_or_other,Resolution sentinel -1.00 used by PDB for NMR and other methods

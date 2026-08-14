@@ -1,0 +1,6 @@
+yield_bin,bin_label
+none,No P/LP alleles
+1-5,1–5 P/LP alleles
+6-20,6–20 P/LP alleles
+21-100,21–100 P/LP alleles
+100+,More than 100 P/LP alleles

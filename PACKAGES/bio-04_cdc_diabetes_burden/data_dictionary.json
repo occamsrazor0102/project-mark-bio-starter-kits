@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "source": "CDC United States Diabetes Surveillance System (USDSS) and Diabetes State Burden Toolkit",
+    "source_url": "https://usdss.cdc.gov/diabetes/surveillance.html",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "download_urls": [
+      "https://data.cdc.gov/resource/b559-sbez.csv?$limit=50000",
+      "https://data.cdc.gov/resource/58s6-s24x.csv?$limit=50000",
+      "https://data.cdc.gov/resource/ircd-wk4g.csv?$limit=50000"
+    ],
+    "transforms": [
+      "Read USDSS state burden (n=50000) and economic toolkit (n=24752).",
+      "Coerced estimate/SE/CI and cost fields to numeric (non-numeric -> null).",
+      "Built indicator_id slugs and a strata dimension from age × race × sex × education.",
+      "Health-burden file was downloaded for provenance but not required to reach the 6-file kit grain; economic + prevalence facts carry the decision question."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_prevalence.csv": {
+      "description": "Diagnosed-diabetes burden/magnitude estimates from USDSS, with SE and CI.",
+      "fields": [
+        {
+          "name": "geo_name",
+          "type": "string",
+          "description": "State or national rollup (FK -> dim_geography.geo_name)",
+          "example": "All"
+        },
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Estimate year (FK -> dim_year.year)",
+          "example": 2000
+        },
+        {
+          "name": "estimate",
+          "type": "float",
+          "description": "Published point estimate; null if suppressed",
+          "example": 1.8
+        },
+        {
+          "name": "se",
+          "type": "float",
+          "description": "Standard error; null if not published",
+          "example": 8096
+        },
+        {
+          "name": "ci_low",
+          "type": "float",
+          "description": "Lower confidence limit; null if not published",
+          "example": 1.6
+        },
+        {
+          "name": "ci_high",
+          "type": "float",
+          "description": "Upper confidence limit; null if not published",
+          "example": 2
+        },
+        {
+          "name": "population",
+          "type": "string",
+          "description": "Universe text (e.g. Adults Aged 18+ Years)",
+          "example": "Adults Aged 18+ Years"
+        },
+        {
+          "name": "datasource",
+          "type": "string",
+          "description": "Underlying survey or surveillance system",
+          "example": "Behavioral Risk Factors Surveillance System (BRFSS) <=2010"
+        },
+        {
+          "name": "indicator_id",
+          "type": "string",
+          "description": "Indicator key (FK -> dim_indicator.indicator_id)",
+          "example": "diagnosed_diabetes"
+        },
+        {
+          "name": "strata_id",
+          "type": "integer",
+          "description": "Demographic strata key (FK -> dim_strata.strata_id)",
+          "example": 1
+        }
+      ]
+    },
+    "fact_cost.csv": {
+      "description": "Diabetes State Burden Toolkit economic costs (dollars, as published).",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Cost year (FK -> dim_year.year)",
+          "example": 2021
+        },
+        {
+          "name": "geo_name",
+          "type": "string",
+          "description": "State (FK -> dim_geography.geo_name)",
+          "example": "Illinois"
+        },
+        {
+          "name": "short_indicator_text",
+          "type": "string",
+          "description": "Short cost indicator",
+          "example": "Total Costs"
+        },
+        {
+          "name": "long_indicator_text",
+          "type": "string",
+          "description": "Long cost indicator",
+          "example": "Annual Total Costs Attributable to Diabetes"
+        },
+        {
+          "name": "stratification1",
+          "type": "string",
+          "description": "First stratification dimension (e.g. Sex)",
+          "example": "Sex"
+        },
+        {
+          "name": "stratification_group1",
+          "type": "string",
+          "description": "First stratification value",
+          "example": "Males"
+        },
+        {
+          "name": "stratification2",
+          "type": "string",
+          "description": "Second stratification dimension",
+          "example": "Age"
+        },
+        {
+          "name": "stratification_group2",
+          "type": "string",
+          "description": "Second stratification value",
+          "example": "19+"
+        },
+        {
+          "name": "cost_value",
+          "type": "float",
+          "description": "Numeric cost as published; null if missing",
+          "example": 6712.5
+        }
+      ]
+    },
+    "dim_geography.csv": {
+      "description": "State names and a national rollup flag.",
+      "fields": [
+        {
+          "name": "geo_name",
+          "type": "string",
+          "description": "Geography name (PK)",
+          "example": "AK"
+        },
+        {
+          "name": "geo_type",
+          "type": "string",
+          "description": "state or national",
+          "example": "state"
+        }
+      ]
+    },
+    "dim_indicator.csv": {
+      "description": "USDSS indicator names and units.",
+      "fields": [
+        {
+          "name": "indicator_id",
+          "type": "string",
+          "description": "Slug key (PK)",
+          "example": "diagnosed_diabetes"
+        },
+        {
+          "name": "indicator_name",
+          "type": "string",
+          "description": "USDSS indicator name",
+          "example": "Diagnosed Diabetes"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "description": "Unit of estimate",
+          "example": "Median of States"
+        }
+      ]
+    },
+    "dim_strata.csv": {
+      "description": "Demographic cross-classification used on prevalence rows.",
+      "fields": [
+        {
+          "name": "strata_id",
+          "type": "integer",
+          "description": "Surrogate key (PK)",
+          "example": 1
+        },
+        {
+          "name": "age",
+          "type": "string",
+          "description": "Age group",
+          "example": "18-44"
+        },
+        {
+          "name": "race",
+          "type": "string",
+          "description": "Race/ethnicity group",
+          "example": "All"
+        },
+        {
+          "name": "sex",
+          "type": "string",
+          "description": "Sex group",
+          "example": "All"
+        },
+        {
+          "name": "education",
+          "type": "string",
+          "description": "Education group",
+          "example": "All"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Calendar years present in either fact table.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Calendar year (PK)",
+          "example": 2000
+        },
+        {
+          "name": "calendar",
+          "type": "string",
+          "description": "Time basis",
+          "example": "calendar year"
+        }
+      ]
+    }
+  }
+}

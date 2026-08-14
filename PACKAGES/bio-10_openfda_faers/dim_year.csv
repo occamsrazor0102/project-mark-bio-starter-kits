@@ -1,0 +1,2 @@
+extract,api,title
+openfda_faers,https://api.fda.gov/drug/event.json,openFDA FAERS reaction counts and event sample

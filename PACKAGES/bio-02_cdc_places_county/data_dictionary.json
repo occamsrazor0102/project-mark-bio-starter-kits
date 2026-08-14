@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "source": "CDC PLACES: Local Data for Better Health, County Data 2024 release",
+    "source_url": "https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/fu4u-a9bh",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "download_urls": [
+      "https://data.cdc.gov/resource/fu4u-a9bh.csv?$limit=50000"
+    ],
+    "transforms": [
+      "Downloaded county 2024 release (n=50000).",
+      "Kept only crude prevalence (datavaluetypeid=CrdPrv), dropping age-adjusted duplicates (24888 rows) so grain is county × measure × year.",
+      "Zero-padded locationid to 5-digit FIPS geoid.",
+      "Split geography, measure, and category into dimension tables."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_prevalence.csv": {
+      "description": "County-level crude prevalence estimates from CDC PLACES 2024.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Estimate year",
+          "example": 2022
+        },
+        {
+          "name": "geoid",
+          "type": "string",
+          "description": "County FIPS, zero-padded (FK -> dim_geography.geoid)",
+          "example": "01027"
+        },
+        {
+          "name": "measure_id",
+          "type": "string",
+          "description": "PLACES measure id (FK -> dim_measure.measure_id)",
+          "example": "CASTHMA"
+        },
+        {
+          "name": "data_value",
+          "type": "float",
+          "description": "Crude prevalence (percent or rate); null when suppressed",
+          "example": 11
+        },
+        {
+          "name": "ci_low",
+          "type": "float",
+          "description": "Lower 95% confidence limit; null when suppressed",
+          "example": 9.6
+        },
+        {
+          "name": "ci_high",
+          "type": "float",
+          "description": "Upper 95% confidence limit; null when suppressed",
+          "example": 12.4
+        },
+        {
+          "name": "population",
+          "type": "integer",
+          "description": "Total county population used as the denominator context",
+          "example": 14198
+        },
+        {
+          "name": "population_18plus",
+          "type": "integer",
+          "description": "Adult (18+) county population",
+          "example": 11235
+        }
+      ]
+    },
+    "dim_geography.csv": {
+      "description": "County names, state, and 5-digit FIPS.",
+      "fields": [
+        {
+          "name": "geoid",
+          "type": "string",
+          "description": "5-digit county FIPS (PK)",
+          "example": "01027"
+        },
+        {
+          "name": "state_abbr",
+          "type": "string",
+          "description": "Two-letter state abbreviation",
+          "example": "AL"
+        },
+        {
+          "name": "state_name",
+          "type": "string",
+          "description": "State name",
+          "example": "Alabama"
+        },
+        {
+          "name": "county_name",
+          "type": "string",
+          "description": "County name",
+          "example": "Clay"
+        }
+      ]
+    },
+    "dim_measure.csv": {
+      "description": "Measure labels, units, source survey, and parent category.",
+      "fields": [
+        {
+          "name": "measure_id",
+          "type": "string",
+          "description": "PLACES measure identifier (PK)",
+          "example": "CASTHMA"
+        },
+        {
+          "name": "measure",
+          "type": "string",
+          "description": "Full measure text",
+          "example": "Current asthma among adults"
+        },
+        {
+          "name": "category",
+          "type": "string",
+          "description": "Category label",
+          "example": "Health Outcomes"
+        },
+        {
+          "name": "category_id",
+          "type": "string",
+          "description": "Category key (FK -> dim_category.category_id)",
+          "example": "HLTHOUT"
+        },
+        {
+          "name": "short_label",
+          "type": "string",
+          "description": "Short question text",
+          "example": "Current Asthma"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "description": "Unit of data_value (usually %)",
+          "example": "%"
+        },
+        {
+          "name": "datasource",
+          "type": "string",
+          "description": "Underlying survey (typically BRFSS)",
+          "example": "BRFSS"
+        }
+      ]
+    },
+    "dim_category.csv": {
+      "description": "PLACES topic categories (outcomes, prevention, unhealthy behaviors, etc.).",
+      "fields": [
+        {
+          "name": "category_id",
+          "type": "string",
+          "description": "Category key (PK)",
+          "example": "HLTHOUT"
+        },
+        {
+          "name": "category_name",
+          "type": "string",
+          "description": "Category name",
+          "example": "Health Outcomes"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Release vintage metadata.",
+      "fields": [
+        {
+          "name": "release",
+          "type": "string",
+          "description": "PLACES release year (PK)",
+          "example": "2024"
+        },
+        {
+          "name": "measure_year",
+          "type": "integer",
+          "description": "Primary estimate year in this extract",
+          "example": 2022
+        },
+        {
+          "name": "program",
+          "type": "string",
+          "description": "Program name",
+          "example": "PLACES: Local Data for Better Health"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "County crude prevalence of chronic-disease and prevention indicators"
+        }
+      ]
+    }
+  }
+}

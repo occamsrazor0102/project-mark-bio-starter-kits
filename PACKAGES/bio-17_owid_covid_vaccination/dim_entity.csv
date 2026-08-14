@@ -1,0 +1,236 @@
+entity,iso_code,entity_type
+Afghanistan,AFG,country
+Africa,OWID_AFR,aggregate
+Albania,ALB,country
+Algeria,DZA,country
+Andorra,AND,country
+Angola,AGO,country
+Anguilla,AIA,country
+Antigua and Barbuda,ATG,country
+Argentina,ARG,country
+Armenia,ARM,country
+Aruba,ABW,country
+Asia,OWID_ASI,aggregate
+Australia,AUS,country
+Austria,AUT,country
+Azerbaijan,AZE,country
+Bahamas,BHS,country
+Bahrain,BHR,country
+Bangladesh,BGD,country
+Barbados,BRB,country
+Belarus,BLR,country
+Belgium,BEL,country
+Belize,BLZ,country
+Benin,BEN,country
+Bermuda,BMU,country
+Bhutan,BTN,country
+Bolivia,BOL,country
+Bonaire Sint Eustatius and Saba,BES,country
+Bosnia and Herzegovina,BIH,country
+Botswana,BWA,country
+Brazil,BRA,country
+British Virgin Islands,VGB,country
+Brunei,BRN,country
+Bulgaria,BGR,country
+Burkina Faso,BFA,country
+Burundi,BDI,country
+Cambodia,KHM,country
+Cameroon,CMR,country
+Canada,CAN,country
+Cape Verde,CPV,country
+Cayman Islands,CYM,country
+Central African Republic,CAF,country
+Chad,TCD,country
+Chile,CHL,country
+China,CHN,country
+Colombia,COL,country
+Comoros,COM,country
+Congo,COG,country
+Cook Islands,COK,country
+Costa Rica,CRI,country
+Cote d'Ivoire,CIV,country
+Croatia,HRV,country
+Cuba,CUB,country
+Curacao,CUW,country
+Cyprus,CYP,country
+Czechia,CZE,country
+Democratic Republic of Congo,COD,country
+Denmark,DNK,country
+Djibouti,DJI,country
+Dominica,DMA,country
+Dominican Republic,DOM,country
+Ecuador,ECU,country
+Egypt,EGY,country
+El Salvador,SLV,country
+England,OWID_ENG,aggregate
+Equatorial Guinea,GNQ,country
+Estonia,EST,country
+Eswatini,SWZ,country
+Ethiopia,ETH,country
+Europe,OWID_EUR,aggregate
+European Union,OWID_EUN,aggregate
+Faeroe Islands,FRO,country
+Falkland Islands,FLK,country
+Fiji,FJI,country
+Finland,FIN,country
+France,FRA,country
+French Polynesia,PYF,country
+Gabon,GAB,country
+Gambia,GMB,country
+Georgia,GEO,country
+Germany,DEU,country
+Ghana,GHA,country
+Gibraltar,GIB,country
+Greece,GRC,country
+Greenland,GRL,country
+Grenada,GRD,country
+Guatemala,GTM,country
+Guernsey,GGY,country
+Guinea,GIN,country
+Guinea-Bissau,GNB,country
+Guyana,GUY,country
+Haiti,HTI,country
+High income,OWID_HIC,aggregate
+Honduras,HND,country
+Hong Kong,HKG,country
+Hungary,HUN,country
+Iceland,ISL,country
+India,IND,country
+Indonesia,IDN,country
+Iran,IRN,country
+Iraq,IRQ,country
+Ireland,IRL,country
+Isle of Man,IMN,country
+Israel,ISR,country
+Italy,ITA,country
+Jamaica,JAM,country
+Japan,JPN,country
+Jersey,JEY,country
+Jordan,JOR,country
+Kazakhstan,KAZ,country
+Kenya,KEN,country
+Kiribati,KIR,country
+Kosovo,OWID_KOS,aggregate
+Kuwait,KWT,country
+Kyrgyzstan,KGZ,country
+Laos,LAO,country
+Latvia,LVA,country
+Lebanon,LBN,country
+Lesotho,LSO,country
+Liberia,LBR,country
+Libya,LBY,country
+Liechtenstein,LIE,country
+Lithuania,LTU,country
+Low income,OWID_LIC,aggregate
+Lower middle income,OWID_LMC,aggregate
+Luxembourg,LUX,country
+Macao,MAC,country
+Madagascar,MDG,country
+Malawi,MWI,country
+Malaysia,MYS,country
+Maldives,MDV,country
+Mali,MLI,country
+Malta,MLT,country
+Mauritania,MRT,country
+Mauritius,MUS,country
+Mexico,MEX,country
+Moldova,MDA,country
+Monaco,MCO,country
+Mongolia,MNG,country
+Montenegro,MNE,country
+Montserrat,MSR,country
+Morocco,MAR,country
+Mozambique,MOZ,country
+Myanmar,MMR,country
+Namibia,NAM,country
+Nauru,NRU,country
+Nepal,NPL,country
+Netherlands,NLD,country
+New Caledonia,NCL,country
+New Zealand,NZL,country
+Nicaragua,NIC,country
+Niger,NER,country
+Nigeria,NGA,country
+Niue,NIU,country
+North America,OWID_NAM,aggregate
+North Macedonia,MKD,country
+Northern Cyprus,OWID_CYN,aggregate
+Northern Ireland,OWID_NIR,aggregate
+Norway,NOR,country
+Oceania,OWID_OCE,aggregate
+Oman,OMN,country
+Pakistan,PAK,country
+Palestine,PSE,country
+Panama,PAN,country
+Papua New Guinea,PNG,country
+Paraguay,PRY,country
+Peru,PER,country
+Philippines,PHL,country
+Pitcairn,PCN,country
+Poland,POL,country
+Portugal,PRT,country
+Qatar,QAT,country
+Romania,ROU,country
+Russia,RUS,country
+Rwanda,RWA,country
+Saint Helena,SHN,country
+Saint Kitts and Nevis,KNA,country
+Saint Lucia,LCA,country
+Saint Vincent and the Grenadines,VCT,country
+Samoa,WSM,country
+San Marino,SMR,country
+Sao Tome and Principe,STP,country
+Saudi Arabia,SAU,country
+Scotland,OWID_SCT,aggregate
+Senegal,SEN,country
+Serbia,SRB,country
+Seychelles,SYC,country
+Sierra Leone,SLE,country
+Singapore,SGP,country
+Sint Maarten (Dutch part),SXM,country
+Slovakia,SVK,country
+Slovenia,SVN,country
+Solomon Islands,SLB,country
+Somalia,SOM,country
+South Africa,ZAF,country
+South America,OWID_SAM,aggregate
+South Korea,KOR,country
+South Sudan,SSD,country
+Spain,ESP,country
+Sri Lanka,LKA,country
+Sudan,SDN,country
+Suriname,SUR,country
+Sweden,SWE,country
+Switzerland,CHE,country
+Syria,SYR,country
+Taiwan,TWN,country
+Tajikistan,TJK,country
+Tanzania,TZA,country
+Thailand,THA,country
+Timor,TLS,country
+Togo,TGO,country
+Tokelau,TKL,country
+Tonga,TON,country
+Trinidad and Tobago,TTO,country
+Tunisia,TUN,country
+Turkey,TUR,country
+Turkmenistan,TKM,country
+Turks and Caicos Islands,TCA,country
+Tuvalu,TUV,country
+Uganda,UGA,country
+Ukraine,UKR,country
+United Arab Emirates,ARE,country
+United Kingdom,GBR,country
+United States,USA,country
+Upper middle income,OWID_UMC,aggregate
+Uruguay,URY,country
+Uzbekistan,UZB,country
+Vanuatu,VUT,country
+Venezuela,VEN,country
+Vietnam,VNM,country
+Wales,OWID_WLS,aggregate
+Wallis and Futuna,WLF,country
+World,OWID_WRL,aggregate
+Yemen,YEM,country
+Zambia,ZMB,country
+Zimbabwe,ZWE,country

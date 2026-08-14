@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "source": "CDC Stroke Mortality Data Among US Adults (35+) by State/Territory and County — NVSS",
+    "source_url": "https://data.cdc.gov/Heart-Disease-Stroke-Prevention/Stroke-Mortality-Data-Among-US-Adults-35-by-State-/cpdh-8cna",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.cdc.gov/other/agencymaterials.html",
+    "download_urls": [
+      "https://data.cdc.gov/resource/cpdh-8cna.csv?$limit=20000"
+    ],
+    "transforms": [
+      "Read 20000 rows; kept county geography only (dropped 408 state/national rows).",
+      "Zero-padded locationid to 5-digit geoid; coerced rate to numeric.",
+      "Split sex and race/ethnicity stratifications into dimension tables."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_stroke_mortality.csv": {
+      "description": "County stroke mortality rates (NVSS), including spatially smoothed 3-year averages where published.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Year (FK -> dim_year.year)",
+          "example": 2022
+        },
+        {
+          "name": "geoid",
+          "type": "string",
+          "description": "County FIPS (FK -> dim_geography.geoid)",
+          "example": "02013"
+        },
+        {
+          "name": "sex",
+          "type": "string",
+          "description": "Sex stratum (FK -> dim_sex.sex)",
+          "example": "Overall"
+        },
+        {
+          "name": "race_ethnicity",
+          "type": "string",
+          "description": "Race/ethnicity stratum (FK -> dim_race.race_ethnicity)",
+          "example": "Overall"
+        },
+        {
+          "name": "rate",
+          "type": "float",
+          "description": "Mortality rate; null if suppressed",
+          "example": 18.7
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "description": "Rate unit (typically per 100,000)",
+          "example": "per 100,000 population"
+        },
+        {
+          "name": "rate_type",
+          "type": "string",
+          "description": "Rate type as published (age-adjusted / smoothed)",
+          "example": "Age-adjusted, Spatially Smoothed, 3-year Average Rate"
+        }
+      ]
+    },
+    "dim_geography.csv": {
+      "description": "County FIPS, state abbreviation, and county name.",
+      "fields": [
+        {
+          "name": "geoid",
+          "type": "string",
+          "description": "5-digit county FIPS (PK)",
+          "example": "02013"
+        },
+        {
+          "name": "state_abbr",
+          "type": "string",
+          "description": "State abbreviation",
+          "example": "AK"
+        },
+        {
+          "name": "county_name",
+          "type": "string",
+          "description": "County name",
+          "example": "Aleutians East"
+        }
+      ]
+    },
+    "dim_sex.csv": {
+      "description": "Sex strata used on the rate table.",
+      "fields": [
+        {
+          "name": "sex",
+          "type": "string",
+          "description": "Sex label (PK)",
+          "example": "Female"
+        }
+      ]
+    },
+    "dim_race.csv": {
+      "description": "Race/ethnicity strata used on the rate table.",
+      "fields": [
+        {
+          "name": "race_ethnicity",
+          "type": "string",
+          "description": "Race/ethnicity label (PK)",
+          "example": "American Indian or Alaska Native"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Years present in the stroke mortality extract.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Year (PK)",
+          "example": 2022
+        },
+        {
+          "name": "calendar",
+          "type": "string",
+          "description": "Time basis note",
+          "example": "calendar year (3-year smoothed window as published)"
+        }
+      ]
+    }
+  }
+}

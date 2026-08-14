@@ -1,0 +1,28 @@
+code_type,code,label
+sex,1,Male
+sex,2,Female
+race,1,Mexican American
+race,2,Other Hispanic
+race,3,Non-Hispanic White
+race,4,Non-Hispanic Black
+race,6,Non-Hispanic Asian
+race,7,Other Race — Including Multi-Racial
+education,1,Less than 9th grade
+education,2,9–11th grade (no diploma)
+education,3,High school graduate / GED
+education,4,Some college or AA degree
+education,5,College graduate or above
+income,1,"$0–$4,999"
+income,2,"$5,000–$9,999"
+income,3,"$10,000–$14,999"
+income,4,"$15,000–$19,999"
+income,5,"$20,000–$24,999"
+income,6,"$25,000–$34,999"
+income,7,"$35,000–$44,999"
+income,8,"$45,000–$54,999"
+income,9,"$55,000–$64,999"
+income,10,"$65,000–$74,999"
+income,12,"$20,000 and over (unspecified)"
+income,13,"Under $20,000 (unspecified)"
+income,14,"$75,000–$99,999"
+income,15,"$100,000 and over"

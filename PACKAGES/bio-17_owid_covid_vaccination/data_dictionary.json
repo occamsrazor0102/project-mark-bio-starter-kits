@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "source": "Our World in Data COVID-19 vaccinations (github.com/owid/covid-19-data)",
+    "source_url": "https://ourworldindata.org/covid-vaccinations",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "license_url": "https://ourworldindata.org/owid-nrc-data-licence",
+    "download_urls": [
+      "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv",
+      "https://ourworldindata.org/grapher/covid-vaccination-doses-per-capita.csv"
+    ],
+    "transforms": [
+      "Read vaccinations.csv (n=196246).",
+      "Built a latest-observation fact (one row per location).",
+      "Built a monthly fact using the last observation in each year-month for 2021–2023 only (other years excluded to keep the starter kit small; documented here).",
+      "Flagged OWID_ codes as aggregates rather than countries."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_latest.csv": {
+      "description": "Latest cumulative vaccination coverage by location.",
+      "fields": [
+        {
+          "name": "entity",
+          "type": "string",
+          "description": "Location name (FK -> dim_entity.entity)",
+          "example": "Falkland Islands"
+        },
+        {
+          "name": "iso_code",
+          "type": "string",
+          "description": "ISO 3166-1 alpha-3 or OWID_ aggregate code; null if missing",
+          "example": "FLK"
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "description": "Date of the latest observation (YYYY-MM-DD)",
+          "example": "2021-04-14"
+        },
+        {
+          "name": "total_vaccinations",
+          "type": "integer",
+          "description": "Total doses; null if missing",
+          "example": 4407
+        },
+        {
+          "name": "people_vaccinated",
+          "type": "integer",
+          "description": "People with ≥1 dose; null if missing",
+          "example": 2632
+        },
+        {
+          "name": "people_fully_vaccinated",
+          "type": "integer",
+          "description": "People fully vaccinated; null if missing",
+          "example": 1775
+        },
+        {
+          "name": "total_boosters",
+          "type": "integer",
+          "description": "Booster doses; null if missing",
+          "example": 10598
+        },
+        {
+          "name": "people_vaccinated_per_hundred",
+          "type": "float",
+          "description": "≥1 dose per 100 people; null if missing",
+          "example": 69.24
+        },
+        {
+          "name": "people_fully_vaccinated_per_hundred",
+          "type": "float",
+          "description": "Fully vaccinated per 100; null if missing",
+          "example": 46.7
+        }
+      ]
+    },
+    "fact_monthly.csv": {
+      "description": "Month-end coverage for 2021–2023, for time decomposition.",
+      "fields": [
+        {
+          "name": "entity",
+          "type": "string",
+          "description": "Location (FK -> dim_entity.entity)",
+          "example": "Bermuda"
+        },
+        {
+          "name": "iso_code",
+          "type": "string",
+          "description": "ISO / OWID code; null if missing",
+          "example": "BMU"
+        },
+        {
+          "name": "year_month",
+          "type": "string",
+          "description": "YYYY-MM",
+          "example": "2021-01"
+        },
+        {
+          "name": "people_vaccinated_per_hundred",
+          "type": "float",
+          "description": "≥1 dose per 100; null if missing",
+          "example": 0.81
+        },
+        {
+          "name": "people_fully_vaccinated_per_hundred",
+          "type": "float",
+          "description": "Fully vaccinated per 100; null if missing",
+          "example": 0.16
+        },
+        {
+          "name": "total_vaccinations_per_hundred",
+          "type": "float",
+          "description": "Doses per 100; null if missing",
+          "example": 1.34
+        }
+      ]
+    },
+    "dim_entity.csv": {
+      "description": "Location names, ISO codes, and country vs aggregate flag.",
+      "fields": [
+        {
+          "name": "entity",
+          "type": "string",
+          "description": "Location name (PK)",
+          "example": "Afghanistan"
+        },
+        {
+          "name": "iso_code",
+          "type": "string",
+          "description": "Code; null if missing",
+          "example": "AFG"
+        },
+        {
+          "name": "entity_type",
+          "type": "string",
+          "description": "country or aggregate",
+          "example": "country"
+        }
+      ]
+    },
+    "dim_iso.csv": {
+      "description": "ISO / OWID codes.",
+      "fields": [
+        {
+          "name": "iso_code",
+          "type": "string",
+          "description": "Code (PK)",
+          "example": "AFG"
+        },
+        {
+          "name": "entity_type",
+          "type": "string",
+          "description": "country or aggregate",
+          "example": "country"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "owid_covid_vaccinations"
+        },
+        {
+          "name": "license",
+          "type": "string",
+          "description": "License short name",
+          "example": "CC BY 4.0"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "Our World in Data COVID-19 vaccinations"
+        }
+      ]
+    }
+  }
+}

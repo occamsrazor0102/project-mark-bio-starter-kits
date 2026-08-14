@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "source": "FDA Orange Book data files (products, exclusivity, patents)",
+    "source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.fda.gov/about-fda/about-website/website-policies",
+    "download_urls": [
+      "https://www.fda.gov/media/76860/download"
+    ],
+    "transforms": [
+      "Read tilde-delimited products (n=48502), exclusivity (n=2341), patents (n=22131) as latin-1.",
+      "Built product_key = Appl_Type-Appl_No-Product_No.",
+      "Dropped exclusivity (0) and patent (0) rows whose product_key was not in products.txt so facts have no orphans."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_exclusivity.csv": {
+      "description": "Statutory exclusivity codes and expiration dates.",
+      "fields": [
+        {
+          "name": "product_key",
+          "type": "string",
+          "description": "Appl_Type-Appl_No-Product_No (FK -> dim_product.product_key)",
+          "example": "N-017031-001"
+        },
+        {
+          "name": "exclusivity_code",
+          "type": "string",
+          "description": "Exclusivity code",
+          "example": "RTO"
+        },
+        {
+          "name": "exclusivity_date",
+          "type": "string",
+          "description": "Exclusivity expiration date text",
+          "example": "Jul 13, 2026"
+        }
+      ]
+    },
+    "fact_patent.csv": {
+      "description": "Listed patents and expiration dates.",
+      "fields": [
+        {
+          "name": "product_key",
+          "type": "string",
+          "description": "Product key (FK -> dim_product.product_key)",
+          "example": "N-020610-001"
+        },
+        {
+          "name": "patent_no",
+          "type": "string",
+          "description": "Patent number",
+          "example": "7625884"
+        },
+        {
+          "name": "patent_expire_date",
+          "type": "string",
+          "description": "Patent expiration date text",
+          "example": "Aug 24, 2026"
+        },
+        {
+          "name": "patent_use_code",
+          "type": "string",
+          "description": "Use code; null if none",
+          "example": "U-141"
+        },
+        {
+          "name": "drug_substance_flag",
+          "type": "string",
+          "description": "Substance flag; null if none",
+          "example": "Y"
+        },
+        {
+          "name": "drug_product_flag",
+          "type": "string",
+          "description": "Product flag; null if none",
+          "example": "Y"
+        }
+      ]
+    },
+    "dim_product.csv": {
+      "description": "Approved drug products (ingredient, route, applicant, approval date).",
+      "fields": [
+        {
+          "name": "ingredient",
+          "type": "string",
+          "description": "Active ingredient",
+          "example": "BUDESONIDE"
+        },
+        {
+          "name": "df_route",
+          "type": "string",
+          "description": "Dosage form and route",
+          "example": "AEROSOL, FOAM;RECTAL"
+        },
+        {
+          "name": "trade_name",
+          "type": "string",
+          "description": "Trade name",
+          "example": "BUDESONIDE"
+        },
+        {
+          "name": "applicant",
+          "type": "string",
+          "description": "Applicant short name",
+          "example": "PADAGIS ISRAEL"
+        },
+        {
+          "name": "strength",
+          "type": "string",
+          "description": "Strength",
+          "example": "2MG/ACTUATION"
+        },
+        {
+          "name": "appl_type",
+          "type": "string",
+          "description": "Application type (FK -> dim_appl_type.appl_type)",
+          "example": "A"
+        },
+        {
+          "name": "appl_no",
+          "type": "string",
+          "description": "Application number",
+          "example": "215328"
+        },
+        {
+          "name": "product_no",
+          "type": "string",
+          "description": "Product number",
+          "example": "001"
+        },
+        {
+          "name": "te_code",
+          "type": "string",
+          "description": "Therapeutic equivalence code; null if none",
+          "example": "AB"
+        },
+        {
+          "name": "approval_date",
+          "type": "string",
+          "description": "Approval date text",
+          "example": "Apr 12, 2023"
+        },
+        {
+          "name": "rld",
+          "type": "string",
+          "description": "Reference listed drug flag",
+          "example": "No"
+        },
+        {
+          "name": "rs",
+          "type": "string",
+          "description": "Reference standard flag",
+          "example": "Yes"
+        },
+        {
+          "name": "marketing_type",
+          "type": "string",
+          "description": "RX / OTC / DISCN (FK -> dim_marketing.marketing_type)",
+          "example": "RX"
+        },
+        {
+          "name": "applicant_full_name",
+          "type": "string",
+          "description": "Applicant full name",
+          "example": "PADAGIS ISRAEL PHARMACEUTICALS LTD"
+        },
+        {
+          "name": "product_key",
+          "type": "string",
+          "description": "Composite product key (PK)",
+          "example": "A-215328-001"
+        }
+      ]
+    },
+    "dim_appl_type.csv": {
+      "description": "Application type codebook.",
+      "fields": [
+        {
+          "name": "appl_type",
+          "type": "string",
+          "description": "Type code (PK)",
+          "example": "A"
+        },
+        {
+          "name": "appl_type_label",
+          "type": "string",
+          "description": "NDA or ANDA",
+          "example": "ANDA"
+        }
+      ]
+    },
+    "dim_marketing.csv": {
+      "description": "Marketing type codebook.",
+      "fields": [
+        {
+          "name": "marketing_type",
+          "type": "string",
+          "description": "Marketing type (PK)",
+          "example": "RX"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Extract metadata.",
+      "fields": [
+        {
+          "name": "extract",
+          "type": "string",
+          "description": "Extract tag (PK)",
+          "example": "fda_orange_book"
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "description": "Kit title",
+          "example": "FDA Orange Book products, exclusivity, and patents"
+        }
+      ]
+    }
+  }
+}

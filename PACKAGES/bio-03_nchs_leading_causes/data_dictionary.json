@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "source": "NCHS Leading Causes of Death, United States (data.cdc.gov)",
+    "source_url": "https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu",
+    "license": "U.S. Public Domain (17 U.S.C. 105) — work of the U.S. government",
+    "license_url": "https://www.cdc.gov/nchs/data_access/restrictions.htm",
+    "download_urls": [
+      "https://data.cdc.gov/resource/bi63-dtpu.csv?$limit=50000"
+    ],
+    "transforms": [
+      "Read 10868 published state-year-cause rows; no rows dropped.",
+      "Parsed deaths and age-adjusted rates as numeric.",
+      "Derived cause_id slugs from cause_name and split cause/state/year dimensions."
+    ],
+    "extra_files": []
+  },
+  "files": {
+    "fact_deaths.csv": {
+      "description": "Counts and age-adjusted death rates for leading causes by state and year.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Calendar year (FK -> dim_year.year)",
+          "example": 2012
+        },
+        {
+          "name": "state_name",
+          "type": "string",
+          "description": "State or United States (FK -> dim_state.state_name)",
+          "example": "Vermont"
+        },
+        {
+          "name": "deaths",
+          "type": "integer",
+          "description": "Number of deaths; null if not reported",
+          "example": 21
+        },
+        {
+          "name": "age_adjusted_rate",
+          "type": "float",
+          "description": "Age-adjusted death rate per 100,000 (2000 U.S. standard); null if not reported",
+          "example": 2.6
+        },
+        {
+          "name": "cause_id",
+          "type": "string",
+          "description": "Cause key (FK -> dim_cause.cause_id)",
+          "example": "kidney_disease"
+        }
+      ]
+    },
+    "dim_cause.csv": {
+      "description": "NCHS 113-cause short name and full ICD grouping label.",
+      "fields": [
+        {
+          "name": "cause_id",
+          "type": "string",
+          "description": "Slug key derived from cause_name (PK)",
+          "example": "kidney_disease"
+        },
+        {
+          "name": "cause_name",
+          "type": "string",
+          "description": "Short NCHS cause name",
+          "example": "Kidney disease"
+        },
+        {
+          "name": "cause_113_label",
+          "type": "string",
+          "description": "Full 113-cause title with ICD codes",
+          "example": "Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"
+        }
+      ]
+    },
+    "dim_state.csv": {
+      "description": "State names as published (includes United States).",
+      "fields": [
+        {
+          "name": "state_name",
+          "type": "string",
+          "description": "State or national total name (PK)",
+          "example": "Alabama"
+        }
+      ]
+    },
+    "dim_year.csv": {
+      "description": "Calendar years covered by the NCHS leading-causes series.",
+      "fields": [
+        {
+          "name": "year",
+          "type": "integer",
+          "description": "Calendar year (PK)",
+          "example": 1999
+        },
+        {
+          "name": "calendar",
+          "type": "string",
+          "description": "Time basis",
+          "example": "calendar year"
+        },
+        {
+          "name": "source_table",
+          "type": "string",
+          "description": "Source table name",
+          "example": "NCHS Leading Causes of Death, United States"
+        }
+      ]
+    }
+  }
+}
