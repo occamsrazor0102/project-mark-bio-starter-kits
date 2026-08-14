@@ -1,0 +1,4 @@
+var_id,description,unit,source_file,original_name
+hba1c,Glycohemoglobin (%),%,GHB_J,LBXGH
+bmi,Body Mass Index,kg/m2,BMX_J,BMXBMI
+diabetes_status,Doctor told you have diabetes,code,DIQ_J,DIQ010
